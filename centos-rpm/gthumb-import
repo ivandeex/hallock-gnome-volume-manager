@@ -1,0 +1,13 @@
+#!/bin/sh
+MOUNT_POINT=`hal-get-property --udi "$1" --key volume.mount_point`
+if test "$MOUNT_POINT" == ""; then
+	gthumb --import-photos
+else
+	if [ -d "$MOUNT_POINT/dcim" ]; then
+		gthumb "$MOUNT_POINT/dcim"
+	elif [ -d  "$MOUNT_POINT/DCIM" ]; then
+		gthumb "$MOUNT_POINT/DCIM"
+	else
+		gthumb "$MOUNT_POINT"
+	fi
+fi

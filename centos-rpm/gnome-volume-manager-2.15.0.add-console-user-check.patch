@@ -1,0 +1,24 @@
+--- gnome-volume-manager-2.15.0/src/manager.c.fix_exit	2006-08-10 19:41:01.000000000 -0400
++++ gnome-volume-manager-2.15.0/src/manager.c	2006-08-10 20:15:02.000000000 -0400
+@@ -3088,10 +3088,19 @@
+ 	struct utmp *utmp;
+ 	const char *user;
+ 	size_t ulen;
+-	
++	gchar *console_path;
++
+ 	user = g_get_user_name ();
+ 	ulen = strlen (user);
+-	
++
++        console_path = g_build_filename (GVM_CONSOLE_AUTH_DIR, user, NULL);
++	if (g_file_test (console_path, G_FILE_TEST_EXISTS))
++	  {
++            g_free (console_path);
++	    return TRUE;
++	  }
++
++        g_free (console_path);
+ 	setutent ();
+ 	
+ 	while (!local && (utmp = getutent ())) {

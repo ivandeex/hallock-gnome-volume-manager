@@ -1,0 +1,86 @@
+--- src/manager.c.orig	2006-11-14 15:13:17.000000000 -0500
++++ src/manager.c	2006-11-14 15:30:54.000000000 -0500
+@@ -61,6 +61,7 @@
+ 
+ static struct gvm_configuration config;
+ static DBusConnection *dbus_connection;
++static DBusConnection *dbus_connection_session;
+ static char *gnome_mount = NULL;
+ static LibHalContext *hal_ctx;
+ 
+@@ -1716,6 +1717,42 @@
+ 	return iocharset;
+ }
+ 
++static gboolean
++gvm_is_screensaver_running (gboolean *is_screensaver_running)
++{
++	DBusError error;
++	DBusMessage *msg;
++	DBusMessage *reply;
++	DBusMessageIter iter;
++
++	if (!(msg = dbus_message_new_method_call ("org.gnome.ScreenSaver", 
++						  "/",
++						  "org.gnome.ScreenSaver",
++						  "GetActive"))) {
++		dbg ("gvm_is_screensaver_running: could not create dbus message\n");
++		return FALSE;
++	}
++
++	dbus_error_init (&error);
++	if (!(reply = dbus_connection_send_with_reply_and_block (dbus_connection_session, msg, -1, &error))) {
++		dbg ("gvm_is_screensaver_running: %s\n", error.message);
++		dbus_message_unref (msg);
++		dbus_error_free (&error);
++		return FALSE;
++	}
++
++	dbus_message_iter_init (reply, &iter);
++	if (dbus_message_iter_get_arg_type (&iter) != DBUS_TYPE_BOOLEAN) {
++		dbg ("gvm_is_screensaver_running: Return value is not a bool");
++		dbus_message_unref (msg);
++		dbus_message_unref (reply);
++		return FALSE;
++	}
++	dbus_message_iter_get_basic (&iter, is_screensaver_running);
++	dbus_message_unref (reply);
++	dbus_message_unref (msg);
++	return TRUE;
++}
+ 
+ /*
+  * gvm_device_mount - mount the given device.
+@@ -1726,6 +1763,14 @@
+ gvm_device_mount (const char *udi, gboolean interactive)
+ {
+ 	struct _MountPolicy *policy;
++	gboolean is_screensaver_running;
++
++	if (gvm_is_screensaver_running (&is_screensaver_running)) {
++		if (is_screensaver_running) {
++			dbg ("refusing to mount %s because screensaver is running\n", udi);
++			return FALSE;
++		}
++	}
+ 	
+ 	dbg ("mounting %s...\n", udi);
+ 	
+@@ -2728,9 +2773,17 @@
+ 		dbus_error_free (&error);
+ 		return FALSE;
+ 	}
++
++	if (!(dbus_connection_session = dbus_bus_get (DBUS_BUS_SESSION, &error))) {
++		dbg ("could not get session bus: %s\n", error.message);
++		dbus_error_free (&error);
++		return FALSE;
++	}
+ 	
+ 	dbus_connection_setup_with_g_main (dbus_connection, NULL);
+ 	dbus_connection_set_exit_on_disconnect (dbus_connection, FALSE);
++
++	dbus_connection_setup_with_g_main (dbus_connection_session, NULL);
+ 	
+ 	dbus_connection_add_filter (dbus_connection, gvm_dbus_filter_function, NULL, NULL);
+ 	

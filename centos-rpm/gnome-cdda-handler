@@ -1,0 +1,17 @@
+#!/bin/sh
+#get the application to use from gnome-volume-manager
+CMD=`/usr/bin/gconftool-2 -g "/desktop/gnome/volume_manager/autoplay_cda_command"`
+
+#sanitize the device by stripping out the cdda:// protocol
+#and escaping forward slashes
+DEVICE=`echo $1 | /bin/sed -e "s/^cdda:\/\///"`
+DEVICE=`echo $DEVICE | /bin/sed -e "s/%/%25/g"`
+DEVICE=`echo $DEVICE | /bin/sed -e "s#/#%2f#g"`
+
+#expand the command by replacing %d with the device and unescape it
+EXPANDED_CMD=`echo $CMD | /bin/sed -e "s/%d/$DEVICE/"`
+EXPANDED_CMD=`echo $EXPANDED_CMD | /bin/sed -e "s#%2f#/#g"`
+EXPANDED_CMD=`echo $EXPANDED_CMD | /bin/sed -e "s/%25/%/g"`
+
+#run the command
+$EXPANDED_CMD

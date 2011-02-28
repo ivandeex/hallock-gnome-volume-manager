@@ -1,0 +1,24 @@
+<gconfschemafile>
+    <schemalist>    
+      <schema>
+        <key>/schemas/desktop/gnome/url-handlers/cdda/command</key>
+        <applyto>/desktop/gnome/url-handlers/cdda/command</applyto>
+        <type>string</type>
+        <default>/usr/libexec/gnome-cdda-handler %s</default>
+        <locale name="C">
+          <short>The handler for audio cd urls</short>
+          <long>The command used to handle audio cd URLs, if enabled.</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/url-handlers/cdda/enabled</key>
+        <applyto>/desktop/gnome/url-handlers/cdda/enabled</applyto>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+          <short>Whether the specified command should handle cd audio URLs</short>
+          <long>True if the command specified in the "command" key should handle cd audio URLs.</long>
+        </locale>
+      </schema>
+  </schemalist>
+</gconfschemafile>
