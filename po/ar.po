@@ -1,0 +1,348 @@
+# translation of gnome-volume-manager.HEAD.ar.po to 
+# Arabisch translation of PACKAGE.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Arafat Medini <lumina@silverpen.de>, 2004, 2005.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager.HEAD.ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-22 15:29+0100\n"
+"PO-Revision-Date: 2005-02-24 19:26+0100\n"
+"Last-Translator:  <kinryu@silverpen.de>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"قائمة المسارات المحددة بـ ':' التي ستراجع لثنائيّات التشغيل الآلي و النصوص "
+"الشفريّة."
+
+#: gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr "تجهيز آلي للسوّاقات القابلة للفصل"
+
+#: gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr "تجهيز·آلي·للوسائط·القابلة·للفصل"
+
+#: gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr "تشغيل آلي لنوتلِس"
+
+#: gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr "مسار التشغيل الآلي"
+
+#: gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "أمر كتابة القرص المدمج"
+
+#: gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "أمر عرض القرص المدمج"
+
+#: gnome-volume-manager.schemas.in.h:8
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"الأمر الذي سينفّذ عند إدراج آلة تصوير رقميّة أو وسيطِ آلة تصوير رقميّة."
+
+#: gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr "الأمر الذي سينفذ عند إدراج قرص فيديو رقمي."
+
+#: gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr "الأمر·الذي·سينفذ·عند·إدراج·قرص·مدمج صوتي."
+
+#: gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr "الأمر الذي سينفّد عند إدراج قرص مدمج فارغ."
+
+#: gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr "الأمر الذّي سينفّذ عند نقر زرّ الطّرد عند سوّاقة بصريّة."
+
+#: gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "أمر عرض قرص الفيديو الرقمي"
+
+#: gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr "أمر الطّرد"
+
+#: gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr "فتح نوتلس عند إ_دراج الوسائط القابلة للإزاحة."
+
+#: gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr "تأدية التشغيل الآلي"
+
+#: gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr "أمر إدارة باقة الصور"
+
+#: gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr "عزف الأقراص الصوتيّة المدرجة"
+
+#: gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr "عرض أقراص الفيديو الرقمي المدرجة"
+
+#: gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "تنفيذ أمر كتابة القرص المدمج"
+
+#: gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr "أمر تنفيذ إدارة باقة الصور"
+
+#: gnome-volume-manager.schemas.in.h:22
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"فيما إذا ستشغل البرامج المشغّلة آليا (الثنائيّات و النصوص الشفريّة المستقرّة في "
+"'autorun_path') على الوسائط المجهزة حديثا."
+
+#: gnome-volume-manager.schemas.in.h:23
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"فيما إذا يتوجب على مدير الأحجام لجنوم تجهيز المخازن القابلة للإزالة آليّا عند "
+"إدراجها."
+
+#: gnome-volume-manager.schemas.in.h:24
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"فيما إذا سيتوجب على مدير الأحجام لجنوم تجهيز وسائط الخزن القابلة للتجهيز عند "
+"إدراجها."
+
+#: gnome-volume-manager.schemas.in.h:25
+msgid ""
+"Whether, when a blank CD is inserted, gnome-volume-manager should run "
+"'autoburn_cdr_command'."
+msgstr ""
+"فيما إذا يتوجب على مدير الأحجام لجنوم تنفيذ أمر 'autoburn_cdr_command' عند "
+"إدراج قرص مدمج فارغ."
+
+#: gnome-volume-manager.schemas.in.h:26
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"فيما إذا يتوجب على مدير الأحجام لجنوم تنفيذ أمر 'autophoto_command' عند وصل "
+"آلة تصوير رقميّة أو وصل وسيط آلة تصوير رقميّة."
+
+#: gnome-volume-manager.schemas.in.h:27
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"فيما إذا يتوجب على مدير الأحجام لجنوم تنفيذ أمر 'autoplay_dvd_command' عند "
+"إدراج قرص فيديو رقمي."
+
+#: gnome-volume-manager.schemas.in.h:28
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"فيما إذا يتوجّب على مدير الأحجام لجنوم تنفيذ أمر 'autoplay_cda' عند إدراج "
+"قرص صوتي."
+
+#: gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "إعداد إدارة الأجهزة و الوسائط القابلة للإزاحة"
+
+#: gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "السوّاقات و الوسائط القابلة للفصل"
+
+#: gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: gnome-volume-properties.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: gnome-volume-properties.glade.h:3
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>أقراص صوتيّة</b>"
+
+#: gnome-volume-properties.glade.h:4
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>أقراص فارغة</b>"
+
+#: gnome-volume-properties.glade.h:5
+msgid "<b>Digital Camera</b>"
+msgstr "<b>آلة تصوير رقميّة</b>"
+
+#: gnome-volume-properties.glade.h:6
+msgid "<b>Removable Storage</b>"
+msgstr "<b>مخزن قابل للإزاحة</b>"
+
+#: gnome-volume-properties.glade.h:7
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>أقراص فيديو رقمي</b>"
+
+#: gnome-volume-properties.glade.h:8
+msgid "Browse _removable media when inserted"
+msgstr "تصفّح الوسائط القابلة للإزاحة عند إ_دراجها"
+
+#: gnome-volume-properties.glade.h:9
+msgid "C_ommand:"
+msgstr "ال_أمر:"
+
+#: gnome-volume-properties.glade.h:10
+msgid "Co_mmand:"
+msgstr "الأ_مر:"
+
+#: gnome-volume-properties.glade.h:11
+msgid "Comman_d:"
+msgstr "الأم_ر:"
+
+#: gnome-volume-properties.glade.h:12
+msgid "Command:"
+msgstr "الأمر:"
+
+#: gnome-volume-properties.glade.h:13
+msgid "Drives and Media Preferences"
+msgstr "تفضيلات السوّاقات و الوسائط"
+
+#: gnome-volume-properties.glade.h:14
+msgid "Import digital _photographs when connected"
+msgstr "إستيراد الصّور الرقميّة عند الإتّصال"
+
+#: gnome-volume-properties.glade.h:15
+msgid "Mount removable media when _inserted"
+msgstr "تجهيز الوساءط القابلة للإزاحة عند إ_دراجها"
+
+#: gnome-volume-properties.glade.h:16
+msgid "Multimedia"
+msgstr "وسائط متعدّدة"
+
+#: gnome-volume-properties.glade.h:17
+msgid "Perform action on _blank discs when inserted"
+msgstr " تأدية عمل على الأقراص المدمجة ال_خالية عند إدراجها"
+
+#: gnome-volume-properties.glade.h:18
+msgid "Play _audio CD discs when inserted"
+msgstr "عزف الأقراص الصوتيّة عند إدراجها"
+
+#: gnome-volume-properties.glade.h:19
+msgid "Play _video DVD disks when inserted"
+msgstr "عرض أفلام أقراص الفيديو ال_رقمي عند إدراجها"
+
+#: gnome-volume-properties.glade.h:20
+msgid "Removable Drives and Media Preferences"
+msgstr "تفضيلات السوّاقات و الوسائط القابلة للفصل"
+
+#: gnome-volume-properties.glade.h:21
+msgid "Storage"
+msgstr "خزن"
+
+#: gnome-volume-properties.glade.h:22
+msgid "_Auto-run programs on new drives and media"
+msgstr "ت_شغيل آلي للبرامج على السوّاقات و الوسائط العديدة"
+
+#: gnome-volume-properties.glade.h:23
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_تجهيز السوّاقات القابلة للإزاحة عند وصلها أثناء العمل"
+
+#: src/manager.c:229
+msgid "Run command from inserted media?"
+msgstr "تشغيل أمر من الوسيط المدرج؟"
+
+#: src/manager.c:232
+#, c-format
+msgid "The file \"%s\" on the inserted media is an auto-runfile."
+msgstr "الملفّ \"%s\" الموجود على الوسيط المدرج ملفّ تنفيذ آلي (auto-run)."
+
+#: src/manager.c:237
+msgid "_Run Command"
+msgstr "ت_نفيذ الأمر"
+
+#: src/manager.c:319
+msgid "Import photos from device?"
+msgstr "استيراد الصّور من الجهاز؟"
+
+#: src/manager.c:321
+msgid ""
+"There are photos on the inserted media. Would you like to import these "
+"photos into your photo album?"
+msgstr ""
+"هناك صور على الوسيط المدرج. هل تريد استيرادها إلى باقة صورك؟"
+
+#: src/manager.c:327 src/manager.c:373
+msgid "_Import Photos"
+msgstr "إ_ستيراد الصّور"
+
+#: src/manager.c:366
+msgid "Import photos from camera?"
+msgstr "استيراد الصّور من آلة التّصوير؟"
+
+#: src/manager.c:368
+msgid ""
+"There are photos on the plugged-in camera. Would you like to import these "
+"photos into your photo album?"
+msgstr ""
+
+#: src/manager.c:556
+msgid "Browse files or play tracks from disc?"
+msgstr "هل تريد تصفّح الملفّات أو عزف المقطوعات من القرص؟"
+
+#: src/manager.c:559
+msgid ""
+"There are both audio tracks and data files on the inserted disc. Choose if "
+"you want to play the audio tracks to listen to music or browse the files to "
+"manage the stored data."
+msgstr ""
+
+#: src/manager.c:565
+msgid "_Browse Files"
+msgstr "_تصفّح الملفّات"
+
+#: src/manager.c:567
+msgid "_Play Tracks"
+msgstr "_عزف المقطوعات"
+
+#: src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"خطأ عند تشغيل جني مدير الأحجام لجنوم:\n"
+"%s"
+
+#: src/properties.c:375
+msgid "Volume management not supported"
+msgstr "إدارة شدّة الصّوت غير مدعومة"
+
+#: src/properties.c:377
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this applet, or contact your system administrator."
+msgstr ""
+
+#: src/properties.c:400
+msgid "Could not load the main interface"
+msgstr "لم يمكن تحميل الواجهة الرئيسيّة"
+
+#: src/properties.c:403
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "الرجاء التثبت من أن مدير الأحجام مثبت بنجاح"
+

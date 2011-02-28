@@ -1,0 +1,260 @@
+# Old English Translation of gnome-volume-manager.
+# Copyright (C) 2004 The GNOME Foundation
+# This file is distributed under the same license as the gnome-volume-manager package.
+# James Johnson <modean52@comcast.net>, David Lodge <dave@cirt.net>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-10-06 21:18+0100\n"
+"PO-Revision-Date: 2004-10-06 21:17+0100\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: Old English <modean52@comcast.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "CD ábeornan gebann"
+
+#: gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "CD lácan gebann"
+
+#: gnome-volume-manager.schemas.in.h:8
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "DVD lácan gebann"
+
+#: gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "Iernan CD ábeornan gebann"
+
+#: gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:22
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:23
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:24
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:25
+msgid ""
+"Whether, when a blank CD is inserted, gnome-volume-manager should run "
+"'autoburn_cdr_command'."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:26
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:27
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+
+#: gnome-volume-manager.schemas.in.h:28
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+
+#: gnome-volume-properties.desktop.in.h:1
+msgid "Configure Management of Removable Devices"
+msgstr ""
+
+#: gnome-volume-properties.desktop.in.h:2
+msgid "Removable Storage"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: gnome-volume-properties.glade.h:2
+msgid " Perform action on _blank CDs when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:3
+msgid "*"
+msgstr "*"
+
+#: gnome-volume-properties.glade.h:4
+msgid "<b>Audio CDs</b>"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:5
+msgid "<b>Blank CDs</b>"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:6
+msgid "<b>DVD Videos</b>"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:7
+msgid "<b>Digital Camera</b>"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:8
+msgid "<b>Removable Storage</b>"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:9
+msgid "Browse _removable media when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:10
+msgid "Command:"
+msgstr "Gebann:"
+
+#: gnome-volume-properties.glade.h:11
+msgid "Drives and Media Preferences"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:12
+msgid "Import digital _photo albums when connected"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:13
+msgid "Mount removable media when _inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:14
+msgid "Play DVD Videos when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:15
+msgid "Play _DVD Videos when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:16
+msgid "Play a_udio CDs when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:17
+msgid "Play audio CDs when inserted"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:18
+msgid "_Auto-run programs on new drives and media"
+msgstr ""
+
+#: gnome-volume-properties.glade.h:19
+msgid "_Mount removable drives when hot-plugged"
+msgstr ""
+
+#: src/manager.c:230
+#, c-format
+msgid "Do you want to run %s?"
+msgstr "Wilt þu fremman %s?"
+
+#: src/manager.c:318 src/manager.c:361
+msgid "_Import"
+msgstr ""
+
+#: src/manager.c:551
+msgid "_Play"
+msgstr "_Lácan"
+
+#: src/manager.c:552
+msgid "_Browse"
+msgstr ""
+
+#: src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+
+#: src/properties.c:400
+msgid "Could not load the main interface"
+msgstr ""
+
+#: src/properties.c:402
+msgid "Please make sure that the volume manager is properly installed"
+msgstr ""

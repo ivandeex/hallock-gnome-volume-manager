@@ -1,0 +1,850 @@
+# Romanian translation for gnome-volume-manager
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Mişu Moldovan <dumol@go.ro>, 2004.
+# Jeanina Ivan <jeanina.ivan@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-09 06:50+0100\n"
+"PO-Revision-Date: 2006-03-09 21:19+0800\n"
+"Last-Translator: Sebastian Ivan <sebastian.ivan@ubuntu.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "\"Întotdeauna ia această acţiune\" checkbox pentru Autorun"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "\"Întotdeauna ia această acţiune\" checkbox pentru Fotografii iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr "\"Întotdeauna ia această acţiune\" checkbox pentru CD-uri mixte Audio şi Date"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr "\"Întotdeauna ia această acţiune\" checkbox pentru a importa fotografii de la o cameră"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr "\"Întotdeauna ia această acţiune\" checkbox pentru a importa fotgrafii dintr-un dispozitiv"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr "listă delimitată prin „:” de căi cu fişiere binare şi scripturi."
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "Acţiunea ce se efectuează atunci când o camera foto se conectează."
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr "Acţiunea ce se efectuează la întîlnirea uni dispozitiv ce conţine fotografii."
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr "Acţiunea ce se efectuează atunci când se conectează un dispozitiv ce conţine programe/scrpt-uri cu lansare automată."
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr "Acţiunea ce se efectuează la întîlnirea uni CD ce conţine date şi muzică."
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr "Acţiunea ce se efectuează la întîlnirea uni dispozitiv iPod ce conţine fotografii."
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "Comandă pentru ardere CD-uri"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "Unităţi amovibile automontabile"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "Medii amovibile automontabile"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Deschidere automată a unei ferestre Nautilus"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "Cale „autorun”"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "Comandă redare CD"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Command to run when a Palm is connected."
+msgstr "Comanda ce se execută la conectarea unui Palm."
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a PocketPC is connected."
+msgstr "Comanda ce se execută la conectarea unui PocketPC."
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid "Command to run when a digital camera is connected or media from a digital camera is inserted."
+msgstr "Aplicaţie de pornit la conectarea unei camere digitale sau la introducerea unui mediu de stare al unei camere digitale."
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Command to run when a keyboard is connected."
+msgstr "Comanda ce se execută la conectarea unei tastaturi."
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a mouse is connected."
+msgstr "Comanda ce se execută la conectarea unui mouse."
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a printer is connected."
+msgstr "Comanda ce se execută la conectarea unei imprimante."
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a scanner is connected."
+msgstr "Comanda ce se execută la conectarea unui scaner."
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a tablet is connected."
+msgstr "Comanda ce se execută la conectarea unei tabele grafice."
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "Aplicaţie de pornit la introducerea unui DVD video."
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "Comanda ce se execută la inserarea unui VCD."
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "Comanda ce se execută la conectarea unei camere video."
+
+#: ../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "Aplicaţie de pornit la introducerea unui CD audio."
+
+#: ../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "Comanda ce se execută la conectarea unui iPod."
+
+#: ../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr "Comanda ce se execută cănd utilizatorul doreşte arderea unui CD cu date."
+
+#: ../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "Comanda ce se execută cănd utilizatorul doreşte arderea unui CD Audio."
+
+#: ../gnome-volume-manager.schemas.in.h:33
+msgid "DVD play command"
+msgstr "Aplicaţie de redare DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:34
+msgid "Data CD burn command"
+msgstr "Comandă ardere CD"
+
+#: ../gnome-volume-manager.schemas.in.h:35
+msgid "Low Disk Space notification threshold"
+msgstr "Punct notificare spatiu disponibil pe disc redus"
+
+#: ../gnome-volume-manager.schemas.in.h:36
+msgid "Open nautilus on removeable media insert."
+msgstr "Deschide o fereastră Nautilus la introducerea unui mediu amovibil."
+
+#: ../gnome-volume-manager.schemas.in.h:37
+msgid "Perform autorun"
+msgstr "Activare „autorun”"
+
+#: ../gnome-volume-manager.schemas.in.h:38
+msgid "Photo management command"
+msgstr "Aplicaţie pentru manipulare de imagini"
+
+#: ../gnome-volume-manager.schemas.in.h:39
+msgid "Play inserted audio CD's"
+msgstr "Redă CD-urile audio inserate"
+
+#: ../gnome-volume-manager.schemas.in.h:40
+msgid "Play inserted video DVDs"
+msgstr "Redă DVD-urile video inserate"
+
+#: ../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted video VCDs"
+msgstr "Redă VCD-urile inserate"
+
+#: ../gnome-volume-manager.schemas.in.h:42
+msgid "Run Palm-sync program"
+msgstr "Execută programul pentru sincronizarea Palm"
+
+#: ../gnome-volume-manager.schemas.in.h:43
+msgid "Run PocketPC-sync program"
+msgstr "Rulează programul pentru sincronizarea PocketPC"
+
+#: ../gnome-volume-manager.schemas.in.h:44
+msgid "Run a program to burn CDs/DVDs"
+msgstr "Rulează un program pentru a scrie CD/DVD-uri"
+
+#: ../gnome-volume-manager.schemas.in.h:45
+msgid "Run iPod program"
+msgstr "Rulează programul iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:46
+msgid "Run keyboard program"
+msgstr "Execută programul pentru tastatură"
+
+#: ../gnome-volume-manager.schemas.in.h:47
+msgid "Run mouse program"
+msgstr "Execută programul pentru mouse"
+
+#: ../gnome-volume-manager.schemas.in.h:48
+msgid "Run photo management command"
+msgstr "Porneşte aplicaţia pentru manipularea de imagini"
+
+#: ../gnome-volume-manager.schemas.in.h:49
+msgid "Run printer program"
+msgstr "Execută programul pentru imprimantă"
+
+#: ../gnome-volume-manager.schemas.in.h:50
+msgid "Run scanner program"
+msgstr "Execută programul pentru scaner"
+
+#: ../gnome-volume-manager.schemas.in.h:51
+msgid "Run tablet program"
+msgstr "Execută programul pentru tabela grafică"
+
+#: ../gnome-volume-manager.schemas.in.h:52
+msgid "Run video editing program"
+msgstr "Execută programul folosit pentru editare video "
+
+#: ../gnome-volume-manager.schemas.in.h:53
+msgid "The threshold value for whether or not to toggle the notification off, based on the amount of space freed up by the user since the last check."
+msgstr "Valoarea Punctului de notificare pentru care se renunţă la afişează notificării, bazat pe spaţiul liber de la ultima verificare"
+
+#: ../gnome-volume-manager.schemas.in.h:54
+msgid "The threshold value for whether or not to toggle the notification on, based on the amount of additional space used since the last check."
+msgstr "Valoarea Punctului de notificare pentru care se afişează notificarea lipsei de spatiu, bazat pe spaţiul liber de la ultima verificare"
+
+#: ../gnome-volume-manager.schemas.in.h:55
+msgid "Threshold for disk space being freed up, to toggle notification"
+msgstr "Punctul de execuţe al notificării spaţiului ce se eliberează"
+
+#: ../gnome-volume-manager.schemas.in.h:56
+msgid "Threshold for notification of increased disk usage"
+msgstr "Punctul de execuţe al notificării măririi spaţiului folosit"
+
+#: ../gnome-volume-manager.schemas.in.h:57
+msgid "Threshold percentage for notifying the user of low disk space."
+msgstr "Punctul de execuţe al notificării al utilizatorului despre lipsa de spaţiu."
+
+#: ../gnome-volume-manager.schemas.in.h:58
+msgid "VCD play command"
+msgstr "Comandă redare VCD"
+
+#: ../gnome-volume-manager.schemas.in.h:59
+msgid "Whether autorun programs (binaries and scripts located in 'autorun_path') are run on newly mounted media."
+msgstr "Specifică dacă programele de pornit automat (binare sau scripturi aflate în calea „autorun_path”) vor fi lansate la montarea mediilor de stocare."
+
+#: ../gnome-volume-manager.schemas.in.h:60
+msgid "Whether gnome-volume-manager should automatically mount removable storage drives when they are inserted."
+msgstr "Specifică dacă gnome-volume-manager va monta automat unităţile de stocare amovibile atunci când sunt inserate."
+
+#: ../gnome-volume-manager.schemas.in.h:61
+msgid "Whether gnome-volume-manager should automatically mount removable storage media when they are inserted."
+msgstr "Specifică dacă gnome-volume-manager va monta automat mediile de stocare amovibile când sunt inserate."
+
+#: ../gnome-volume-manager.schemas.in.h:62
+msgid "Whether, when a Palm is connected, gnome-volume-manager should run 'autopalmsync_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autopalmSznc_command” la conectarea unui Palm."
+
+#: ../gnome-volume-manager.schemas.in.h:63
+msgid "Whether, when a PocketPC is connected, gnome-volume-manager should run 'autopocketpc_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autopocketpc_command” la conectarea unui PocketPC."
+
+#: ../gnome-volume-manager.schemas.in.h:64
+msgid "Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run one of the autoburn commands."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoburn_cdr_command” la introducerea unui CD sau DVD gol"
+
+#: ../gnome-volume-manager.schemas.in.h:65
+msgid "Whether, when a digital camera is connected or media from a digital camera is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autophoto_command” la conectarea unei camere digitale sau la introducerea unui mediu de stocare al unei camere digitale."
+
+#: ../gnome-volume-manager.schemas.in.h:66
+msgid "Whether, when a digital video camera is connected, gnome-volume-manager should run 'autovideocam_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autovideocam_command” la conectarea unei camere video."
+
+#: ../gnome-volume-manager.schemas.in.h:67
+msgid "Whether, when a keyboard is connected, gnome-volume-manager should run 'autokeyboard_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autokeyboard_command” la conectarea unei tatstaturi."
+
+#: ../gnome-volume-manager.schemas.in.h:68
+msgid "Whether, when a mouse is connected, gnome-volume-manager should run 'automouse_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „automouse_command” la conectarea unui mouse."
+
+#: ../gnome-volume-manager.schemas.in.h:69
+msgid "Whether, when a printer is connected, gnome-volume-manager should run 'autoprinter_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoprinter_command” la conectarea unei imprimante."
+
+#: ../gnome-volume-manager.schemas.in.h:70
+msgid "Whether, when a scanner is connected, gnome-volume-manager should run 'autoscanner_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoscanner_command” la conectarea unui scaner."
+
+#: ../gnome-volume-manager.schemas.in.h:71
+msgid "Whether, when a tablet is connected, gnome-volume-manager should run 'autotablet_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autotablet_command” la conectarea unei tablete grafice."
+
+#: ../gnome-volume-manager.schemas.in.h:72
+msgid "Whether, when a video DVD is inserted, gnome-volume-manager should run 'autoplay_dvd_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoplay-dvd-command la introducerea unui DVD video."
+
+#: ../gnome-volume-manager.schemas.in.h:73
+msgid "Whether, when a video VCD is inserted, gnome-volume-manager should run 'autoplay_vcd_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoplay_vcd_command” la inserarea unui video VCD."
+
+#: ../gnome-volume-manager.schemas.in.h:74
+msgid "Whether, when an audio CD is inserted, gnome-volume-manager should run 'autoplay_cda_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoplay_cda_command la introducerea unui CD audio."
+
+#: ../gnome-volume-manager.schemas.in.h:75
+msgid "Whether, when an iPod is connected, gnome-volume-manager should run 'autoipod_command'."
+msgstr "Specifică dacă gnome-volume-manager va executa „autoipod_command” la conectarea unui iPod."
+
+#: ../gnome-volume-manager.schemas.in.h:76
+msgid "iPod sync command"
+msgstr "Comandă de sincronizare iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:77
+msgid "keyboard command"
+msgstr "Comandă tastatură"
+
+#: ../gnome-volume-manager.schemas.in.h:78
+msgid "mouse command"
+msgstr "Comandă mouse"
+
+#: ../gnome-volume-manager.schemas.in.h:79
+msgid "palm sync command"
+msgstr "Comandă de sincronizare plam"
+
+#: ../gnome-volume-manager.schemas.in.h:80
+msgid "printer command"
+msgstr "Comandă imprimantă"
+
+#: ../gnome-volume-manager.schemas.in.h:81
+msgid "scanner command"
+msgstr "Comandă scanr"
+
+#: ../gnome-volume-manager.schemas.in.h:82
+msgid "tablet command"
+msgstr "Comandă pentru tabbleta grafică"
+
+#: ../gnome-volume-manager.schemas.in.h:83
+msgid "video camera command"
+msgstr "Comandă video camera"
+
+#: ../gnome-volume-manager.desktop.in.h:1
+msgid "Volume Manager"
+msgstr "Managerul de Volume"
+
+#: ../gnome-volume-manager.desktop.in.h:2
+msgid "Volume manager for removable drives and media"
+msgstr "Managerul de unităţi şi medii amovibile"
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Configurare management de unităţi şi medii amovibile"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Unităţi şi medii amovibile"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>CD-uri audio</b>"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>CD-uri şi DVD-uri goale</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Camere digitale</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>Camera Video Digitală</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>Tastaturi</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>Mice</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm™</b>"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>PocketPC</b>"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "<b>Portable Music Players</b>"
+msgstr "<b>Dispozitiv de redare Muzică Portabil</b>"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "<b>Printers</b>"
+msgstr "<b>Imprimantă</b>"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Unităţi amovibile</b>"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "<b>Scanners</b>"
+msgstr "<b>Scanere</b>"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "<b>Tablets</b>"
+msgstr "<b>Tabele grafice</b>"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>DVD-uri video</b>"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Execută automat un program când o _tastatură USB se conectează"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Execută automat un program când un _mouse USB se conectează"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Execută automat un program când o _imprimantă USB se conectează"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "Execută automat un program când un _scaner USB se conectează"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Execută automat un program când o _tabletă USB se conectează"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "_Navighează în unităţile amovibile la introducere"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "C_omandă:"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "Camere Foto"
+
+#: ../gnome-volume-properties.glade.h:24
+msgid "Comman_d:"
+msgstr "Coman_dă:"
+
+#: ../gnome-volume-properties.glade.h:25
+msgid "Command for A_udio CDs:"
+msgstr "Comanda pentru CD-uri _Audio:"
+
+#: ../gnome-volume-properties.glade.h:26
+msgid "Command for _Data CDs: "
+msgstr "Comanda pentru CD-uri _Data:"
+
+#: ../gnome-volume-properties.glade.h:27
+msgid "Drives and Media Preferences"
+msgstr "Preferinţe unităţi şi medii de stocare"
+
+#: ../gnome-volume-properties.glade.h:28
+msgid "Input Devices"
+msgstr "Dispozitive de intrare"
+
+#: ../gnome-volume-properties.glade.h:29
+msgid "Mount removable media when _inserted"
+msgstr "Montează unităţile amovibile la _introducere"
+
+#: ../gnome-volume-properties.glade.h:30
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../gnome-volume-properties.glade.h:31
+msgid "PDAs"
+msgstr "PDA-uri"
+
+#: ../gnome-volume-properties.glade.h:32
+msgid "Play _audio CD discs when inserted"
+msgstr "Redă CD-urile audio la introducere"
+
+#: ../gnome-volume-properties.glade.h:33
+msgid "Play _music files when connected"
+msgstr "Redă fişiere de _muzică când este conectat"
+
+#: ../gnome-volume-properties.glade.h:34
+msgid "Play _video DVD disks when inserted"
+msgstr "Redă DVD-urile _video la introducere"
+
+#: ../gnome-volume-properties.glade.h:35
+msgid "Printers & Scanners"
+msgstr "Imprimante & Scanere"
+
+#: ../gnome-volume-properties.glade.h:36
+msgid "Removable Drives and Media Preferences"
+msgstr "Preferinţe unităţi şi medii de stocare"
+
+#: ../gnome-volume-properties.glade.h:37
+msgid "Select program to burn audio CDs"
+msgstr "Selectează un program pentru inscripţionarea de CD-uri audio"
+
+#: ../gnome-volume-properties.glade.h:38
+msgid "Select program to burn data CDs"
+msgstr "Selectează un program pentru inscripţionarea de CD-uri data"
+
+#: ../gnome-volume-properties.glade.h:39
+msgid "Select program to edit videos"
+msgstr "Selectează un program pentru editare video"
+
+#: ../gnome-volume-properties.glade.h:40
+msgid "Select program to import photos"
+msgstr "Selectează un program pentru importul de fotografii"
+
+#: ../gnome-volume-properties.glade.h:41
+msgid "Select program to play DVDs"
+msgstr "Selectează un program pentru readrea conţinutului DVD-urilo"
+
+#: ../gnome-volume-properties.glade.h:42
+msgid "Select program to play audio CDs"
+msgstr "Selectează un program pentru readrea conţinutului CD-urilo"
+
+#: ../gnome-volume-properties.glade.h:43
+msgid "Select program to play music files"
+msgstr "Selectează un program pentru readrea fişierelor de muzică"
+
+#: ../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "Selectaţi programul ce se execută când o tastatură este conectată"
+
+#: ../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "Selectaţi programul ce se execută când un mouse este conectat"
+
+#: ../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "Selectaţi programul ce se execută când o imprimantă este conectată"
+
+#: ../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "Selectaţi programul ce se execută când un scaner este conectat"
+
+#: ../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "Selectaţi programul ce se execută când o tabletă grafică este conectată"
+
+#: ../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "Selectaţi programul pentru sincronizarea dispozitivelor Palm"
+
+#: ../gnome-volume-properties.glade.h:50
+msgid "Storage"
+msgstr "Stocare"
+
+#: ../gnome-volume-properties.glade.h:51
+msgid "Sync PocketP_C devices when connected"
+msgstr "Sincronizare PocketP_C când este conectat"
+
+#: ../gnome-volume-properties.glade.h:52
+msgid "Sync _Palm™ devices when connected"
+msgstr "Sincronizare _Palm™ când este conectat"
+
+#: ../gnome-volume-properties.glade.h:53
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Lansează automat programele din noile unităţi"
+
+#: ../gnome-volume-properties.glade.h:54
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "Inscripţionează un CD sau DVD când un disk nou este inserat"
+
+#: ../gnome-volume-properties.glade.h:55
+msgid "_Command:"
+msgstr "_Comandă:"
+
+#: ../gnome-volume-properties.glade.h:56
+msgid "_Edit video when connected"
+msgstr "_Editare video cand este conectat"
+
+#: ../gnome-volume-properties.glade.h:57
+msgid "_Import digital photographs when connected"
+msgstr "Importă _fotografiile la conectare"
+
+#: ../gnome-volume-properties.glade.h:58
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Montează unităţile amovibile la conectarea „hot-plug”"
+
+#: ../src/manager.c:205
+#: ../src/manager.c:210
+#: ../src/manager.c:215
+#: ../src/manager.c:221
+#: ../src/manager.c:227
+#: ../src/manager.c:233
+#: ../src/manager.c:239
+msgid "Ig_nore"
+msgstr "Ig_noră"
+
+#: ../src/manager.c:206
+msgid "_Allow Auto-Run"
+msgstr "_Permite Auto-Execuţia"
+
+#: ../src/manager.c:211
+#: ../src/manager.c:217
+#: ../src/manager.c:222
+msgid "Import _Photos"
+msgstr "_Importă fotografii"
+
+#: ../src/manager.c:216
+msgid "_Open Folder"
+msgstr "Deschide Folder"
+
+#: ../src/manager.c:223
+msgid "Manage _Music"
+msgstr "Management Muzică"
+
+#: ../src/manager.c:228
+msgid "_Browse Files"
+msgstr "_Navighează prin fişiere"
+
+#: ../src/manager.c:229
+msgid "_Play CD"
+msgstr "_Redă piesele"
+
+#: ../src/manager.c:234
+msgid "Make _Audio CD"
+msgstr "Inscripţionează CD-uri _Audio"
+
+#: ../src/manager.c:235
+msgid "Make _Data CD"
+msgstr "Inscripţionează CD-uri _Data"
+
+#: ../src/manager.c:240
+msgid "Make _DVD"
+msgstr "Fă _DVD"
+
+#: ../src/manager.c:292
+msgid "Auto-Run Confirmation"
+msgstr "Confirmare Auto-execuţie"
+
+#: ../src/manager.c:293
+msgid "Auto-run capability detected."
+msgstr "Capabilitatea de auto-execuţie detectată."
+
+#: ../src/manager.c:294
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "Doriti să permiteţi execuţia <b>'${0}'</b> ?"
+
+#: ../src/manager.c:299
+#: ../src/manager.c:306
+msgid "Camera Import"
+msgstr "Import Camere Foto"
+
+#: ../src/manager.c:300
+#: ../src/manager.c:307
+msgid "A camera has been detected."
+msgstr "O cameră foto detectată."
+
+#: ../src/manager.c:301
+#: ../src/manager.c:308
+msgid "There are photos on the camera. Would you like to add these pictures to your album?"
+msgstr "Aparatul foto conectat conţine fotografii. Doriţi să import aceste fotografii în albumul dvs.?"
+
+#: ../src/manager.c:302
+#: ../src/manager.c:309
+#: ../src/manager.c:316
+#: ../src/manager.c:323
+#: ../src/manager.c:330
+msgid "_Always perform this action"
+msgstr "Întotdeauna execută această acţiune"
+
+#: ../src/manager.c:313
+msgid "Photo Import"
+msgstr "Import Fotografii"
+
+#: ../src/manager.c:314
+msgid "A photo card has been detected."
+msgstr "Un dispozitiv Foto (card) a fost detectat."
+
+#: ../src/manager.c:315
+msgid "There are photos on the card. Would you like to add these pictures to your album?"
+msgstr "Mediul introdus conţine fotografii. Doriţi să import aceste fotografii în albumul dvs.?"
+
+#: ../src/manager.c:320
+msgid "Photos and Music"
+msgstr "Fotografii şi Muzică"
+
+#: ../src/manager.c:321
+msgid "Photos were found on your music device."
+msgstr "Au fost găsite fotografii pe dispozitivul de muzică."
+
+#: ../src/manager.c:322
+msgid "Would you like to import the photos or manage its music?"
+msgstr "Doriţi să inscripţionaţi un DVD audio, foto sau cu date?"
+
+#: ../src/manager.c:327
+msgid "Audio / Data CD"
+msgstr "Inscripţionează CD-uri Audio / Data"
+
+#: ../src/manager.c:328
+msgid "The CD in the drive contains both music and files."
+msgstr "CD-ul intrdus in Unitate conţine atât muzică cât si fişiere."
+
+#: ../src/manager.c:329
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Doriţi să ascultaţi muzică sau sa parcurgeţi fişierele?"
+
+#: ../src/manager.c:334
+#: ../src/manager.c:341
+msgid "Choose Disc Type"
+msgstr "Alegeţi tipul discului"
+
+#: ../src/manager.c:335
+#: ../src/manager.c:342
+msgid "You have inserted a blank disc."
+msgstr "A-ţi introdus un disk blank."
+
+#: ../src/manager.c:336
+#: ../src/manager.c:343
+msgid "What would you like to do?"
+msgstr "Co doriţi să faceţi?"
+
+#: ../src/manager.c:2840
+#, c-format
+msgid "%d%% of the disk space on %s is in use"
+msgstr "%d%% din spaţiul disponibil pe %s este in uz"
+
+#: ../src/manager.c:2923
+msgid "Print version and exit"
+msgstr "Afisează versiunea si termină programul"
+
+#: ../src/manager.c:2925
+msgid "Run as a daemon"
+msgstr "Rulează ca demon"
+
+#: ../src/manager.c:2927
+msgid "Don't run as a daemon"
+msgstr "Nu rulează ca demon"
+
+#: ../src/manager.c:2929
+msgid "Run in secret mode"
+msgstr "Rulează in mod secret"
+
+#: ../src/manager.c:2961
+#, c-format
+msgid "Unrecognized --daemon argument: %s\n"
+msgstr "Nu sa recunoscut argumentul: %s\n"
+
+#: ../src/properties.c:305
+msgid "Could not load the main interface"
+msgstr "Nu am reuşit să încarc interfaţa principală"
+
+#: ../src/properties.c:307
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "Vă rugăm să vă asiguraţi că gnome-volume-manager este corect instalat"
+
+#: ../src/properties.c:466
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"Eroarea la pornirea demonului gnome-volume-manager:\n"
+"%s"
+
+#: ../src/properties.c:497
+msgid "Volume management not supported"
+msgstr "Gestionarea volumului nu este suportată"
+
+#: ../src/properties.c:499
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr ""
+"Serviciul „hald” este necesar, însă nu rulează. Vă rog să activaţi serviciul şi să rulaţi din nou aceatsă aplicaţie sau să contactaţi administratorul dvs. de sistem.\n"
+"\n"
+"Notă: Este necesar Linux kernel 2.6 pentru buna funcţionare a aplicaţiei volume management."
+
+#~ msgid ""
+#~ "Action to take when an iPod Photo is encountered (syncronise music or "
+#~ "import photos)."
+#~ msgstr ""
+#~ "Acţiunea ce se efectuează la întîlnirea un dispozitiv iPod Photo (se "
+#~ "sincronizează muzica sau se importă fotografii)"
+#~ msgid "Command to run when the eject button on a optical drive is pressed."
+#~ msgstr ""
+#~ "Aplicaţie de pornit la apăsarea butonului de eject al unei unităţi optice."
+#~ msgid "Command to run when the user wishes to burn a Photo CD."
+#~ msgstr ""
+#~ "Comanda ce se execută cănd utilizatorul doreşte arderea unui CD cu "
+#~ "fotografii."
+#~ msgid "Photo CD burn command"
+#~ msgstr "Comandă ardere a unui CD Foto"
+#~ msgid "Comma_nd:"
+#~ msgstr "Coman_dă:"
+#~ msgid "Command for _Photo CDs:"
+#~ msgstr "Comanda pentru CD-uri _Foto:"
+#~ msgid "Command:"
+#~ msgstr "Comandă:"
+#~ msgid "Select program to burn photo CDs"
+#~ msgstr "Selectează un program pentru inscripţionarea de CD-uri foto"
+#~ msgid "_Run Command"
+#~ msgstr "Comandă _pornire"
+#~ msgid "_Sync Music"
+#~ msgstr "?Sincronizare muzică"
+#~ msgid "Burn _Photo CD"
+#~ msgstr "Inscripţionează CD-uri _Foto"
+#~ msgid "Burn _Photo DVD"
+#~ msgstr "Inscripţionează DVD-uri _Foto"
+#~ msgid "Burn _Data DVD"
+#~ msgstr "Inscripţionează DVD-uri _Data"
+#~ msgid "Run command from inserted media?"
+#~ msgstr "Rulez comanda din mediul inserat?"
+#~ msgid "Do you want to run the file \"%s\"?"
+#~ msgstr "Doreşti să execuţi fişierul „%s”?"
+#~ msgid "Import photos from camera?"
+#~ msgstr "Import fotografiile din aparat?"
+#~ msgid "Import photos from device?"
+#~ msgstr "Import fotografiile din dispozitiv?"
+#~ msgid "Import photos or music?"
+#~ msgstr "Import fotografi sau muzică?"
+#~ msgid ""
+#~ "There are both photos and music on the plugged-in iPod. Would you like to "
+#~ "import the photos or would you prefer to sync your music?"
+#~ msgstr ""
+#~ "Aparatul foto conectat conţine fotografii şi muzică. Doriţi să import "
+#~ "aceste fotografii sau preferaţi o sincronizare a fişierelor de muzică ?"
+#~ msgid "Browse files or play tracks from disc?"
+#~ msgstr ""
+#~ "Doriţi să navigaţi prin fişiere sau să ascultaţi piesele de pe disc?"
+#~ msgid "This CD contains both music and data. What would you like to do?"
+#~ msgstr "Acest CD conţine atât muzică cât şi date. Ce doriţi să faceţi?"
+#~ msgid "Burn audio, photo, or data CD?"
+#~ msgstr "Inscripţionează audio, foto sau data CD?"
+#~ msgid "Would you like to burn an audio, photo, or data CD?"
+#~ msgstr "Doriţi să inscripţionaţi un CD audio, foto sau cu date?"
+#~ msgid "Burn photo or data DVD?"
+#~ msgstr "Inscripţionează foto sau data DVD?"
+

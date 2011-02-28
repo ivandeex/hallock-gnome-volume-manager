@@ -1,0 +1,306 @@
+# English (British) translation.
+# Copyright (C) 2004 GNOME Foundation
+# This file is distributed under the same license as the gnome-volume-manager package.
+# Gareth Owen <gowen72@yahoo.com>, David Lodge <dave@cirt.net>, 2004.
+# 
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-19 20:24+0100\n"
+"PO-Revision-Date: 2005-04-19 20:24+0100\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: English/GB <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr "':' delimited list of paths to check for autorun binaries and scripts."
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr "Automount removable drives"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr "Automount removable media"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr "Autorun nautilus"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr "Autorun path"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "CD burn command"
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "CD play command"
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Command to run when a digital camera is connected or media from a digital camera is inserted."
+msgstr "Command to run when a digital camera is connected or media from a digital camera is inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr "Command to run when a video DVD is inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr "Command to run when an audio CD is inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr "Command to run when an empty CD is inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr "Command to run when the eject button on a optical drive is pressed."
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "DVD play command"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr "Eject command"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr "Open nautilus on removeable media insert."
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr "Perform autorun"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr "Photo management command"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr "Play inserted audio CD's"
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr "Play inserted video DVDs"
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "Run CD burn command"
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr "Run photo management command"
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Whether autorun programs (binaries and scripts located in 'autorun_path') are run on newly mounted media."
+msgstr "Whether autorun programs (binaries and scripts located in 'autorun_path') are run on newly mounted media."
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Whether gnome-volume-manager should automatically mount removable storage drives when they are inserted."
+msgstr "Whether gnome-volume-manager should automatically mount removable storage drives when they are inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Whether gnome-volume-manager should automatically mount removable storage media when they are inserted."
+msgstr "Whether gnome-volume-manager should automatically mount removable storage media when they are inserted."
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Whether, when a blank CD is inserted, gnome-volume-manager should run 'autoburn_cdr_command'."
+msgstr "Whether, when a blank CD is inserted, gnome-volume-manager should run 'autoburn_cdr_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Whether, when a digital camera is connected or media from a digital camera is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr "Whether, when a digital camera is connected or media from a digital camera is inserted, gnome-volume-manager should run 'autophoto_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Whether, when a video DVD is inserted, gnome-volume-manager should run 'autoplay_dvd_command'."
+msgstr "Whether, when a video DVD is inserted, gnome-volume-manager should run 'autoplay_dvd_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Whether, when an audio CD is inserted, gnome-volume-manager should run 'autoplay_cda_command'."
+msgstr "Whether, when an audio CD is inserted, gnome-volume-manager should run 'autoplay_cda_command'."
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Configure management of removable drives and media"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Removable Drives and Media"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>Audio CD Discs</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>Blank CD and DVD Discs</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Digital Camera</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Removable Storage</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>Video DVD Discs</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "Browse _removable media when inserted"
+msgstr "Browse _removable media when inserted"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "C_ommand:"
+msgstr "C_ommand:"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "Co_mmand:"
+msgstr "Co_mmand:"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "Comman_d:"
+msgstr "Comman_d:"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "Command:"
+msgstr "Command:"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "Drives and Media Preferences"
+msgstr "Drives and Media Preferences"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "Import digital _photographs when connected"
+msgstr "Import digital _photographs when connected"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "Mount removable media when _inserted"
+msgstr "Mount removable media when _inserted"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Perform action on _blank discs when inserted"
+msgstr "Perform action on _blank discs when inserted"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Play _audio CD discs when inserted"
+msgstr "Play _audio CD discs when inserted"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Play _video DVD disks when inserted"
+msgstr "Play _video DVD disks when inserted"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Removable Drives and Media Preferences"
+msgstr "Removable Drives and Media Preferences"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Storage"
+msgstr "Storage"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Auto-run programs on new drives and media"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Mount removable drives when hot-plugged"
+
+#: ../src/manager.c:229
+msgid "Run command from inserted media?"
+msgstr "Run command from inserted media?"
+
+#: ../src/manager.c:233
+#, c-format
+msgid "Do you want to run the file \"%s?\""
+msgstr "Do you want to run the file \"%s?\""
+
+#: ../src/manager.c:238
+msgid "_Run Command"
+msgstr "_Run Command"
+
+#: ../src/manager.c:327
+msgid "Import photos from device?"
+msgstr "Import photos from device?"
+
+#: ../src/manager.c:330
+msgid "There are photos on the inserted media. Would you like to import these photographs into your album?"
+msgstr "There are photos on the inserted media. Would you like to import these photographs into your album?"
+
+#: ../src/manager.c:336
+#: ../src/manager.c:383
+msgid "_Import Photos"
+msgstr "_Import Photos"
+
+#: ../src/manager.c:375
+msgid "Import photos from camera?"
+msgstr "Import photos from camera?"
+
+#: ../src/manager.c:378
+msgid "There are photos on the plugged-in camera. Would you like to import these photographs into your album?"
+msgstr "There are photos on the plugged-in camera. Would you like to import these photographs into your album?"
+
+#: ../src/manager.c:584
+msgid "Browse files or play tracks from disc?"
+msgstr "Browse files or play tracks from disc?"
+
+#: ../src/manager.c:588
+msgid "There are both audio tracks and data files on the inserted disc. Choose if you want to play the audio tracks to listen to music or browse the files to manage the stored data."
+msgstr "There are both audio tracks and data files on the inserted disc. Choose if you want to play the audio tracks to listen to music or browse the files to manage the stored data."
+
+#: ../src/manager.c:594
+msgid "_Browse Files"
+msgstr "_Browse Files"
+
+#: ../src/manager.c:596
+msgid "_Play Tracks"
+msgstr "_Play Tracks"
+
+#: ../src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+
+#: ../src/properties.c:395
+msgid "Volume management not supported"
+msgstr "Volume management not supported"
+
+#: ../src/properties.c:397
+msgid "The \"hald\" service is required but not currently running. Enable the service and rerun this applet, or contact your system administrator."
+msgstr "The \"hald\" service is required but not currently running. Enable the service and rerun this applet, or contact your system administrator."
+
+#: ../src/properties.c:420
+msgid "Could not load the main interface"
+msgstr "Could not load the main interface"
+
+#: ../src/properties.c:423
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "Please make sure that the volume manager is properly installed"
+

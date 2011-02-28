@@ -1,0 +1,44 @@
+jpr is that going to happen?
+jpr i guess its mostly the non-mass storage cameras at issue right now?
+fejj yea, larry and I are discussing that
+fejj how it should work, etc
+fejj but yea, I think I'll be finished this week
+jpr ok, let me know if not
+jpr what device type is next?
+jpr the dialog for the user to choose also needs to happen
+* jpr looks at the feature freeze for gnome data
+jpr date
+fejj ok
+fejj I'l get crackin on that tomorrow or next week
+jpr ok
+jpr did you talk to ui about what to do?
+fejj (to amke sure I'm clear: dialog prompt for CD Audio play/burn right?)
+jpr yah, and for whatever else we have multiple actions
+fejj ok
+fejj yea, I talked to anna
+jpr i mean, if you want to ask nld-dev or the ui team for an alternative
+jpr but i don't see away around it really
+jpr (maybe an "always do this checkbox"
+jpr )
+fejj she suggested that to start with, we implement the prompt with an "always" checkbox
+fejj right
+jpr ok, lets do that
+fejj ok
+jpr we can always change it if it sucks
+fejj right
+jpr got a time estimate on the dialog work?
+fejj can you think of any dialogs other than CD play/burn?
+fejj if only that one, I can have it done by end of day Monday
+fejj assuming no more complications with my machine :)
+fejj (currently having issues with hal not noticing my ipod's partitions)
+jpr blank CDs
+fejj ok
+jpr ipods if other than music
+fejj what should that dialog prompt? burn vs ignore?
+fejj ah, good call about ipods
+jpr wasn't the blank cd thing discussed on nld-dev?
+jpr you can burn photos, music
+jpr or data
+jpr for instance
+jpr how long for the dialog work?
+fejj should be done by end of next week

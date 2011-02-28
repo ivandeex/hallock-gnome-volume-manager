@@ -1,0 +1,279 @@
+# Oriya translation of gnome-volume-manager.HEAD.pot.
+# Copyright (C) 2004, Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-volume-manager package.
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2004.
+# $Id: or.po,v 1.1 2004/09/03 18:29:56 gmohanty Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager.HEAD.or\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-04 00:00+0530\n"
+"PO-Revision-Date: 2004-09-03 03:19+0530\n"
+"Last-Translator: Gora Mohanty <gora_mohanty@yahoo.co.in>\n"
+"Language-Team: Oriya <oriya-group@lists.sarovar.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"':' ଦ୍ବାରା ବିଭାଜିତ ପଥ ର ତାଲିକା ଦେଉଁଟାକି ସ୍ବୟଂଚାଳନ ଦ୍ବିମିକ ଫାଇଲ ଓ ସ୍କ୍ରିପ୍ଟ ପାଇଁ ଯାଞ୍ଚ କରାଯିବ"
+
+#: gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr "ଅପସରାଣୀୟ ଡ୍ରାଇଭ ସ୍ବୟଂସ୍ଥାପନ କରନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr "ଅପସରାଣୀୟ ସଞ୍ଚାରମାଧ୍ଯମକୁ ସ୍ବୟଂସ୍ଥାପନ କରନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr "ନଟିଲସ ସ୍ବୟଂଚାଳନ"
+
+#: gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr "ସ୍ବୟଂଚାଳନ ପଥ"
+
+#: gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "ସି.ଡି. ଲେଖିବା ନିର୍ଦ୍ଦେଶ"
+
+#: gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "ସି.ଡି. ଚଳାଇବା ନିର୍ଦ୍ଦେଶ"
+
+#: gnome-volume-manager.schemas.in.h:8
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"ସାଂଖ୍ଯିକ କ୍ଯାମେରା ସଂଯୋଗ କରାହେଲେ ବା ସାଂଖ୍ଯିକ କ୍ଯାମେରାରୁ ସଞ୍ଚାରମାଧ୍ଯମ ଭର୍ତ୍ତି କରାହେଲେ, "
+"ଚଳାଯିବା ନିର୍ଦ୍ଦେଶ."
+
+#: gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr "ଭିଡିଓ ଡି.ଭି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ଚଳାଯିବା ନିର୍ଦ୍ଦେଶ."
+
+#: gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr "ଧ୍ବନି ସି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ଚଳାଯିବା ନିର୍ଦ୍ଦେଶ."
+
+#: gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr "ଖାଲି ସି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ଚଳାଯିବା ନିର୍ଦ୍ଦେଶ."
+
+#: gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr "ଆଲୋକୀୟ ଡ୍ରାଇଭର ନିଷ୍କାସନ ଚାବି ଦବାଇଲେ, ଚଳାଯିବା ନିର୍ଦ୍ଦେଶ."
+
+#: gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "ଡି.ଭି.ଡି. ଚଳାଇବା ନିର୍ଦ୍ଦେଶ"
+
+#: gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr "ନିଷ୍କାସନ ନିର୍ଦ୍ଦେଶ"
+
+# Gora: here "open" is used in the sense of "run"
+#: gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr "ଅପସରାଣୀୟ ସଞ୍ଚାରମାଧ୍ଯମ ଭର୍ତ୍ତି କରାହେଲେ ନଟିଲସକୁ ଚଳାନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr "ସ୍ବୟଂଚାଳନ କରନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr "ଫଟୋ ପରିଚାଳନ ନିର୍ଦ୍ଦେଶ"
+
+#: gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଧ୍ବନି ସି.ଡି.କୁ ଚଲାନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଭିଡିଓ ଡି.ଭି.ଡି.କୁ ଚଲାନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "ସି.ଡି. ଲେଖିବା ନିର୍ଦ୍ଦେଶକୁ ଚଲାନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr "ଫଟୋ ପରିଚାଳନ ନିର୍ଦ୍ଦେଶକୁ ଚଲାନ୍ତୁ"
+
+#: gnome-volume-manager.schemas.in.h:22
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"ନୂଆ ସଞ୍ଚାରମାଧ୍ଯମରେ ସ୍ବୟଂଚାଳନ କାରିକାଗୁଡ଼ିକ ('autorun_path'ରେ ସ୍ଥିତ ଦ୍ବିମିକ ଫାଇଲ ଓ ସ୍କ୍ରିପ୍ଟ) "
+"ଚଳାଯିବା ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:23
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"ଅପସରାଣୀୟ ଭଣ୍ଡାର ଡ୍ରାଇଭ ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର ତାହାକୁ ଆପେଆପେ ସ୍ଥାପିତ କରିବା "
+"ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:24
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"ଅପସରାଣୀୟ ଭଣ୍ଡାର ସଞ୍ଚାରମାଧ୍ଯମ ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର ତାହାକୁ ଆପେଆପେ ସ୍ଥାପିତ "
+"କରିବା ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:25
+msgid ""
+"Whether, when a blank CD is inserted, gnome-volume-manager should run "
+"'autoburn_cdr_command'."
+msgstr ""
+"ଖାଲି ସି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର 'autoburn_cdr_command' ଚଳାଇବା ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:26
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"ସାଂଖ୍ଯିକ କ୍ଯାମେରା ସଂଯୋଗ କରାହେଲେ ବା ସାଂଖ୍ଯିକ କ୍ଯାମେରାରୁ ସଞ୍ଚାରମାଧ୍ଯମ ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-"
+"ଭଲ୍ଯୁମ-ମାନେଜର 'autophoto_command' ଚଳାଇବା ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:27
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"ଭିଡିଓ ଡି.ଭି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର 'autoplay_dvd_command' ଚଳାଇବା ଉଚିତ କି."
+
+#: gnome-volume-manager.schemas.in.h:28
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"ଧ୍ବନି ସି.ଡି. ଭର୍ତ୍ତି କରାହେଲେ, ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର 'autoplay_cda_command' ଚଳାଇବା ଉଚିତ କି."
+
+#: gnome-volume-properties.desktop.in.h:1
+msgid "Configure Management of Removable Devices"
+msgstr "ଅପସରାଣୀୟ ଯନ୍ତ୍ରର ପରିଚାଳନ ବିନ୍ଯାସ କରନ୍ତୁ"
+
+#: gnome-volume-properties.desktop.in.h:2
+msgid "Removable Storage"
+msgstr "ଅପସରାଣୀୟ ଭଣ୍ଡାର"
+
+#: gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: gnome-volume-properties.glade.h:2
+msgid " Perform action on _blank CDs when inserted"
+msgstr " ଭର୍ତ୍ତି କରାଯାଇଥିବା ଖାଲି ସି.ଡି.ରେ କାମ ଚଳାନ୍ତୁ (_b)"
+
+#: gnome-volume-properties.glade.h:3
+msgid "*"
+msgstr "*"
+
+#: gnome-volume-properties.glade.h:4
+msgid "<b>Audio CDs</b>"
+msgstr "<b>ଧ୍ବନି ସି.ଡି.ଗୁଡ଼ିକ</b>"
+
+#: gnome-volume-properties.glade.h:5
+msgid "<b>Blank CDs</b>"
+msgstr "<b>ଖାଲି ସି.ଡି.ଗୁଡ଼ିକ</b>"
+
+#: gnome-volume-properties.glade.h:6
+msgid "<b>DVD Videos</b>"
+msgstr "<b>ଡି.ଭି.ଡି. ଭିଡିଓଗୁଡ଼ିକ</b>"
+
+#: gnome-volume-properties.glade.h:7
+msgid "<b>Digital Camera</b>"
+msgstr "<b>ସାଂଖ୍ଯିକ କ୍ଯାମେରା</b>"
+
+#: gnome-volume-properties.glade.h:8
+msgid "<b>Removable Storage</b>"
+msgstr "<b>ଅପସରାଣୀୟ ଭଣ୍ଡାର</b>"
+
+#: gnome-volume-properties.glade.h:9
+msgid "Browse _removable media when inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଅପସରାଣୀୟ ସଞ୍ଚାରମାଧ୍ଯମରେ ଖୋଜିବୁଲନ୍ତୁ (_r)"
+
+#: gnome-volume-properties.glade.h:10
+msgid "Command:"
+msgstr "ନିର୍ଦ୍ଦେଶ:"
+
+#: gnome-volume-properties.glade.h:11
+msgid "Drives and Media Preferences"
+msgstr "ଡ୍ରାଇଭ ଓ ସଞ୍ଚାରମାଧ୍ଯମ ପସନ୍ଦ"
+
+#: gnome-volume-properties.glade.h:12
+msgid "Import digital _photo albums when connected"
+msgstr "ସାଂଖ୍ଯିକ ଫଟୋ ଆଲ୍ବମ ସଂଯୋଗ କରାହେଲେ, ତାଙ୍କ ଆମଦାନି କରନ୍ତୁ (_p)"
+
+#: gnome-volume-properties.glade.h:13
+msgid "Mount removable media when _inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଅପସରାଣୀୟ ସଞ୍ଚାରମାଧ୍ଯମକୁ ସ୍ଥାପିତ କରନ୍ତୁ (_i)"
+
+#: gnome-volume-properties.glade.h:14
+msgid "Play DVD Videos when inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଡି.ଭି.ଡି. ଭିଡିଓକୁ ଚଳାନ୍ତୁ"
+
+#: gnome-volume-properties.glade.h:15
+msgid "Play _DVD Videos when inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଡି.ଭି.ଡି. ଭିଡିଓକୁ ଚଳାନ୍ତୁ (_D)"
+
+#: gnome-volume-properties.glade.h:16
+msgid "Play a_udio CDs when inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଧ୍ବନି ସି.ଡି.କୁ ଚଳାନ୍ତୁ (_u)"
+
+#: gnome-volume-properties.glade.h:17
+msgid "Play audio CDs when inserted"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଧ୍ବନି ସି.ଡି.କୁ ଚଳାନ୍ତୁ"
+
+#: gnome-volume-properties.glade.h:18
+msgid "_Auto-run programs on new drives and media"
+msgstr "ନୂଆ ଡ୍ରାଇଭ ଓ ସଞ୍ଚାରମାଧ୍ଯମରେ କାରିକାଗୁଡ଼ିକୁ ସ୍ବୟଚାଳିତ କରନ୍ତୁ (_A)"
+
+# Gora: "hot-plugged" means "inserted". Bug report filed
+#: gnome-volume-properties.glade.h:19
+msgid "_Mount removable drives when hot-plugged"
+msgstr "ଭର୍ତ୍ତି କରାଯାଇଥିବା ଅପସରାଣୀୟ ସଞ୍ଚାରମାଧ୍ଯମକୁ ସ୍ଥାପିତ କରନ୍ତୁ (_M)"
+
+#: src/manager.c:230
+#, c-format
+msgid "Do you want to run %s?"
+msgstr "ଆପଣ %sକୁ ଚଳାଇବାକୁ ଚାହାନ୍ତି କି?"
+
+#: src/manager.c:318 src/manager.c:361
+msgid "_Import"
+msgstr "ଆମଦାନି (_I)"
+
+#: src/manager.c:551
+msgid "_Play"
+msgstr "ଚଳାନ୍ତୁ (_P)"
+
+#: src/manager.c:552
+msgid "_Browse"
+msgstr "ଖୋଜିବୁଲନ୍ତୁ (_B)"
+
+#: src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"ନୋମ-ଭଲ୍ଯୁମ-ମାନେଜର କାର୍ଯ୍ଯ ସହାୟକ ପ୍ରାରମ୍ଭ କରିବାରେ ତ୍ରୁଟି:\n"
+"%s"
+
+#: src/properties.c:400
+msgid "Could not load the main interface"
+msgstr "ମୁଖ୍ଯ ଅନ୍ତରାପୃଷ୍ଠ ଧାରଣ କରିବାରେ ଅସମର୍ଥ"
+
+#: src/properties.c:402
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "ଦୟା କରି ନିଶ୍ଚିତ କରନ୍ତୁ କି ଅଂଶ ପରିଚାଳକ ସଠିକ ଭାବରେ ସ୍ଥାପିତ ହୋଇଛି"

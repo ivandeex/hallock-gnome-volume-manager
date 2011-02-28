@@ -1,0 +1,872 @@
+# gnome-volume-manager ja.po.
+# Copyright (C) 2004-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the 'gnome-volume-manager' package.
+# Takeshi AIHANA <aihana@gnome.gr.jp>, 2004-2006.
+# Atsushi Kanemoto <atsushi-kanemoto@mail.goo.ne.jp>, 2005
+# Satoru SATOH <ss@gnome.gr.jp>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-03 07:43+0900\n"
+"PO-Revision-Date: 2006-03-03 08:12+0900\n"
+"Last-Translator: Satoru SATOH <ss@gnome.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "自動起動したらデフォルトの操作を実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "iPod Photo 使用時にデフォルトの操作を実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr "オーディオとデータとが混在した CD の使用時にデフォルトの操作を実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr "カメラから写真を取り込んだらデフォルトの操作を実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr "デバイスから画像データを取り込んだらデフォルトの操作を実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"自動起動用のバイナリとスクリプトをチェックするパスを ':' で区切ったリストで"
+"す。"
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "カメラが接続されたら、デフォルトの操作を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr ""
+"画像データを含むデバイスが接続されたら、デフォルトの操作を実行するかどうかで"
+"す。"
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr ""
+"自動起動のプログラムやスクリプトを含むメディアが挿入されたら、デフォルトの操"
+"作を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr ""
+"オーディオとデータの CD が挿入されたら、デフォルトの操作を実行するかどうかで"
+"す。"
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr "iPod Photo が接続されたら、デフォルトの操作を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "オーディオ CD を作成するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "リムーバブル・ドライブの自動マウント"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "リムーバブル・メディアの自動マウント"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Nautilus の自動起動"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "自動起動のパス"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "CD を演奏するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Command to run when a Palm is connected."
+msgstr "Palm が接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a PocketPC is connected."
+msgstr "PocketPC が接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"デジタル・カメラを接続したり、そのメディアを挿入すると実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Command to run when a keyboard is connected."
+msgstr "キーボードが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a mouse is connected."
+msgstr "マウスが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a printer is connected."
+msgstr "プリンタが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a scanner is connected."
+msgstr "スキャナが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a tablet is connected."
+msgstr "タブレットが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "ビデオ DVD が挿入されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "ビデオ VCD が挿入されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "ビデオ・カメラが接続されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "オーディオ CD-ROM が挿入されたら実行するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "iPod と同期する際に使用するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr "データ CD を作成する際に使用するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "オーディオ CD を作成する際に使用するコマンドです。"
+
+#: ../gnome-volume-manager.schemas.in.h:33
+msgid "DVD play command"
+msgstr "DVD を再生するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:34
+msgid "Data CD burn command"
+msgstr "データ CD を作成するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:35
+msgid "Low Disk Space notification threshold"
+msgstr "ディスク容量不足の場合に通知する際の閾値"
+
+#: ../gnome-volume-manager.schemas.in.h:36
+msgid "Open nautilus on removeable media insert."
+msgstr "リムーバブル・メディアが挿入されたら Nautilus で開くかどうか。"
+
+#: ../gnome-volume-manager.schemas.in.h:37
+msgid "Perform autorun"
+msgstr "自動起動の実行可否"
+
+#: ../gnome-volume-manager.schemas.in.h:38
+msgid "Photo management command"
+msgstr "写真管理用のコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:39
+msgid "Play inserted audio CD's"
+msgstr "オーディオ CD を演奏する"
+
+#: ../gnome-volume-manager.schemas.in.h:40
+msgid "Play inserted video DVDs"
+msgstr "ビデオ DVD を再生する"
+
+#: ../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted video VCDs"
+msgstr "ビデオ VCD を再生する"
+
+#: ../gnome-volume-manager.schemas.in.h:42
+msgid "Run Palm-sync program"
+msgstr "Palm-sync プログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:43
+msgid "Run PocketPC-sync program"
+msgstr "PocketPC-sync プログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:44
+msgid "Run a program to burn CDs/DVDs"
+msgstr "CD/DVD を作成するプログラムを起動する"
+
+#: ../gnome-volume-manager.schemas.in.h:45
+msgid "Run iPod program"
+msgstr "iPod プログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:46
+msgid "Run keyboard program"
+msgstr "キーボードのプログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:47
+msgid "Run mouse program"
+msgstr "マウスのプログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:48
+msgid "Run photo management command"
+msgstr "写真管理用コマンドを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:49
+msgid "Run printer program"
+msgstr "印刷コマンドを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:50
+msgid "Run scanner program"
+msgstr "スキャナのコマンドを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:51
+msgid "Run tablet program"
+msgstr "タブレットのコマンドを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:52
+msgid "Run video editing program"
+msgstr "ビデオ編集のプログラムを実行する"
+
+#: ../gnome-volume-manager.schemas.in.h:53
+msgid ""
+"The threshold value for whether or not to toggle the notification off, based "
+"on the amount of space freed up by the user since the last check."
+msgstr ""
+"最後にチェックされてからユーザが空けたスペースの総計に基づいて、通知機能をオ"
+"フに切り換えるようにするかどうか決定するための閾値"
+
+#: ../gnome-volume-manager.schemas.in.h:54
+msgid ""
+"The threshold value for whether or not to toggle the notification on, based "
+"on the amount of additional space used since the last check."
+msgstr ""
+"最後にチェックされてからユーザが空けたスペースの総計に基づいて、通知機能をオ"
+"ンに切り換えるようにするかどうかを決定するための閾値"
+
+#: ../gnome-volume-manager.schemas.in.h:55
+msgid "Threshold for disk space being freed up, to toggle notification"
+msgstr "通知機能を切り替えるためのディスク空きスペースの閾値"
+
+#: ../gnome-volume-manager.schemas.in.h:56
+msgid "Threshold for notification of increased disk usage"
+msgstr "ディスク使用料の増加について通知する際の閾値"
+
+#: ../gnome-volume-manager.schemas.in.h:57
+msgid "Threshold percentage for notifying the user of low disk space."
+msgstr "ディスクスペースが残り少ない場合にユーザに通知する際の閾値(%%)"
+
+#: ../gnome-volume-manager.schemas.in.h:58
+msgid "VCD play command"
+msgstr "VCD を再生するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:59
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"メディアを新たにマウントしたら自動起動プログラム ('autorun_path' で指定した場"
+"所にある実行バイナリまたはスクリプト) を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:60
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"リムーバブル・ストレージ・ドライブが挿入されたら、gnome-volume-manager は自動"
+"的にそのドライブをマウントするかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:61
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"リムーバブル・ストレージのメディアが挿入されたら、gnome-volume-manager は自動"
+"的にそのメディアをマウントするかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:62
+msgid ""
+"Whether, when a Palm is connected, gnome-volume-manager should run "
+"'autopalmsync_command'."
+msgstr ""
+"Palm が接続されたら、gnome-volume-manager が 'autopalmsync_command' を実行す"
+"るかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:63
+msgid ""
+"Whether, when a PocketPC is connected, gnome-volume-manager should run "
+"'autopocketpc_command'."
+msgstr ""
+"PocketPC が接続されたら、gnome-volume-manager が 'autopocketpc_command' を実"
+"行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:64
+msgid ""
+"Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run "
+"one of the autoburn commands."
+msgstr ""
+"空の CD/DVD が挿入されたら、gnome-volume-manager が 'autoburn_command' を実行"
+"するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:65
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"デジタル・カメラが接続されたり、そのメディアが挿入されたら、gnome-volume-"
+"manager が 'autophoto_command' を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:66
+msgid ""
+"Whether, when a digital video camera is connected, gnome-volume-manager "
+"should run 'autovideocam_command'."
+msgstr ""
+"デジタル・ビデオ・カメラが接続されたら、gnome-volume-manager が "
+"'autovideocam_command' を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:67
+msgid ""
+"Whether, when a keyboard is connected, gnome-volume-manager should run "
+"'autokeyboard_command'."
+msgstr ""
+"キーボードが接続されたら、gnome-volume-manager が 'autokeyboard_command' を実"
+"行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:68
+msgid ""
+"Whether, when a mouse is connected, gnome-volume-manager should run "
+"'automouse_command'."
+msgstr ""
+"マウスが接続されたら、gnome-volume-manager が 'automouse_command' を実行する"
+"かどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:69
+msgid ""
+"Whether, when a printer is connected, gnome-volume-manager should run "
+"'autoprinter_command'."
+msgstr ""
+"プリンタが接続されたら、gnome-volume-manager が 'autoprinter_command' を実行"
+"するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:70
+msgid ""
+"Whether, when a scanner is connected, gnome-volume-manager should run "
+"'autoscanner_command'."
+msgstr ""
+"スキャナが接続されたら、gnome-volume-manager が 'autoscanner_command' を実行"
+"するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:71
+msgid ""
+"Whether, when a tablet is connected, gnome-volume-manager should run "
+"'autotablet_command'."
+msgstr ""
+"タブレットが接続されたら、gnome-volume-manager が 'autotablet_command' を実行"
+"するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:72
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"ビデオ DVD が挿入されたら、gnome-volume-manager が 'autoplay_dvd_command' を"
+"実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:73
+msgid ""
+"Whether, when a video VCD is inserted, gnome-volume-manager should run "
+"'autoplay_vcd_command'."
+msgstr ""
+"ビデオ DVD が挿入されたら、gnome-volume-manager が 'autoplay_vcd_command' を"
+"実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:74
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"オーディオ CD が挿入されたら、gnome-volume-manager が 'autoplay_cda_command' "
+"を実行するかどうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:75
+msgid ""
+"Whether, when an iPod is connected, gnome-volume-manager should run "
+"'autoipod_command'."
+msgstr ""
+"iPod が接続されたら、gnome-volume-manager が 'autoipod_command' を実行するか"
+"どうかです。"
+
+#: ../gnome-volume-manager.schemas.in.h:76
+msgid "iPod sync command"
+msgstr "iPod と同期するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:77
+msgid "keyboard command"
+msgstr "キーボードのコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:78
+msgid "mouse command"
+msgstr "マウスのコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:79
+msgid "palm sync command"
+msgstr "Palm と同期するコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:80
+msgid "printer command"
+msgstr "プリンタのコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:81
+msgid "scanner command"
+msgstr "スキャナのコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:82
+msgid "tablet command"
+msgstr "タブレットのコマンド"
+
+#: ../gnome-volume-manager.schemas.in.h:83
+msgid "video camera command"
+msgstr "ビデオ・カメラのコマンド"
+
+#: ../gnome-volume-manager.desktop.in.h:1
+msgid "Volume Manager"
+msgstr "ボリュームマネージャー"
+
+#: ../gnome-volume-manager.desktop.in.h:2
+msgid "Volume manager for removable drives and media"
+msgstr "リムーバブル・デバイスとメディアのボリューム管理"
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "リムーバブル・デバイスとそのメディアを設定管理します"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "リムーバブル・デバイスとメディア"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>オーディオ CD ディスク</b>"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>空の CD と DVD ディスク</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>デジタル・カメラ</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>デジタル・ビデオ・カメラ</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>キーボード</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>マウス</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm™</b>"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>PocketPC</b>"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "<b>Portable Music Players</b>"
+msgstr "<b>携帯ミュージック・プレイヤー</b>"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "<b>Printers</b>"
+msgstr "<b>プリンタ</b>"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "<b>Removable Storage</b>"
+msgstr "<b>リムーバブル・ストレージ</b>"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "<b>Scanners</b>"
+msgstr "<b>スキャナ</b>"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "<b>Tablets</b>"
+msgstr "<b>タブレット</b>"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>ビデオ DVD ディスク</b>"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "USB キーボードが接続されたら自動的にプログラムを実行する(_K)"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "USB マウスが接続されたら自動的にプログラムを実行する(_M)"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "プリンタが接続されたら自動的にプログラムを実行する(_P)"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "スキャナが接続されたら自動的にプログラムを実行する(_S)"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "タブレットが接続されたら自動的にプログラムを実行する(_T)"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "メディアが挿入されたら参照する(_R)"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "コマンド(_O):"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "カメラ"
+
+#: ../gnome-volume-properties.glade.h:24
+msgid "Comman_d:"
+msgstr "コマンド(_D):"
+
+#: ../gnome-volume-properties.glade.h:25
+msgid "Command for A_udio CDs:"
+msgstr "オーディオ CD 用のコマンド(_U):"
+
+#: ../gnome-volume-properties.glade.h:26
+msgid "Command for _Data CDs: "
+msgstr "データ CD 用のコマンド(_D):"
+
+#: ../gnome-volume-properties.glade.h:27
+msgid "Drives and Media Preferences"
+msgstr "いろいろなドライブとメディアの設定"
+
+#: ../gnome-volume-properties.glade.h:28
+msgid "Input Devices"
+msgstr "入力デバイス"
+
+#: ../gnome-volume-properties.glade.h:29
+msgid "Mount removable media when _inserted"
+msgstr "メディアが挿入されたらマウントする(_I)"
+
+#: ../gnome-volume-properties.glade.h:30
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+#: ../gnome-volume-properties.glade.h:31
+msgid "PDAs"
+msgstr "PDA"
+
+#: ../gnome-volume-properties.glade.h:32
+msgid "Play _audio CD discs when inserted"
+msgstr "オーディオ CD ディスクが挿入されたら演奏する(_A)"
+
+#: ../gnome-volume-properties.glade.h:33
+msgid "Play _music files when connected"
+msgstr "接続したら楽曲ファイルを演奏する(_M)"
+
+#: ../gnome-volume-properties.glade.h:34
+msgid "Play _video DVD disks when inserted"
+msgstr "ビデオ DVD ディスクが挿入されたら再生する(_V)"
+
+#: ../gnome-volume-properties.glade.h:35
+msgid "Printers & Scanners"
+msgstr "プリンタとスキャナ"
+
+#: ../gnome-volume-properties.glade.h:36
+msgid "Removable Drives and Media Preferences"
+msgstr "リムーバブル・ドライブとメディアの設定"
+
+#: ../gnome-volume-properties.glade.h:37
+msgid "Select program to burn audio CDs"
+msgstr "\"オーディオ CD を作成するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:38
+msgid "Select program to burn data CDs"
+msgstr "\"データ CD を作成するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:39
+msgid "Select program to edit videos"
+msgstr "\"写真をインポートするプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:40
+msgid "Select program to import photos"
+msgstr "\"写真をインポートするプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:41
+msgid "Select program to play DVDs"
+msgstr "\"DVD を再生するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:42
+msgid "Select program to play audio CDs"
+msgstr "\"オーディオ CD を演奏するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:43
+msgid "Select program to play music files"
+msgstr "\"楽曲ファイルを演奏するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "キーボードが接続されたら実行するプログラムの選択"
+
+#: ../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "マウスが接続されたら実行するプログラムの選択"
+
+#: ../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "プリンタが接続されたら実行するプログラムの選択"
+
+#: ../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "スキャナが接続されたら実行するプログラムの選択"
+
+#: ../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "タブレットが接続されたら実行するプログラムの選択"
+
+#: ../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "\"Palm と同期するプログラム\" の選択"
+
+#: ../gnome-volume-properties.glade.h:50
+msgid "Storage"
+msgstr "ストレージ"
+
+#: ../gnome-volume-properties.glade.h:51
+msgid "Sync PocketP_C devices when connected"
+msgstr "PocketPC が接続されたら同期する(_C)"
+
+#: ../gnome-volume-properties.glade.h:52
+msgid "Sync _Palm™ devices when connected"
+msgstr "Palm™ が接続されたら同期する(_P)"
+
+#: ../gnome-volume-properties.glade.h:53
+msgid "_Auto-run programs on new drives and media"
+msgstr "自動的に新しいドライブ/メディアでプログラムを実行する(_A)"
+
+#: ../gnome-volume-properties.glade.h:54
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "空のディスクが挿入されたら CD/DVD を作成する(_B)"
+
+#: ../gnome-volume-properties.glade.h:55
+msgid "_Command:"
+msgstr "コマンド(_C):"
+
+#: ../gnome-volume-properties.glade.h:56
+msgid "_Edit video when connected"
+msgstr "接続したらビデオを編集する(_E)"
+
+#: ../gnome-volume-properties.glade.h:57
+msgid "_Import digital photographs when connected"
+msgstr "接続したら写真を取り込む(_I)"
+
+#: ../gnome-volume-properties.glade.h:58
+msgid "_Mount removable drives when hot-plugged"
+msgstr "ドライブがホット・プラグされたらマウントする(_M)"
+
+#: ../src/manager.c:203 ../src/manager.c:208 ../src/manager.c:213
+#: ../src/manager.c:219 ../src/manager.c:225 ../src/manager.c:231
+#: ../src/manager.c:237
+msgid "Ig_nore"
+msgstr "無視する(_N)"
+
+#: ../src/manager.c:204
+msgid "_Allow Auto-Run"
+msgstr "自動実行を許可する(_A)"
+
+#: ../src/manager.c:209 ../src/manager.c:215 ../src/manager.c:220
+msgid "Import _Photos"
+msgstr "写真を取り込む(_P)"
+
+#: ../src/manager.c:214
+msgid "_Open Folder"
+msgstr "フォルダを開く(_O)"
+
+#: ../src/manager.c:221
+msgid "Manage _Music"
+msgstr "楽曲を管理する(_M)"
+
+#: ../src/manager.c:226
+msgid "_Browse Files"
+msgstr "ファイルを参照する(_B)"
+
+#: ../src/manager.c:227
+msgid "_Play CD"
+msgstr "CD を演奏する(_P)"
+
+#: ../src/manager.c:232
+msgid "Make _Audio CD"
+msgstr "オーディオ CD を作成する(_A)"
+
+#: ../src/manager.c:233
+msgid "Make _Data CD"
+msgstr "データ CD を作成する(_D)"
+
+#: ../src/manager.c:238
+msgid "Make _DVD"
+msgstr "DVD を作成する(_D)"
+
+#: ../src/manager.c:290
+msgid "Auto-Run Confirmation"
+msgstr "自動実行の確認"
+
+#: ../src/manager.c:291
+msgid "Auto-run capability detected."
+msgstr "自動実行の機能を検出しました。"
+
+#: ../src/manager.c:292
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "<b>'${0}'</b> を実行できるようにしますか？"
+
+#: ../src/manager.c:297 ../src/manager.c:304
+msgid "Camera Import"
+msgstr "カメラからの取り込み"
+
+#: ../src/manager.c:298 ../src/manager.c:305
+msgid "A camera has been detected."
+msgstr "カメラの接続を検出しました。"
+
+#: ../src/manager.c:299 ../src/manager.c:306
+msgid ""
+"There are photos on the camera. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"接続したカメラの中に写真があります。これらの写真をお気に入りのアルバムへ取り"
+"込みますか？"
+
+#: ../src/manager.c:300 ../src/manager.c:307 ../src/manager.c:314
+#: ../src/manager.c:321 ../src/manager.c:328
+msgid "_Always perform this action"
+msgstr "常にこの処理を実行する(_A)"
+
+#: ../src/manager.c:311
+msgid "Photo Import"
+msgstr "写真の取り込み"
+
+#: ../src/manager.c:312
+msgid "A photo card has been detected."
+msgstr "写真を格納したメディアを検出しました。"
+
+#: ../src/manager.c:313
+msgid ""
+"There are photos on the card. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"挿入したカードの中に写真があります。これらの写真をお気に入りのアルバムへ取り"
+"込みますか？"
+
+#: ../src/manager.c:318
+msgid "Photos and Music"
+msgstr "写真と楽曲が混在しています"
+
+#: ../src/manager.c:319
+msgid "Photos were found on your music device."
+msgstr "楽曲用のデバイスに写真が数枚あるようです。"
+
+#: ../src/manager.c:320
+msgid "Would you like to import the photos or manage its music?"
+msgstr "写真を取り込みますか？ それとも楽曲を管理しますか？"
+
+#: ../src/manager.c:325
+msgid "Audio / Data CD"
+msgstr "楽曲とデータが混在した CD"
+
+#: ../src/manager.c:326
+msgid "The CD in the drive contains both music and files."
+msgstr "ドライブに挿入されている CD には楽曲とデータの両方が含まれています。"
+
+#: ../src/manager.c:327
+msgid "Would you like to listen to music or browse the files?"
+msgstr "楽曲を演奏しますか？ それともファイルを参照しますか？"
+
+#: ../src/manager.c:332 ../src/manager.c:339
+msgid "Choose Disc Type"
+msgstr "ディスクの種類の選択"
+
+#: ../src/manager.c:333 ../src/manager.c:340
+msgid "You have inserted a blank disc."
+msgstr "空のディスクが挿入されています。"
+
+#: ../src/manager.c:334 ../src/manager.c:341
+msgid "What would you like to do?"
+msgstr "どのように処理しますか？"
+
+#: ../src/manager.c:2871
+#, c-format
+msgid "%d%% of the disk space on %s is in use"
+msgstr "%d%% 使用 (%s のディスクスペース中)"
+
+#: ../src/manager.c:2963
+msgid "Print version and exit"
+msgstr "バージョンを表示して終了する"
+
+#: ../src/manager.c:2965
+msgid "Run as a daemon"
+msgstr "デーモンとして起動する"
+
+#: ../src/manager.c:2967
+msgid "Don't run as a daemon"
+msgstr "デーモンとして起動しない"
+
+#: ../src/manager.c:2969
+msgid "Run in secret mode"
+msgstr "シークレット・モードで起動する"
+
+#: ../src/manager.c:3001
+#, c-format
+msgid "Unrecognized --daemon argument: %s\n"
+msgstr "認識されていません -- デーモン引数: %s\n"
+
+#: ../src/properties.c:305
+msgid "Could not load the main interface"
+msgstr "GUI インタフェース定義を読み込めません"
+
+#: ../src/properties.c:307
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "gnome-volume-manager が正しくインストールされているか確認して下さい。"
+
+#: ../src/properties.c:466
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"gnome-volume-manager daemon の起動エラー:\n"
+"%s"
+
+#: ../src/properties.c:497
+msgid "Volume management not supported"
+msgstr "ボリューム・マネージメントはサポートされていません。"
+
+#: ../src/properties.c:499
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr ""
+"\"hald\" というサービスが必要ですが現在起動されていないようです。このサービス"
+"を有効にしてから、このアプリを再起動するか、あるいはこのシステムの管理者に連"
+"絡してみて下さい。\n"
+"\n"
+"注意: このアプリを起動するには Linux Kernel 2.6 が必要です。"

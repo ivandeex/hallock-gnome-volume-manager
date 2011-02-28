@@ -1,0 +1,811 @@
+# Slovak translations for gnome-volume-manager package.
+# Copyright (C) 2004, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-volume-manager package.
+# Marcel Telka <marcel@telka.sk>, 2004, 2005.
+#
+# $Id: sk.po,v 1.15 2006/02/27 16:02:35 fejj Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-06 17:42+0100\n"
+"PO-Revision-Date: 2005-11-06 17:46+0100\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "Zaškrtávacie pole \"Vždy vykonať túto akciu\" pre Autorun"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "Zaškrtávacie pole \"Vždy vykonať túto akciu\" pre fotky iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr ""
+"Zaškrtávacie pole \"Vždy vykonať túto akciu\" pre zmiešané zvukové a dátové "
+"CD"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr ""
+"Zaškrtávacie pole \"Vždy vykonať túto akciu\" pre import fotiek z fotoaparátu"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr ""
+"Zaškrtávacie pole \"Vždy vykonať túto akciu\" pre import fotiek zo zariadenia"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"Dvojbodkou oddelený zoznam ciest, ktoré sa majú kontrolovať na automaticky "
+"spúšťané binárky a skripty."
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "Akcia, ktorú vykonať pri pripojení fotoaparátu."
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr "Akcia, ktorú vykonať, keď sa objaví zariadenie, ktoré obsahuje fotky."
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr "Akcia, ktorú vykonať, keď zariadenie obsahuje autorun program/skript."
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr "Akcia, ktorú vykonať, keď sa objaví zmiešané zvukové a dátové CD."
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr "Akcia, ktorú vykonať, keď sa objaví iPod Photo."
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "Príkaz vypaľovania zvukového CD"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "Automaticky pripojiť vyberateľné jednotky"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "Automaticky pripojiť vyberateľné médiá"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Automaticky spustiť nautilus"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "Cesta automatického spúšťania"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "Príkaz na prehratie CD"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Command to mount a drive"
+msgstr "Príkaz na pripojenie zariadenia"
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a Palm is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojený Palm."
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid "Command to run when a PocketPC is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojený PocketPC."
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"Príkaz, ktorý spustiť, keď je pripojený digitálny fotoaparát, alebo je "
+"vložené médium z digitálneho fotoaparáta."
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a keyboard is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojená klávesnica."
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a mouse is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojená myš."
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a printer is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojená tlačiareň."
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a scanner is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojený skener."
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "Príkaz, ktorý spustiť, keď je vložené video DVD."
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "Príkaz, ktorý spustiť, keď je vložené video VCD."
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojená videokamera."
+
+#: ../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "Príkaz, ktorý spustiť, keď je vložené zvukové CD."
+
+#: ../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "Príkaz, ktorý spustiť, keď je pripojený iPod."
+
+#: ../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr ""
+"Príkaz, ktorý spustiť, keď je stlačené tlačidlo vysunutia na optickej "
+"jednotke."
+
+#: ../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr "Príkaz, ktorý spustiť, keď chce používateľ vypáliť dátové CD."
+
+#: ../gnome-volume-manager.schemas.in.h:33
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "Príkaz, ktorý spustiť, keď chce používateľ vypáliť zvukové CD."
+
+#: ../gnome-volume-manager.schemas.in.h:34
+msgid "Command to unmount a drive"
+msgstr "Príkaz na odpojenie zariadenia"
+
+#: ../gnome-volume-manager.schemas.in.h:35
+msgid "DVD play command"
+msgstr "Príkaz prehratia DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:36
+msgid "Data CD burn command"
+msgstr "Príkaz na vypaľovanie dátového CD"
+
+#: ../gnome-volume-manager.schemas.in.h:37
+msgid "Eject command"
+msgstr "Príkaz na vysunutie"
+
+#: ../gnome-volume-manager.schemas.in.h:38
+msgid "Open nautilus on removeable media insert."
+msgstr "Otvoriť nautilus pri vložené vyberateľného média."
+
+#: ../gnome-volume-manager.schemas.in.h:39
+msgid "Perform autorun"
+msgstr "Vykonať automatické spustenie"
+
+#: ../gnome-volume-manager.schemas.in.h:40
+msgid "Photo management command"
+msgstr "Príkaz pre správu fotografií"
+
+#: ../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted audio CD's"
+msgstr "Prehrať vložené zvukovéé CD"
+
+#: ../gnome-volume-manager.schemas.in.h:42
+msgid "Play inserted video DVDs"
+msgstr "Prehrať vložené video DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:43
+msgid "Play inserted video VCDs"
+msgstr "Prehrať vložené video VCD"
+
+#: ../gnome-volume-manager.schemas.in.h:44
+msgid "Run Palm-sync program"
+msgstr "Spustiť program na synchronizáciu s Palmom"
+
+#: ../gnome-volume-manager.schemas.in.h:45
+msgid "Run PocketPC-sync program"
+msgstr "Spustiť program na synchronizáciu s PocketPC"
+
+#: ../gnome-volume-manager.schemas.in.h:46
+msgid "Run a program to burn CDs/DVDs"
+msgstr "Spustiť program na vypálenie CD/DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:47
+msgid "Run iPod program"
+msgstr "Spustiť iPod program"
+
+#: ../gnome-volume-manager.schemas.in.h:48
+msgid "Run keyboard program"
+msgstr "Spustiť program klávesnice"
+
+#: ../gnome-volume-manager.schemas.in.h:49
+msgid "Run mouse program"
+msgstr "Spustiť program myši"
+
+#: ../gnome-volume-manager.schemas.in.h:50
+msgid "Run photo management command"
+msgstr "Spustiť príkaz pre správu fotografií"
+
+#: ../gnome-volume-manager.schemas.in.h:51
+msgid "Run printer program"
+msgstr "Spustiť program tlačiarne"
+
+#: ../gnome-volume-manager.schemas.in.h:52
+msgid "Run scanner program"
+msgstr "Spustiť program skenera"
+
+#: ../gnome-volume-manager.schemas.in.h:53
+msgid "Run video editing program"
+msgstr "Spustiť program úpravy videa"
+
+#: ../gnome-volume-manager.schemas.in.h:54
+msgid "User override mount command"
+msgstr "Používateľom prekrytý príkaz pripojenia"
+
+#: ../gnome-volume-manager.schemas.in.h:55
+msgid "User override unmount command"
+msgstr "Používateľom prekrytý príkaz odpojenia"
+
+#: ../gnome-volume-manager.schemas.in.h:56
+msgid "VCD play command"
+msgstr "Príkaz na prehratie VCD"
+
+#: ../gnome-volume-manager.schemas.in.h:57
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"Či sa majú automaticky spúšťať programy (binárky a skripty umiestnené v "
+"'autorun_path') na novo pripojených médiách."
+
+#: ../gnome-volume-manager.schemas.in.h:58
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"Či má gnome-volume-manager automaticky pripojiť vyberateľné úložné jednotky, "
+"keď sú vložené."
+
+#: ../gnome-volume-manager.schemas.in.h:59
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"Či má gnome-volume-manager automaticky pripojiť vyberateľné úložné médiá, "
+"keď sú vložené."
+
+#: ../gnome-volume-manager.schemas.in.h:60
+msgid ""
+"Whether, when a Palm is connected, gnome-volume-manager should run "
+"'autopalmsync_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení Palmu spustiť 'autopalmsync_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:61
+msgid ""
+"Whether, when a PocketPC is connected, gnome-volume-manager should run "
+"'autopocketpc_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení PocketPC spustiť "
+"'autopocketpc_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:62
+msgid ""
+"Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run "
+"one of the autoburn commands."
+msgstr ""
+"Či má gnome-volume-manager po vložení čistého CD alebo DVD spustiť jeden z "
+"príkazov na automatické vypaľovanie."
+
+#: ../gnome-volume-manager.schemas.in.h:63
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení digitálneho fotoaparátu alebo "
+"vložení média z digitálneho fotoaparátu spustiť 'autophoto_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:64
+msgid ""
+"Whether, when a digital video camera is connected, gnome-volume-manager "
+"should run 'autovideocam_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení videokamery spustiť "
+"'autovideocam_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:65
+msgid ""
+"Whether, when a keyboard is connected, gnome-volume-manager should run "
+"'autokeyboard_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení klávesnice spustiť "
+"'autokeyboard_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:66
+msgid ""
+"Whether, when a mouse is connected, gnome-volume-manager should run "
+"'automouse_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení myši spustiť 'automouse_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:67
+msgid ""
+"Whether, when a printer is connected, gnome-volume-manager should run "
+"'autoprinter_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení tlačiarne spustiť "
+"'autoprinter_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:68
+msgid ""
+"Whether, when a scanner is connected, gnome-volume-manager should run "
+"'autoscanner_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení skenera spustiť "
+"'autoscanner_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:69
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"Či má gnome-volume-manager po vložení video DVD spustiť "
+"'autoplay_dvd_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:70
+msgid ""
+"Whether, when a video VCD is inserted, gnome-volume-manager should run "
+"'autoplay_vcd_command'."
+msgstr ""
+"Či má gnome-volume-manager po vložení video VCD spustiť "
+"'autoplay_vcd_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:71
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"Či má gnome-volume-manager po vložení zvukového CD spustiť "
+"'autoplay_cda_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:72
+msgid ""
+"Whether, when an iPod is connected, gnome-volume-manager should run "
+"'autoipod_command'."
+msgstr ""
+"Či má gnome-volume-manager po pripojení iPod spustiť 'autoipod_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:73
+msgid "iPod sync command"
+msgstr "Príkaz na synchronizáciu s iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:74
+msgid "keyboard command"
+msgstr "príkaz klávesnice"
+
+#: ../gnome-volume-manager.schemas.in.h:75
+msgid "mouse command"
+msgstr "príkaz myši"
+
+#: ../gnome-volume-manager.schemas.in.h:76
+msgid "palm sync command"
+msgstr "príkaz na synchronizáciu s palmom"
+
+#: ../gnome-volume-manager.schemas.in.h:77
+msgid "printer command"
+msgstr "príkaz tlačiarne"
+
+#: ../gnome-volume-manager.schemas.in.h:78
+msgid "scanner command"
+msgstr "príkaz skenera"
+
+#: ../gnome-volume-manager.schemas.in.h:79
+msgid "video camera command"
+msgstr "príkaz videokamery"
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Správa konfigurácie vyberateľných zariadení a médií"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Vyberateľné zariadenia a médiá"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>Zvukové CD disky</b>"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>Čisté CD a DVD disky</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Digitálny fotoaparát</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>Digitálna videokamera</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>Klávesnice</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>Myši</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm™</b>"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>PocketPC</b>"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "<b>Printers</b>"
+msgstr "<b>Tlačiarne</b>"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Vyberateľné úložiská</b>"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "<b>Scanners</b>"
+msgstr "<b>Skenery</b>"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "<b>Tablets</b>"
+msgstr "<b>Tablety</b>"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>Video DVD disky</b>"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "<b>iPod™</b>"
+msgstr "<b>iPod™</b>"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Automaticky spustiť program, keď je pripojená USB _klávesnica"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Automaticky spustiť program, keď je pripojená USB _myš"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Automaticky spustiť program, keď je pripojená _tlačiareň"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "Automaticky spustiť program, keď je pripojený _skener."
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Automaticky spustiť program, keď je pripojený _tablet."
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "Prezerať _vyberateľné médiá po vložení"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "P_ríkaz:"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "Kamery"
+
+#: ../gnome-volume-properties.glade.h:24
+msgid "Comma_nd:"
+msgstr "Prí_kaz:"
+
+#: ../gnome-volume-properties.glade.h:25
+msgid "Comman_d:"
+msgstr "P_ríkaz:"
+
+#: ../gnome-volume-properties.glade.h:26
+msgid "Command for A_udio CDs:"
+msgstr "Príkaz pre zv_ukové CD:"
+
+#: ../gnome-volume-properties.glade.h:27
+msgid "Command for _Data CDs: "
+msgstr "Príkaz pre _dátové CD: "
+
+#: ../gnome-volume-properties.glade.h:28
+msgid "Command:"
+msgstr "Príkaz:"
+
+#: ../gnome-volume-properties.glade.h:29
+msgid "Drives and Media Preferences"
+msgstr "Predvoľby jednotiek a médií"
+
+#: ../gnome-volume-properties.glade.h:30
+msgid "Input Devices"
+msgstr "Vstupné zariadenia"
+
+#: ../gnome-volume-properties.glade.h:31
+msgid "Mount removable media when _inserted"
+msgstr "Pripojiť vyberateľné médiá pri _vložení"
+
+#: ../gnome-volume-properties.glade.h:32
+msgid "Multimedia"
+msgstr "Multimédiá"
+
+#: ../gnome-volume-properties.glade.h:33
+msgid "PDAs"
+msgstr "PDA"
+
+#: ../gnome-volume-properties.glade.h:34
+msgid "Play _audio CD discs when inserted"
+msgstr "Prehrať _zvukové CD disky pri ich vložení"
+
+#: ../gnome-volume-properties.glade.h:35
+msgid "Play _video DVD disks when inserted"
+msgstr "Prehrať video _DVD disky pri ich vložení"
+
+#: ../gnome-volume-properties.glade.h:36
+msgid "Printers & Scanners"
+msgstr "Tlačiarne a skenery"
+
+#: ../gnome-volume-properties.glade.h:37
+msgid "Removable Drives and Media Preferences"
+msgstr "Predvoľby vyberateľných zariadení a médií"
+
+#: ../gnome-volume-properties.glade.h:38
+msgid "Select program to burn audio CDs"
+msgstr "Vybrať program na vypaľovanie zvukových CD"
+
+#: ../gnome-volume-properties.glade.h:39
+msgid "Select program to burn data CDs"
+msgstr "Vybrať program na vypaľovanie dátových CD"
+
+#: ../gnome-volume-properties.glade.h:40
+msgid "Select program to edit videos"
+msgstr "Vybrať program na úpravu videa"
+
+#: ../gnome-volume-properties.glade.h:41
+msgid "Select program to import photos"
+msgstr "Vybrať program na import fotiek"
+
+#: ../gnome-volume-properties.glade.h:42
+msgid "Select program to play DVDs"
+msgstr "Vybrať program na prehratie DVD"
+
+#: ../gnome-volume-properties.glade.h:43
+msgid "Select program to play audio CDs"
+msgstr "Vybrať program na prehratie zvukových CD"
+
+#: ../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "Vybrať program, ktorý spustiť, keď je pripojená klávesnica"
+
+#: ../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "Vybrať program, ktorý spustiť, keď je pripojená myš"
+
+#: ../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "Vybrať program, ktorý spustiť, keď je pripojená tlačiareň"
+
+#: ../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "Vybrať program, ktorý spustiť, keď je pripojený skener"
+
+#: ../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "Vybrať program, ktorý spustiť, keď je pripojený tablet"
+
+#: ../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "Vybrať program na synchronizáciu zariadení Palm"
+
+#: ../gnome-volume-properties.glade.h:50
+msgid "Select program to sync iPod"
+msgstr "Vybrať program na synchronizáciu s iPod"
+
+#: ../gnome-volume-properties.glade.h:51
+msgid "Storage"
+msgstr "Úložisko"
+
+#: ../gnome-volume-properties.glade.h:52
+msgid "Sync PocketP_C devices when connected"
+msgstr "Synchronizovať zariadenia PocketP_C pri pripojení"
+
+#: ../gnome-volume-properties.glade.h:53
+msgid "Sync _Palm™ devices when connected"
+msgstr "Synchronizovať zariadenia _Palm™ pri pripojení"
+
+#: ../gnome-volume-properties.glade.h:54
+msgid "Sync _music files when connected"
+msgstr "Synchronizovať _hudobné súbory pri pripojení"
+
+#: ../gnome-volume-properties.glade.h:55
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Automaticky spustiť programy na nových jednotkách a médiách"
+
+#: ../gnome-volume-properties.glade.h:56
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Vypáliť CD alebo DVD, keď je vložený čistý disk"
+
+#: ../gnome-volume-properties.glade.h:57
+msgid "_Command:"
+msgstr "_Príkaz:"
+
+#: ../gnome-volume-properties.glade.h:58
+msgid "_Edit video when connected"
+msgstr "_Upraviť video pri pripojení"
+
+#: ../gnome-volume-properties.glade.h:59
+msgid "_Import digital photographs when connected"
+msgstr "_Importovať digitálne fotografie pre pripojení"
+
+#: ../gnome-volume-properties.glade.h:60
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Pripojiť vyberateľné jednotky keď sú zapojené za behu"
+
+#: ../src/manager.c:178 ../src/manager.c:183 ../src/manager.c:188
+#: ../src/manager.c:194 ../src/manager.c:200 ../src/manager.c:206
+#: ../src/manager.c:212
+msgid "Ig_nore"
+msgstr "_Ignorovať"
+
+#: ../src/manager.c:179
+msgid "_Allow Auto-Run"
+msgstr "_Povoliť automatiské spustenie"
+
+#: ../src/manager.c:184 ../src/manager.c:190 ../src/manager.c:195
+msgid "Import _Photos"
+msgstr "_Importovať fotky"
+
+#: ../src/manager.c:189
+msgid "_Open Folder"
+msgstr "_Otvoriť priečinok"
+
+#: ../src/manager.c:196
+msgid "Manage _Music"
+msgstr "Spravovať _hudbu"
+
+#: ../src/manager.c:201
+msgid "_Browse Files"
+msgstr "_Prezerať súbory"
+
+#: ../src/manager.c:202
+msgid "_Play CD"
+msgstr "_Prehrať CD"
+
+#: ../src/manager.c:207
+msgid "Make _Audio CD"
+msgstr "Vytvoriť _zvukové CD"
+
+#: ../src/manager.c:208
+msgid "Make _Data CD"
+msgstr "Vytvoriť _dátové CD"
+
+#: ../src/manager.c:213
+msgid "Make _DVD"
+msgstr "Vytvoriť _DVD"
+
+#: ../src/manager.c:265
+msgid "Auto-Run Confirmation"
+msgstr "Potvrdenie automatického spustenia"
+
+#: ../src/manager.c:266
+msgid "Auto-run capability detected."
+msgstr "Detekovaná schopnosť automatického spustenia."
+
+#: ../src/manager.c:267
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "Chceli by ste umožniť spustenie pre <b>'${0}'</b>?"
+
+#: ../src/manager.c:272 ../src/manager.c:279
+msgid "Camera Import"
+msgstr "Import z fotoaparátu"
+
+#: ../src/manager.c:273 ../src/manager.c:280
+msgid "A camera has been detected."
+msgstr "Bol detekovaný fotoaparát."
+
+#: ../src/manager.c:274 ../src/manager.c:281
+msgid ""
+"There are photos on the camera. Would you like to add these pictures to your "
+"album?"
+msgstr "Vo fotoaparáte sú fotky. Chcete pridať tieto obrázky do vášho albumu?"
+
+#: ../src/manager.c:275 ../src/manager.c:282 ../src/manager.c:289
+#: ../src/manager.c:296 ../src/manager.c:303
+msgid "_Always perform this action"
+msgstr "_Vždy vykonať túto akciu"
+
+#: ../src/manager.c:286
+msgid "Photo Import"
+msgstr "Import fotiek"
+
+#: ../src/manager.c:287
+msgid "A photo card has been detected."
+msgstr "Bola detekovaná karta s fotografami."
+
+#: ../src/manager.c:288
+msgid ""
+"There are photos on the card. Would you like to add these pictures to your "
+"album?"
+msgstr "Na karte sú fotky. Chcete pidať tieto obrázky do vášho albumu?"
+
+#: ../src/manager.c:293
+msgid "Photos and Music"
+msgstr "Fotky a hudba"
+
+#: ../src/manager.c:294
+msgid "Photos were found on your music device."
+msgstr "Na hudobnom zariadení boli nájdené fotky."
+
+#: ../src/manager.c:295
+msgid "Would you like to import the photos or manage its music?"
+msgstr "Chcete importovať fotky alebo spravovať jeho hudbu?"
+
+#: ../src/manager.c:300
+msgid "Audio / Data CD"
+msgstr "Zvukové / dátové CD"
+
+#: ../src/manager.c:301
+msgid "The CD in the drive contains both music and files."
+msgstr "CD v zariadení obsahuje aj hudbu aj súbory."
+
+#: ../src/manager.c:302
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Chcete počúvať hudbu alebo prezerať súbory?"
+
+#: ../src/manager.c:307 ../src/manager.c:314
+msgid "Choose Disc Type"
+msgstr "Vybrať typ disku"
+
+#: ../src/manager.c:308 ../src/manager.c:315
+msgid "You have inserted a blank disc."
+msgstr "Vložili ste čistý disk."
+
+#: ../src/manager.c:309 ../src/manager.c:316
+msgid "What would you like to do?"
+msgstr "Čo chcete urobiť?"
+
+#: ../src/properties.c:294
+msgid "Could not load the main interface"
+msgstr "Nepodarilo sa nahrať hlavné rozhranie"
+
+#: ../src/properties.c:296
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "Prosím, uistite sa, že správca zväzkov je správne nainštalovaný"
+
+#: ../src/properties.c:455
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"Chyba pri spúšťaní démona gnome-volume-manager:\n"
+"%s"
+
+#: ../src/properties.c:486
+msgid "Volume management not supported"
+msgstr "Správa zväzkov nie je podporovaná"
+
+#: ../src/properties.c:488
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr ""
+"Služba \"hald\" je potrebná, ale momentálne nebeží. Povoľte službu a "
+"opätovne spustite túto aplikáciu, alebo kontaktuje správcu vášho systému.\n"
+"\n"
+"Poznámka: Potrebujete jadro Linuxu 2.6, aby správa zväzkov fungovala."

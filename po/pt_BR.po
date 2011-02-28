@@ -1,0 +1,931 @@
+# Brazilian Portuguese translation of gnome-volume-manager.
+# Copyright (C) 2004-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-volume-manager package.
+# Raphael Higino <raphaelh@uai.com.br>, 2004-2005.
+# Leonardo Silva Amaral <leonardosilv@yahoo.com.br>, 2005.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-10 23:24-0300\n"
+"PO-Revision-Date: 2006-03-10 20:54-0300\n"
+"Last-Translator: Leandro A. F. Pereira <leandro@linuxmag.com.br>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "\"Sempre executar esta ação\" para auto-execução"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "\"Sempre executar esta ação\" para iPod Photos"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr "\"Sempre executar esta ação\" para CDs de Áudio e Dados"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr "\"Sempre executar esta ação\" para importar fotos de uma câmera"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr "\"Sempre executar esta ação\" para importar fotos de um dispositivo"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"Lista de caminhos, delimitados por ':', para procurar por binários e scripts "
+"de auto-execução."
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "Ação para executar quando uma câmera for conectada."
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr ""
+"Ação para executar quando um dispositivo contendo fotos for encontrado."
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr ""
+"Ação para executar quando um dispositivo contém um programa/script para auto-"
+"executar."
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr "Ação para executar quando um CD misto de Áudio e Dados for encontrado."
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr "Ação para executar quando um iPod Photo for encontrado."
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "Comando para gravar CDs de áudio"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "Montar unidades removíveis automaticamente"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "Montar mídias removíveis automaticamente"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Auto-executar o nautilus"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "Caminho para auto-execução"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "Comando para reproduzir CDs"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Command to run when a Palm is connected."
+msgstr "Comando para executar quando um Palm for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a PocketPC is connected."
+msgstr "Comando para executar quando um PocketPC for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"Comando a executar quando uma câmera digital for conectada ou uma mídia de "
+"uma câmera digital for inserida."
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Command to run when a keyboard is connected."
+msgstr "Comando para executar quando um teclado for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a mouse is connected."
+msgstr "Comando para executar quando um mouse for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a printer is connected."
+msgstr "Comando para executar quando uma impressora for conectada."
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a scanner is connected."
+msgstr "Comando para executar quando um scanner for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a tablet is connected."
+msgstr "Comando para executar quando um tablet for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "Comando para executar quando um DVD de vídeo for inserido."
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "Comando para executar quando um VCD for inserido."
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "Comando para executar quando uma câmera de vídeo for conectada."
+
+#: ../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "Comando para executar quando um CD de áudio for inserido."
+
+#: ../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "Comando para executar quando um iPod for conectado."
+
+#: ../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr "Comando para executar quando o usuário desejar gravar um CD de dados."
+
+#: ../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "Comando para executar quando o usuário desejar gravar um CD de Áudio."
+
+#: ../gnome-volume-manager.schemas.in.h:33
+msgid "DVD play command"
+msgstr "Comando para reproduzir DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:34
+msgid "Data CD burn command"
+msgstr "Comando para gravar CD de dados"
+
+#: ../gnome-volume-manager.schemas.in.h:35
+msgid "Low Disk Space notification threshold"
+msgstr "Limiar de notificação de Pouco Espaço em Disco"
+
+#: ../gnome-volume-manager.schemas.in.h:36
+msgid "Open nautilus on removeable media insert."
+msgstr "Abrir o nautilus ao inserir mídias removíveis."
+
+#: ../gnome-volume-manager.schemas.in.h:37
+msgid "Perform autorun"
+msgstr "Auto-executar"
+
+#: ../gnome-volume-manager.schemas.in.h:38
+msgid "Photo management command"
+msgstr "Comando para gerenciamento de fotos"
+
+#: ../gnome-volume-manager.schemas.in.h:39
+msgid "Play inserted audio CD's"
+msgstr "Reproduzir CDs de áudio inseridos"
+
+#: ../gnome-volume-manager.schemas.in.h:40
+msgid "Play inserted video DVDs"
+msgstr "Reproduzir DVDs de vídeo inseridos"
+
+#: ../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted video VCDs"
+msgstr "Reproduzir VCDs inseridos"
+
+#: ../gnome-volume-manager.schemas.in.h:42
+msgid "Run Palm-sync program"
+msgstr "Executar programa de sincronização de Palm"
+
+#: ../gnome-volume-manager.schemas.in.h:43
+msgid "Run PocketPC-sync program"
+msgstr "Executar programa de sincronização de PocketPC"
+
+#: ../gnome-volume-manager.schemas.in.h:44
+msgid "Run a program to burn CDs/DVDs"
+msgstr "Executar um programa para gravar CDs/DVDs"
+
+#: ../gnome-volume-manager.schemas.in.h:45
+msgid "Run iPod program"
+msgstr "Executar programa para iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:46
+msgid "Run keyboard program"
+msgstr "Executar programa para teclado"
+
+#: ../gnome-volume-manager.schemas.in.h:47
+msgid "Run mouse program"
+msgstr "Executar programa para mouse"
+
+#: ../gnome-volume-manager.schemas.in.h:48
+msgid "Run photo management command"
+msgstr "Executar o comando de gerenciamento de fotos"
+
+#: ../gnome-volume-manager.schemas.in.h:49
+msgid "Run printer program"
+msgstr "Executar programa para impressora"
+
+#: ../gnome-volume-manager.schemas.in.h:50
+msgid "Run scanner program"
+msgstr "Executar programa para scanner"
+
+#: ../gnome-volume-manager.schemas.in.h:51
+msgid "Run tablet program"
+msgstr "Executar programa para tablet"
+
+#: ../gnome-volume-manager.schemas.in.h:52
+msgid "Run video editing program"
+msgstr "Executar programa para edição de vídeo"
+
+#: ../gnome-volume-manager.schemas.in.h:53
+msgid ""
+"The threshold value for whether or not to toggle the notification on, based "
+"on the amount of additional space used since the last check."
+msgstr ""
+"O valor limiar para ativar a notificação, baseado na quantidade de espaço "
+"adicional usado desde a última verificação."
+
+#: ../gnome-volume-manager.schemas.in.h:54
+msgid "Threshold for notification of increased disk usage"
+msgstr "Limiar para notificação de aumento do uso do disco"
+
+#: ../gnome-volume-manager.schemas.in.h:55
+msgid "Threshold percentage for notifying the user of low disk space."
+msgstr ""
+"Percentual limiar para notificar o usuário sobre pouco espaço em disco."
+
+#: ../gnome-volume-manager.schemas.in.h:56
+msgid "VCD play command"
+msgstr "Comando para reproduzir VCD"
+
+#: ../gnome-volume-manager.schemas.in.h:57
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"Se programas de auto-execução (binários e scripts localizados em "
+"'autorun_path') devem ser executados em mídias montadas recentemente."
+
+#: ../gnome-volume-manager.schemas.in.h:58
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"Se o Gerenciador de Volumes do GNOME deve montar unidades de armazenamento "
+"removível automaticamente quando eles são inseridos."
+
+#: ../gnome-volume-manager.schemas.in.h:59
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"Se o Gerenciador de Volumes do GNOME deve montar mídias de armazenamento "
+"removível automaticamente quando elas são inseridas."
+
+#: ../gnome-volume-manager.schemas.in.h:60
+msgid ""
+"Whether, when a Palm is connected, gnome-volume-manager should run "
+"'autopalmsync_command'."
+msgstr ""
+"Se, quando um Palm for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autopalmsync_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:61
+msgid ""
+"Whether, when a PocketPC is connected, gnome-volume-manager should run "
+"'autopocketpc_command'."
+msgstr ""
+"Se, quando um PocketPC for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autopocketpc_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:62
+msgid ""
+"Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run "
+"one of the autoburn commands."
+msgstr ""
+"Se, quando um CD ou DVD virgem for inserido, o Gerenciador de Volumes do "
+"GNOME deve executar um dos comandos para gravação (autoburn)."
+
+#: ../gnome-volume-manager.schemas.in.h:63
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"Se, quando uma câmera digital for conectada ou mídia de uma câmera digital "
+"for inserida, o Gerenciador de Volumes do GNOME deve executar o comando "
+"'autophoto_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:64
+msgid ""
+"Whether, when a digital video camera is connected, gnome-volume-manager "
+"should run 'autovideocam_command'."
+msgstr ""
+"Se, quando uma câmera de vídeo digital for conectada, o Gerenciador de "
+"Volumes do GNOME deve executar o comando 'autovideocam_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:65
+msgid ""
+"Whether, when a keyboard is connected, gnome-volume-manager should run "
+"'autokeyboard_command'."
+msgstr ""
+"Se, quando um teclado for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autokeyboard_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:66
+msgid ""
+"Whether, when a mouse is connected, gnome-volume-manager should run "
+"'automouse_command'."
+msgstr ""
+"Se, quando um mouse for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'automouse_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:67
+msgid ""
+"Whether, when a printer is connected, gnome-volume-manager should run "
+"'autoprinter_command'."
+msgstr ""
+"Se, quando uma impressora for conectada, o Gerenciador de Volumes do GNOME "
+"deve executar o comando 'autoprinter_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:68
+msgid ""
+"Whether, when a scanner is connected, gnome-volume-manager should run "
+"'autoscanner_command'."
+msgstr ""
+"Se, quando um scanner for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autoscanner_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:69
+msgid ""
+"Whether, when a tablet is connected, gnome-volume-manager should run "
+"'autotablet_command'."
+msgstr ""
+"Se, quando um tablet for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autotablet_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:70
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"Se, quando um DVD de vídeo for inserido, o Gerenciador de Volumes do GNOME "
+"deve executar o comando 'autoplay_dvd_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:71
+msgid ""
+"Whether, when a video VCD is inserted, gnome-volume-manager should run "
+"'autoplay_vcd_command'."
+msgstr ""
+"Se, quando um vídeo em VCD for inserido, o Gerenciador de Volumes do GNOME "
+"deve executar o comando 'autoplay_vcd_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:72
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"Se, quando um CD de áudio for inserido, o Gerenciador de Volumes do GNOME "
+"deve executar o comando 'autoplay_cda_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:73
+msgid ""
+"Whether, when an iPod is connected, gnome-volume-manager should run "
+"'autoipod_command'."
+msgstr ""
+"Se, quando um iPod for conectado, o Gerenciador de Volumes do GNOME deve "
+"executar o comando 'autoipod_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:74
+msgid "iPod sync command"
+msgstr "comando para sincronizar iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:75
+msgid "keyboard command"
+msgstr "comando para teclado"
+
+#: ../gnome-volume-manager.schemas.in.h:76
+msgid "mouse command"
+msgstr "comando para mouse"
+
+#: ../gnome-volume-manager.schemas.in.h:77
+msgid "palm sync command"
+msgstr "comando para sincronizar palm"
+
+#: ../gnome-volume-manager.schemas.in.h:78
+msgid "printer command"
+msgstr "comando para impressora"
+
+#: ../gnome-volume-manager.schemas.in.h:79
+msgid "scanner command"
+msgstr "comando para scanner"
+
+#: ../gnome-volume-manager.schemas.in.h:80
+msgid "tablet command"
+msgstr "comando para tablet"
+
+#: ../gnome-volume-manager.schemas.in.h:81
+msgid "video camera command"
+msgstr "Comando para câmera de vídeo"
+
+#: ../gnome-volume-manager.desktop.in.h:1
+msgid "Volume Manager"
+msgstr "Gerenciador de Unidades e Mídias Removíveis"
+
+#: ../gnome-volume-manager.desktop.in.h:2
+msgid "Volume manager for removable drives and media"
+msgstr "Gerenciador de unidades e mídias removíveis"
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Configure o gerenciamento de unidades e mídias removíveis"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Unidades e Mídias Removíveis"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>CDs de Áudio</b>"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>CDs e DVDs Virgens</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Câmera Digital</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>Câmera de Vídeo Digital</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>Teclados</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>Mouse</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm</b>"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>Pocket PC</b>"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "<b>Portable Music Players</b>"
+msgstr "<b>Reprodutores de Música Portáteis</b>"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "<b>Printers</b>"
+msgstr "<b>Impressoras</b>"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Armazenamento Removível</b>"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "<b>Scanners</b>"
+msgstr "<b>Scanners</b>"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "<b>Tablets</b>"
+msgstr "<b>Tablets</b>"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>DVDs de Vídeo</b>"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr ""
+"Automaticamente executar um programa quando um _teclado USB for conectado"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr ""
+"Automaticamente executar um programa quando um _mouse USB for conectado"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Automaticamente executar programa quando uma im_pressora for conectada"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "Automaticamente executar um programa quando um _scanner for conectado"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Automaticamente executar um programa quando um _tablet for conectado"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "Navegar em mídias _removíveis quando forem inseridas"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "C_omando:"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "Câmeras"
+
+#: ../gnome-volume-properties.glade.h:24
+msgid "Comman_d:"
+msgstr "Coman_do:"
+
+#: ../gnome-volume-properties.glade.h:25
+msgid "Command for A_udio CDs:"
+msgstr "Comando para CDs de Á_udio:"
+
+#: ../gnome-volume-properties.glade.h:26
+msgid "Command for _Data CDs: "
+msgstr "Comando para CDs da _Dados:"
+
+#: ../gnome-volume-properties.glade.h:27
+msgid "Drives and Media Preferences"
+msgstr "Preferências de Unidades e Mídias"
+
+#: ../gnome-volume-properties.glade.h:28
+msgid "Input Devices"
+msgstr "Dispositivos de Entrada"
+
+#: ../gnome-volume-properties.glade.h:29
+msgid "Mount removable media when _inserted"
+msgstr "Montar mídias removíveis quando forem _inseridas"
+
+#: ../gnome-volume-properties.glade.h:30
+msgid "Multimedia"
+msgstr "Multimídia"
+
+#: ../gnome-volume-properties.glade.h:31
+msgid "PDAs"
+msgstr "PDAs"
+
+#: ../gnome-volume-properties.glade.h:32
+msgid "Play _audio CD discs when inserted"
+msgstr "Reproduzir _CDs de áudio quando forem inseridos"
+
+#: ../gnome-volume-properties.glade.h:33
+msgid "Play _music files when connected"
+msgstr "Reproduzir arquivos de _música quando forem conectados"
+
+#: ../gnome-volume-properties.glade.h:34
+msgid "Play _video DVD disks when inserted"
+msgstr "Reproduzir DVDs de _vídeo quando forem inseridos"
+
+#: ../gnome-volume-properties.glade.h:35
+msgid "Printers & Scanners"
+msgstr "Impressoras e Scanners"
+
+#: ../gnome-volume-properties.glade.h:36
+msgid "Removable Drives and Media Preferences"
+msgstr "Preferências de Unidades e Mídias Removíveis"
+
+#: ../gnome-volume-properties.glade.h:37
+msgid "Select program to burn audio CDs"
+msgstr "Selecione o programa para gravar CDs de áudio"
+
+#: ../gnome-volume-properties.glade.h:38
+msgid "Select program to burn data CDs"
+msgstr "Selecione o programa para gravar CDs de dados"
+
+#: ../gnome-volume-properties.glade.h:39
+msgid "Select program to edit videos"
+msgstr "Selecione o programa para editar vídeos"
+
+#: ../gnome-volume-properties.glade.h:40
+msgid "Select program to import photos"
+msgstr "Selecione o programa para importar fotos"
+
+#: ../gnome-volume-properties.glade.h:41
+msgid "Select program to play DVDs"
+msgstr "Selecione o programa para reproduzir DVDs"
+
+#: ../gnome-volume-properties.glade.h:42
+msgid "Select program to play audio CDs"
+msgstr "Selecione o programa para reproduzir CDs de áudio"
+
+#: ../gnome-volume-properties.glade.h:43
+msgid "Select program to play music files"
+msgstr "Selecione o programa para reproduzir arquivos de música"
+
+#: ../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "Selecione o programa para executar quando um teclado for conectado"
+
+#: ../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "Selecione o programa para executar quando um mouse for conectado"
+
+#: ../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "Selecione o programa para executar quando uma impressora for conectada"
+
+#: ../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "Selecione o programa para executar quando um scanner for conectado"
+
+#: ../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "Selecione o programa para executar quando um tablet for conectado"
+
+#: ../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "Selecione o programa para sincronizar um Palm"
+
+#: ../gnome-volume-properties.glade.h:50
+msgid "Storage"
+msgstr "Armazenamento"
+
+#: ../gnome-volume-properties.glade.h:51
+msgid "Sync PocketP_C devices when connected"
+msgstr "Sincronizar dispositivos PocketP_C quando conectados"
+
+#: ../gnome-volume-properties.glade.h:52
+msgid "Sync _Palm™ devices when connected"
+msgstr "Sincronizar dispositivos _Palm™ quando conectados"
+
+#: ../gnome-volume-properties.glade.h:53
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Auto-executar programas em unidades e mídias novas"
+
+#: ../gnome-volume-properties.glade.h:54
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Gravar um CD ou DVD quando uma mídia virgem for inserida"
+
+#: ../gnome-volume-properties.glade.h:55
+msgid "_Command:"
+msgstr "_Comando:"
+
+#: ../gnome-volume-properties.glade.h:56
+msgid "_Edit video when connected"
+msgstr "_Editar vídeo quando conectado"
+
+#: ../gnome-volume-properties.glade.h:57
+msgid "_Import digital photographs when connected"
+msgstr "Importar _fotos digitais quando conectado"
+
+#: ../gnome-volume-properties.glade.h:58
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Montar unidades removíveis quando conectadas \"a quente\" (hot plug)"
+
+#: ../src/manager.c:204 ../src/manager.c:209 ../src/manager.c:214
+#: ../src/manager.c:220 ../src/manager.c:226 ../src/manager.c:232
+#: ../src/manager.c:238
+msgid "Ig_nore"
+msgstr "_Ignorar"
+
+#: ../src/manager.c:205
+msgid "_Allow Auto-Run"
+msgstr "Permitir _Auto-Executar"
+
+#: ../src/manager.c:210 ../src/manager.c:216 ../src/manager.c:221
+msgid "Import _Photos"
+msgstr "_Importar Fotos"
+
+#: ../src/manager.c:215
+msgid "_Open Folder"
+msgstr "_Abrir Pasta"
+
+#: ../src/manager.c:222
+msgid "Manage _Music"
+msgstr "Gerenciar _Música"
+
+#: ../src/manager.c:227
+msgid "_Browse Files"
+msgstr "_Navegar nos Arquivos"
+
+#: ../src/manager.c:228
+msgid "_Play CD"
+msgstr "_Reproduzir CD"
+
+#: ../src/manager.c:233
+msgid "Make _Audio CD"
+msgstr "Cri_ar CD de Áudio"
+
+#: ../src/manager.c:234
+msgid "Make _Data CD"
+msgstr "Criar CD de _Dados"
+
+#: ../src/manager.c:239
+msgid "Make _DVD"
+msgstr "Criar _DVD"
+
+#: ../src/manager.c:291
+msgid "Auto-Run Confirmation"
+msgstr "Confirmação para Auto-Executar"
+
+#: ../src/manager.c:292
+msgid "Auto-run capability detected."
+msgstr "Capacidade de auto-executar detectada."
+
+#: ../src/manager.c:293
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "Você deseja permitir que <b>'${0}'</b> seja executado?"
+
+#: ../src/manager.c:298 ../src/manager.c:305
+msgid "Camera Import"
+msgstr "Importar de Câmera"
+
+#: ../src/manager.c:299 ../src/manager.c:306
+msgid "A camera has been detected."
+msgstr "Uma câmera foi detectada"
+
+#: ../src/manager.c:300 ../src/manager.c:307
+msgid ""
+"There are photos on the camera. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"Há fotos na câmera. Você gostaria de importar essas fotos para o seu álbum?"
+
+#: ../src/manager.c:301 ../src/manager.c:308 ../src/manager.c:315
+#: ../src/manager.c:322 ../src/manager.c:329
+msgid "_Always perform this action"
+msgstr "Sempre executar esta _ação"
+
+#: ../src/manager.c:312
+msgid "Photo Import"
+msgstr "Importar Foto"
+
+#: ../src/manager.c:313
+msgid "A photo card has been detected."
+msgstr "Um cartão de foto foi detectado."
+
+#: ../src/manager.c:314
+msgid ""
+"There are photos on the card. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"Há fotos no cartão inserido. Você gostaria de importar essas fotos para o "
+"seu álbum?"
+
+#: ../src/manager.c:319
+msgid "Photos and Music"
+msgstr "Fotos e Música"
+
+#: ../src/manager.c:320
+msgid "Photos were found on your music device."
+msgstr "Fotos foram encontradas no seu dispositivo de música."
+
+#: ../src/manager.c:321
+msgid "Would you like to import the photos or manage its music?"
+msgstr "Você gostaria de importar as fotos ou gerenciar a música?"
+
+#: ../src/manager.c:326
+msgid "Audio / Data CD"
+msgstr "CD de Áudio / Dados"
+
+#: ../src/manager.c:327
+msgid "The CD in the drive contains both music and files."
+msgstr "O CD no disco contém músicas e arquivos."
+
+#: ../src/manager.c:328
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Você gostaria de ouvir música ou gerenciar os arquivos?"
+
+#: ../src/manager.c:333 ../src/manager.c:340
+msgid "Choose Disc Type"
+msgstr "Escolha o Tipo de Disco"
+
+#: ../src/manager.c:334 ../src/manager.c:341
+msgid "You have inserted a blank disc."
+msgstr "Você inseriu um disco virgem."
+
+#: ../src/manager.c:335 ../src/manager.c:342
+msgid "What would you like to do?"
+msgstr "O que você gostaria de fazer?"
+
+#: ../src/manager.c:2842
+#, c-format
+msgid "%d%% of the disk space on %s is in use"
+msgstr "%d%% do espaço em %s está em uso"
+
+#: ../src/manager.c:2924
+msgid "Print version and exit"
+msgstr "Mostrar versão e sair"
+
+#: ../src/manager.c:2926
+msgid "Run as a daemon"
+msgstr "Executar como daemon"
+
+#: ../src/manager.c:2928
+msgid "Don't run as a daemon"
+msgstr "Não executar como daemon"
+
+#: ../src/manager.c:2930
+msgid "Run in secret mode"
+msgstr "Executar em modo secreto"
+
+#: ../src/manager.c:2962
+#, c-format
+msgid "Unrecognized --daemon argument: %s\n"
+msgstr "Argumento --daemon não reconhecido: %s\n"
+
+#: ../src/properties.c:305
+msgid "Could not load the main interface"
+msgstr "Não foi possível carregar a interface principal"
+
+#: ../src/properties.c:307
+msgid "Please make sure that the volume manager is properly installed"
+msgstr ""
+"Por favor, certifique-se de que o Gerenciador de Volumes está instalado "
+"corretamente"
+
+#: ../src/properties.c:466
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"Erro ao iniciar o servidor do Gerenciador de Volumes do GNOME (gnome-volume-"
+"manager):\n"
+"%s"
+
+#: ../src/properties.c:497
+msgid "Volume management not supported"
+msgstr "O gerenciamento de volumes não é suportado"
+
+#: ../src/properties.c:499
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr ""
+"O serviço \"hald\" é necessário, mas não está sendo executado no momento. "
+"Habilite o serviço e execute esse aplicativo novamente, ou contate o seu "
+"administrador de sistema.\n"
+"\n"
+"Nota: Você precisa do Linux versão 2.6 para o gerenciamento de dispositivos "
+"funcionar."
+
+#~ msgid ""
+#~ "The threshold value for whether or not to toggle the notification off, "
+#~ "based on the amount of space freed up by the user since the last check."
+#~ msgstr ""
+#~ "O valor limiar para desativar a notificação, baseado na quantidade de "
+#~ "espaço liberado pelo usuário desde a última verificação."
+
+#~ msgid "Threshold for disk space being freed up, to toggle notification"
+#~ msgstr "Limiar para ativar a notificação de espaço em disco sendo liberado"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mando:"
+
+#~ msgid "Perform action on _blank discs when inserted"
+#~ msgstr "Executar ação em discos _virgens quando forem inseridos"
+
+#~ msgid "Run command from inserted media?"
+#~ msgstr "Você gostaria de executar o comando da mídia removível?"
+
+#~ msgid "The file \"%s\" on the inserted media is an auto-run file."
+#~ msgstr "O arquivo \"%s\" na mídia inserida é um arquivo de auto-execução."
+
+#~ msgid "_Run Command"
+#~ msgstr "E_xecutar comando"
+
+#~ msgid "Import photos from device?"
+#~ msgstr "Você gostaria de importar as fotografias do dispositivo?"
+
+#~ msgid "Import photos from camera?"
+#~ msgstr "Você gostaria de importar as fotografias da câmera?"
+
+#~ msgid "Browse files or play tracks from disc?"
+#~ msgstr ""
+#~ "Você gostaria de navegar nos arquivos ou de reproduzir as faixas do disco?"
+
+#~ msgid ""
+#~ "There are both audio tracks and data files on the inserted disc. Choose "
+#~ "if you want to play the audio tracks to listen to music or browse the "
+#~ "files to manage the stored data."
+#~ msgstr ""
+#~ "Há tanto faixas de áudio quanto arquivos de dados no disco inserido. "
+#~ "Escolha se você quer executar as faixas de áudio ou navegar nos arquivos."
+
+#~ msgid "_Play Tracks"
+#~ msgstr "_Reproduzir faixas"
+
+#~ msgid ""
+#~ "The file \"%s\" on inserted media is auto-run file. It will run some "
+#~ "command for you, usually open folders or start application."
+#~ msgstr ""
+#~ "O arquivo \"%s\" na mídia inserida é um arquivo de autoexecução. Ele vai "
+#~ "executar algum comando por você, geralmente abrir pastas ou iniciar uma "
+#~ "aplicação."
+
+#~ msgid "Play DVD Videos when inserted"
+#~ msgstr "Reproduzir DVDs de Vídeo quando são inseridos"
+
+#~ msgid "Do you want to run %s?"
+#~ msgstr "Você deseja executar %s?"
+
+#~ msgid "Auto-run programs on new drives and media"
+#~ msgstr "Auto-executar programas em unidades e mídias novas"

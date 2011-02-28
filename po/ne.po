@@ -1,0 +1,348 @@
+# translation of gnome-volume-manager.HEAD.po to Nepali
+# Nepali Translation Project  .
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-22 05:35+0000\n"
+"PO-Revision-Date: 2005-05-20 11:10+0545\n"
+"Last-Translator: Jyotshna Shrestha <shresthajyo@hotmail.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Nepali\n"
+"X-Poedit-Country: NEPAL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2;plural=(n!=0)\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr "':'स्वत:चालू द्वगुणीयहरु र लिपिहरु जाँच्न असिमित गरिएका मार्गहरुको सूची।"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr "हटाउन सकिने ड्राइभहरु स्वत: चढाऊ"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr "हटाउन सकिने माध्यमलाई श्‍वत:चढाऊ"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr "नौटिलस स्वत:चालू गर्नुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr "मार्ग स्वत:चालू गर्नुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "सिडिमा लेख्‍ने आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "सिडि शुरु गर्ने आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr "एउटा डिजिटल क्यामेरा जोडिदा वा एउटा डिजिटल क्यामेराको माध्यम घुसाइदा चालू गर्ने आदेश।"
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr "एउटा भिडियो डिभिडि घुसाइदा चालू गर्ने आदेश।"
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr "एउटा श्रव्य सिडि घुसाइदा चालू गर्ने आदेश।"
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr "एउटा खाली सिडि घुसाइदा चालू गर्ने आदेश।"
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr "एउटा चक्षुष ड्राइभमा भएको निकाल बटन थिचिदा चालू गर्ने आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "डिभिडि शुरु गर्ने आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr "निकाल आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr "हटाउन सकिने माध्यम घुसाउदा nautilus खोल।"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr "स्वत:चालु सम्पादन गर्नुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr "फोटो व्यव्स्थापन आदेश"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr "घुसाइएको श्रव्य सिडिहरु बजाऊनुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr "घुसाइएका भिडियो डिभिडिहरु शुरु गर"
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "सिडिमा लेख्‍ने आदेश चालु गर्नुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr "फोटो व्यव्स्थापन आदेश चालु गर्नुहोस्"
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"स्वचालित कार्यक्रमहरु('स्वत:चालू_मार्ग'मा भएका द्वगुणीयहरु र लिपिहरु)लाई नयाँ चढाइएको "
+"माध्यममा चालू गर्ने कि।"
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"हटाउन सकिने भण्डार मिडिया घुसाइदा जी नोम-आयतन-व्यव्स्थापकले त्यसलाई स्वत: चढाउन पर्छ "
+"कि।"
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"हटाउन सकिने भण्डार मिडिया घुसाइदा जी नोम-आयतन-व्यव्स्थापकले त्यसलाई स्वत: चढाउन पर्छ "
+"कि।"
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid ""
+"Whether, when a blank CD is inserted, gnome-volume-manager should run "
+"'autoburn_cdr_command'."
+msgstr ""
+"एउटा खाली सिडि घुसाइदा, जी नोम-आयतन-व्यव्स्थापकले 'स्वत:लेखर_सिडिआर_आदेश' चालू गर्नु "
+"पर्छ कि। "
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"एउटा डिजिटल क्यामेरा जोडिदा वा एउटा डिजिटल क्यामेराको माध्यम घुसाइदा, जी नोम-आयतन-"
+"व्यव्स्थापकले 'स्वत:फोटो_आदेश' चालू गर्नु पर्छ कि। "
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"एउटा भिडियो सिडि घुसाइदा, जी नोम-आयतन-व्यव्स्थापकले 'स्वत:शुरु गर_डिभिडि_आदेश' चालू "
+"गर्नु पर्छ कि। "
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"एउटा श्रव्य सिडि घुसाइदा, जी नोम-आयतन-व्यव्स्थापकले 'स्वत:शुरु गर_सिडिए_आदेश' चालू गर्नु "
+"पर्छ कि। "
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "हटाउन सकिने ड्राइभस् र माध्यमको व्यव्स्थापन समायोजन गर्नुहोस्"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "हटाउन सकिने ड्राइभस् र माध्यम"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>श्रव्य सिडि डिक्सहरू</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>खाली सिडि र डिभिडिहरूु</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Camera</b>"
+msgstr "<b>डिजिटल क्यामेरा</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Removable Storage</b>"
+msgstr "<b>हटाउन सकिने भण्डार</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>भिडियो डिभिडि डिक्सहरू</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "Browse _removable media when inserted"
+msgstr "हटाउन सकिने माध्यम घुसाउदा ब्राउज गर्नुहोस्"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "C_ommand:"
+msgstr "आदेश:"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "Co_mmand:"
+msgstr "आदेश:"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "Comman_d:"
+msgstr "आदेश:"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "Command:"
+msgstr "आदेश:"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "Drives and Media Preferences"
+msgstr "ड्राइभ र मिडिया प्राथमिक्ताहरु"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "Import digital _photographs when connected"
+msgstr "सम्पर्क भएपछि डिजिटल फोटोहरू आयात गर्नुहोस्"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "Mount removable media when _inserted"
+msgstr "हटाउन सकिने माध्यम घुसाउदा चढाऊनुहोस्"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Multimedia"
+msgstr "मल्टिमिडिया"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Perform action on _blank discs when inserted"
+msgstr "खाली सिडिहरु घुसाइदा कार्य सम्पादन गर्नुहोस्"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Play _audio CD discs when inserted"
+msgstr "श्रव्य सिडिहरु घुसाउदा बजाऊनुहोस्"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Play _video DVD disks when inserted"
+msgstr "डिभिडि भिडियोहरु घुसाउदा शुरु गर्नुहोस्"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Removable Drives and Media Preferences"
+msgstr "हटाउन सकिने ड्राइभ र मिडिया प्राथमिक्ताहरु"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Storage"
+msgstr "भण्डार"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "_Auto-run programs on new drives and media"
+msgstr "नयाँ ड्राइभहरु र माध्यमहरुमा कार्यक्रमहरु स्वत:चालू गर्नुहोस्"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "_Mount removable drives when hot-plugged"
+msgstr "हट-जोड्दा हटाउन सकिने ड्राइभहरु चढाऊनुहोस्"
+
+#: ../src/manager.c:229
+msgid "Run command from inserted media?"
+msgstr "धुसाएको माध्यमबाट आदेश चालु गर्ने?"
+
+#: ../src/manager.c:233
+#, c-format
+msgid "Do you want to run the file \"%s?\""
+msgstr "के तपाई फाइल %s चालू गर्न चाहनु हुन्छ?"
+
+#: ../src/manager.c:238
+msgid "_Run Command"
+msgstr "आदेश चालु गर्नुहोस्"
+
+#: ../src/manager.c:327
+msgid "Import photos from device?"
+msgstr "यन्त्रबाट फोटोहरू आयात गर्ने?"
+
+#: ../src/manager.c:330
+msgid ""
+"There are photos on the inserted media. Would you like to import these "
+"photographs into your album?"
+msgstr "धुसाएको माध्यममा फोटोहरू छन्। के तपाई आयात गरिएका यी फोटोहरू तपाईको एल्बममा राख्न चहानुहुन्छ?"
+
+#: ../src/manager.c:336 ../src/manager.c:383
+msgid "_Import Photos"
+msgstr "फोटोहरू आयात गर्नुहोस्"
+
+#: ../src/manager.c:375
+msgid "Import photos from camera?"
+msgstr "क्यामाराबाट फोटोहरू आयात गर्ने हो?"
+
+#: ../src/manager.c:378
+msgid ""
+"There are photos on the plugged-in camera. Would you like to import these "
+"photographs into your album?"
+msgstr "प्लगइन इन क्यामारामा फोटोहरू छन्। के तपाई आयात गरिएका यी फोटोहरू तपाईको एल्बममा राख्न चहानुहुन्छ?"
+
+#: ../src/manager.c:584
+msgid "Browse files or play tracks from disc?"
+msgstr "डिक्सबाट फाइलहरू ब्राउज गर्ने हो वा ट्रयाकहरू बजाउने हो?"
+
+#: ../src/manager.c:588
+msgid ""
+"There are both audio tracks and data files on the inserted disc. Choose if "
+"you want to play the audio tracks to listen to music or browse the files to "
+"manage the stored data."
+msgstr "धुसाउनु भएको डिक्समा श्रव्य ट्रयाकहरू र डाटा फाइलहरू दुवै छन्। यदि तपाई संगित बजाउन चहानु हुन्छ भने श्रव्य ट्रयाकहरू छान्नुहोस् वा फाइलहरू संग्रह गरिएका डाटाहरू व्यवस्था गर्न ब्राउज गर्नुहोस्।"
+
+#: ../src/manager.c:594
+msgid "_Browse Files"
+msgstr "फाइलहरू ब्राउज गर्नुहोस्"
+
+#: ../src/manager.c:596
+msgid "_Play Tracks"
+msgstr "ट्रयाकहरू बजाउनुहोस्"
+
+#: ../src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"जी नोम-आयतन-व्यव्स्थापक डेम प्रारम्भ गर्दा त्रुटि:\n"
+"%s"
+
+#: ../src/properties.c:395
+msgid "Volume management not supported"
+msgstr "आयतन व्यावस्थापनले समर्थन गरेन"
+
+#: ../src/properties.c:397
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this applet, or contact your system administrator."
+msgstr "\"hald\" सेवाको आवश्यक थियो तर हाल चालु छैन। सेवा सक्षम पार्नुहोस् र यो एप्लेटलाई पुन:चालुगर्नुहोस्, वा तपाईको प्रणाली प्रबन्धकलाई सम्पर्क गर्नुहोस्।"
+
+#: ../src/properties.c:420
+msgid "Could not load the main interface"
+msgstr "मुख्य अन्तरमोहडा लोड गर्न सकिएन"
+
+#: ../src/properties.c:423
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "कृपया आयतन व्यव्स्थापक राम्ररी स्थापना गरिएको छ भनेर पक्का गर्नुहोस्"
+

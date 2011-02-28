@@ -1,0 +1,872 @@
+# Ukrainian translation of the gnome-volume-manager module.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2004-2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-volume-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-06 12:45+0200\n"
+"PO-Revision-Date: 2004-08-22 12:16+0300\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "Поле з відміткою \"Завжди виконувати цю дію\" для автозапуску"
+
+#: ../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "Поле з відміткою \"Завжди виконувати цю дію\" для iPod з фотографіями"
+
+#: ../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr ""
+"Поле з відміткою \"Завжди виконувати цю дію\" для змішаних CD з фотографіями"
+
+#: ../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr ""
+"Поле з відміткою \"Завжди виконувати цю дію\" для імпорту з фотоапарату"
+
+#: ../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr ""
+"Поле з відміткою \"Завжди виконувати цю дію\" для імпорту фотографій з "
+"пристрою"
+
+#: ../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr ""
+"перелік розділених символом ':' шляхів, за якими шукаються двійкові файли та "
+"сценарії автоматичного запуску"
+
+#: ../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "Дія, що виконується при підключенні фотоапарату."
+
+#: ../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr "Дія, що виконується при підключенні пристрою, що містить фотографії."
+
+#: ../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr ""
+"Дія, що виконується при підключенні пристрою, що містить програму чи "
+"сценарій автозапуску."
+
+#: ../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr "Дія, що виконується при підключенні CD зі звуком чи даними."
+
+#: ../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr ""
+"Дія, що виконується при вставленні пристрою iPod, що містить фотографії."
+
+#: ../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "Команда запису аудіо дисків"
+
+#: ../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "Автоматично підключати змінні пристрої"
+
+#: ../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "Автоматично підключати змінні носії"
+
+#: ../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Автоматично запускати nautilus"
+
+#: ../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "Шлях автозапуску"
+
+#: ../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "Команда програвання CD"
+
+#: ../gnome-volume-manager.schemas.in.h:18
+msgid "Command to run when a Palm is connected."
+msgstr "Команда, що виконується при підключенні Palm."
+
+#: ../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a PocketPC is connected."
+msgstr "Команда, що виконується при підключенні PocketPC."
+
+#: ../gnome-volume-manager.schemas.in.h:20
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr ""
+"Команда, що виконується при приєднанні цифрової камери або вставленні носія "
+"у цифрову камеру."
+
+#: ../gnome-volume-manager.schemas.in.h:21
+msgid "Command to run when a keyboard is connected."
+msgstr "Команда, що запускається при підключенні клавіатури."
+
+#: ../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a mouse is connected."
+msgstr "Команда, що виконується при підключенні миші."
+
+#: ../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a printer is connected."
+msgstr "Команда, що виконується при підключенні принтера."
+
+#: ../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a scanner is connected."
+msgstr "Команда, що виконується при підключенні сканера."
+
+#: ../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a tablet is connected."
+msgstr "Команда, що виконується при підключенні планшету."
+
+#: ../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "Команда, що виконується при вставленні DVD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "Команда, що виконується при вставленні VCD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "Команда, що виконується при підключенні відеокамери."
+
+#: ../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "Команда, що виконується при вставленні звукового CD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "Команда, що виконується при підключенні iPod."
+
+#: ../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr ""
+"Команда, що виконується коли користувач хоче записати диск CD з даними."
+
+#: ../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "Команда, що виконується коли користувач хоче записати аудіо CD."
+
+#: ../gnome-volume-manager.schemas.in.h:33
+msgid "DVD play command"
+msgstr "Команда програвання DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:34
+msgid "Data CD burn command"
+msgstr "Команда запису CD з даними"
+
+#: ../gnome-volume-manager.schemas.in.h:35
+msgid "Low Disk Space notification threshold"
+msgstr "Поріг повідомлення про недостатність місця на диску"
+
+#: ../gnome-volume-manager.schemas.in.h:36
+msgid "Open nautilus on removeable media insert."
+msgstr "Відкривати nautilus при вставленні змінного носія."
+
+#: ../gnome-volume-manager.schemas.in.h:37
+msgid "Perform autorun"
+msgstr "Автоматичний запуск"
+
+#: ../gnome-volume-manager.schemas.in.h:38
+msgid "Photo management command"
+msgstr "Команда обробки фотографій"
+
+#: ../gnome-volume-manager.schemas.in.h:39
+msgid "Play inserted audio CD's"
+msgstr "Програвати вставлений звуковий CD диск"
+
+#: ../gnome-volume-manager.schemas.in.h:40
+msgid "Play inserted video DVDs"
+msgstr "Програвати вставлений відео-DVD диск"
+
+#: ../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted video VCDs"
+msgstr "Програвати вставлений відео-VCD диск"
+
+#: ../gnome-volume-manager.schemas.in.h:42
+msgid "Run Palm-sync program"
+msgstr "Запускати програму синхронізації з Palm"
+
+#: ../gnome-volume-manager.schemas.in.h:43
+msgid "Run PocketPC-sync program"
+msgstr "Запускати програму синхронізації з PocketPC"
+
+#: ../gnome-volume-manager.schemas.in.h:44
+msgid "Run a program to burn CDs/DVDs"
+msgstr "Запускати програму для запису CDs/DVD"
+
+#: ../gnome-volume-manager.schemas.in.h:45
+msgid "Run iPod program"
+msgstr "Запускати програму iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:46
+msgid "Run keyboard program"
+msgstr "Запускати програму клавіатури"
+
+#: ../gnome-volume-manager.schemas.in.h:47
+msgid "Run mouse program"
+msgstr "Запускати програму миші"
+
+#: ../gnome-volume-manager.schemas.in.h:48
+msgid "Run photo management command"
+msgstr "Запускати програму обробки фотографій"
+
+#: ../gnome-volume-manager.schemas.in.h:49
+msgid "Run printer program"
+msgstr "Запускати програму принтера"
+
+#: ../gnome-volume-manager.schemas.in.h:50
+msgid "Run scanner program"
+msgstr "Запускати програму сканера"
+
+#: ../gnome-volume-manager.schemas.in.h:51
+msgid "Run tablet program"
+msgstr "Запускати програму планшету"
+
+#: ../gnome-volume-manager.schemas.in.h:52
+msgid "Run video editing program"
+msgstr "Запускати програму редагування відео"
+
+#: ../gnome-volume-manager.schemas.in.h:53
+msgid ""
+"The threshold value for whether or not to toggle the notification off, based "
+"on the amount of space freed up by the user since the last check."
+msgstr ""
+"Значення порогу для перемикання сповіщення, що основане на звільненому з "
+"моменту останньої перевірки дисковому просторі."
+
+#: ../gnome-volume-manager.schemas.in.h:54
+msgid ""
+"The threshold value for whether or not to toggle the notification on, based "
+"on the amount of additional space used since the last check."
+msgstr ""
+"Значення порогу для перемикання сповіщення, що основане на зайнятому з "
+"моменту останньої перевірки дисковому просторі."
+
+#: ../gnome-volume-manager.schemas.in.h:55
+msgid "Threshold for disk space being freed up, to toggle notification"
+msgstr "Значення порогу звільненого місця на диску, для перемикання сповіщення"
+
+#: ../gnome-volume-manager.schemas.in.h:56
+msgid "Threshold for notification of increased disk usage"
+msgstr "Поріг сповіщення про збільшення використання дискового простору"
+
+#: ../gnome-volume-manager.schemas.in.h:57
+msgid "Threshold percentage for notifying the user of low disk space."
+msgstr ""
+"Поріг у відсотках для сповіщення користувача про недостатність місця на "
+"диску."
+
+#: ../gnome-volume-manager.schemas.in.h:58
+msgid "VCD play command"
+msgstr "Команда відтворення VCD"
+
+#: ../gnome-volume-manager.schemas.in.h:59
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr ""
+"Чи запускатимуться при вставленні нового носія програми, що автоматично "
+"запускаються (двійкові файли та сценарії розташовані за шляхами з "
+"'autorun_path')"
+
+#: ../gnome-volume-manager.schemas.in.h:60
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr ""
+"Чи повинна gnome-volume-manager автоматично підключати змінні накопичувачі "
+"при їх вставленні."
+
+#: ../gnome-volume-manager.schemas.in.h:61
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr ""
+"Чи повинна gnome-volume-manager автоматично підключати змінні носії при їх "
+"вставленні."
+
+#: ../gnome-volume-manager.schemas.in.h:62
+msgid ""
+"Whether, when a Palm is connected, gnome-volume-manager should run "
+"'autopalmsync_command'."
+msgstr ""
+"Чи запускати при підключенні Palm програму, що вказана у "
+"'autopalmsync_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:63
+msgid ""
+"Whether, when a PocketPC is connected, gnome-volume-manager should run "
+"'autopocketpc_command'."
+msgstr ""
+"Чи запускати при підключенні Palm програму, що вказана у "
+"'autopocketpc_command'."
+
+#: ../gnome-volume-manager.schemas.in.h:64
+msgid ""
+"Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run "
+"one of the autoburn commands."
+msgstr ""
+"Чи запускати одну з команд автозапису при вставленні чистого CD чи DVD."
+
+#: ../gnome-volume-manager.schemas.in.h:65
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autophoto_command' при "
+"приєднанні цифрової камери чи вставленні носія у цифрову камеру."
+
+#: ../gnome-volume-manager.schemas.in.h:66
+msgid ""
+"Whether, when a digital video camera is connected, gnome-volume-manager "
+"should run 'autovideocam_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autovideocam_command', "
+"при підключенні цифрової відеокамери."
+
+#: ../gnome-volume-manager.schemas.in.h:67
+msgid ""
+"Whether, when a keyboard is connected, gnome-volume-manager should run "
+"'autokeyboard_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autokeyboard_command' при "
+"підключенні клавіатури."
+
+#: ../gnome-volume-manager.schemas.in.h:68
+msgid ""
+"Whether, when a mouse is connected, gnome-volume-manager should run "
+"'automouse_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'automouse_command' при "
+"підключенні миші."
+
+#: ../gnome-volume-manager.schemas.in.h:69
+msgid ""
+"Whether, when a printer is connected, gnome-volume-manager should run "
+"'autoprinter_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoprinter_command' при "
+"підключенні принтера."
+
+#: ../gnome-volume-manager.schemas.in.h:70
+msgid ""
+"Whether, when a scanner is connected, gnome-volume-manager should run "
+"'autoscanner_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoscanner_command' при "
+"підключенні сканера."
+
+#: ../gnome-volume-manager.schemas.in.h:71
+msgid ""
+"Whether, when a tablet is connected, gnome-volume-manager should run "
+"'autotablet_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autotablet_command' при "
+"підключенні планшету."
+
+#: ../gnome-volume-manager.schemas.in.h:72
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoplay_dvd_command', "
+"при вставленні відео-DVD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:73
+msgid ""
+"Whether, when a video VCD is inserted, gnome-volume-manager should run "
+"'autoplay_vcd_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoplay_vcd_command', "
+"при вставленні відео-VCD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:74
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoplay_cda_command' при "
+"вставленні звукового CD диску."
+
+#: ../gnome-volume-manager.schemas.in.h:75
+msgid ""
+"Whether, when an iPod is connected, gnome-volume-manager should run "
+"'autoipod_command'."
+msgstr ""
+"Чи повинна gnome-volume-manager запускати команду 'autoipod_command' при "
+"підключенні iPod."
+
+#: ../gnome-volume-manager.schemas.in.h:76
+msgid "iPod sync command"
+msgstr "Команда синхронізації iPod"
+
+#: ../gnome-volume-manager.schemas.in.h:77
+msgid "keyboard command"
+msgstr "команда клавіатури"
+
+#: ../gnome-volume-manager.schemas.in.h:78
+msgid "mouse command"
+msgstr "команда миші"
+
+#: ../gnome-volume-manager.schemas.in.h:79
+msgid "palm sync command"
+msgstr "команда синхронізації palm"
+
+#: ../gnome-volume-manager.schemas.in.h:80
+msgid "printer command"
+msgstr "команда принтера"
+
+#: ../gnome-volume-manager.schemas.in.h:81
+msgid "scanner command"
+msgstr "команда сканера"
+
+#: ../gnome-volume-manager.schemas.in.h:82
+msgid "tablet command"
+msgstr "команда планшету"
+
+#: ../gnome-volume-manager.schemas.in.h:83
+msgid "video camera command"
+msgstr "команда відеокамери"
+
+#: ../gnome-volume-manager.desktop.in.h:1
+msgid "Volume Manager"
+msgstr "Змінні пристрої"
+
+#: ../gnome-volume-manager.desktop.in.h:2
+msgid "Volume manager for removable drives and media"
+msgstr "Керування змінними пристроями та носіями"
+
+#: ../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Керування змінними пристроями та носіями"
+
+#: ../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Змінний пристрої та носії"
+
+#: ../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>Звукові CD</b>"
+
+#: ../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>Чисті диски CD та DVD</b>"
+
+#: ../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Цифровий фотоапарат</b>"
+
+#: ../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>Цифрова відеокамера</b>"
+
+#: ../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>Клавіатури</b>"
+
+#: ../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>Миша</b>"
+
+#: ../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm™</b>"
+
+#: ../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>PocketPC</b>"
+
+#: ../gnome-volume-properties.glade.h:10
+msgid "<b>Portable Music Players</b>"
+msgstr "<b>Портативні музичні плеєри</b>"
+
+#: ../gnome-volume-properties.glade.h:11
+msgid "<b>Printers</b>"
+msgstr "<b>Принтери</b>"
+
+#: ../gnome-volume-properties.glade.h:12
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Змінні накопичувачі</b>"
+
+#: ../gnome-volume-properties.glade.h:13
+msgid "<b>Scanners</b>"
+msgstr "<b>Сканери</b>"
+
+#: ../gnome-volume-properties.glade.h:14
+msgid "<b>Tablets</b>"
+msgstr "<b>Планшети</b>"
+
+#: ../gnome-volume-properties.glade.h:15
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>Відеодиски DVD</b>"
+
+#: ../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Автоматично виконувати команду при підключенні USB-_клавіатури"
+
+#: ../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Автоматично виконувати команду при підключенні USB-_миші"
+
+#: ../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Автоматично виконувати команду при підключенні _принтера"
+
+#: ../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "Автоматично виконувати команду при підключенні _сканера"
+
+#: ../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Автоматично виконувати команду при підключенні п_ланшету"
+
+#: ../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "Переглядати з_мінний носій при вставленні"
+
+#: ../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "К_оманда:"
+
+#: ../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "Камери"
+
+#: ../gnome-volume-properties.glade.h:24
+msgid "Comman_d:"
+msgstr "Коман_да:"
+
+#: ../gnome-volume-properties.glade.h:25
+msgid "Command for A_udio CDs:"
+msgstr "Команда для _аудіо-CD:"
+
+#: ../gnome-volume-properties.glade.h:26
+msgid "Command for _Data CDs: "
+msgstr "Команда для CD з _даними:"
+
+#: ../gnome-volume-properties.glade.h:27
+msgid "Drives and Media Preferences"
+msgstr "Параметри пристроїв та носіїв"
+
+#: ../gnome-volume-properties.glade.h:28
+msgid "Input Devices"
+msgstr "Пристрої вводу"
+
+#: ../gnome-volume-properties.glade.h:29
+msgid "Mount removable media when _inserted"
+msgstr "Монтувати змінні носії при вс_тавленні"
+
+#: ../gnome-volume-properties.glade.h:30
+msgid "Multimedia"
+msgstr "Мультимедія"
+
+#: ../gnome-volume-properties.glade.h:31
+msgid "PDAs"
+msgstr "КПК"
+
+#: ../gnome-volume-properties.glade.h:32
+msgid "Play _audio CD discs when inserted"
+msgstr "Програвати _звукові CD при вставленні"
+
+#: ../gnome-volume-properties.glade.h:33
+msgid "Play _music files when connected"
+msgstr "Програвати _музичні файли при вставленні"
+
+#: ../gnome-volume-properties.glade.h:34
+msgid "Play _video DVD disks when inserted"
+msgstr "Програвати _відео-DVD при вставленні"
+
+#: ../gnome-volume-properties.glade.h:35
+msgid "Printers & Scanners"
+msgstr "Принтери та сканери"
+
+#: ../gnome-volume-properties.glade.h:36
+msgid "Removable Drives and Media Preferences"
+msgstr "Параметри змінних пристроїв та носіїв"
+
+#: ../gnome-volume-properties.glade.h:37
+msgid "Select program to burn audio CDs"
+msgstr "Виберіть програму для запису звукових CD"
+
+#: ../gnome-volume-properties.glade.h:38
+msgid "Select program to burn data CDs"
+msgstr "Виберіть програму для запису CD з даними"
+
+#: ../gnome-volume-properties.glade.h:39
+msgid "Select program to edit videos"
+msgstr "Виберіть програму для редагування відео"
+
+#: ../gnome-volume-properties.glade.h:40
+msgid "Select program to import photos"
+msgstr "Виберіть програму для імпорту фотографій"
+
+#: ../gnome-volume-properties.glade.h:41
+msgid "Select program to play DVDs"
+msgstr "Виберіть програму для програвання DVD"
+
+#: ../gnome-volume-properties.glade.h:42
+msgid "Select program to play audio CDs"
+msgstr "Виберіть програму для програвання аудіо CD"
+
+#: ../gnome-volume-properties.glade.h:43
+msgid "Select program to play music files"
+msgstr "Виберіть програму для програвання музичних файлів"
+
+#: ../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "Виберіть програму, що запускається при підключенні клавіатури"
+
+#: ../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "Виберіть програму, що запускається при підключенні миші"
+
+#: ../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "Виберіть програму, що запускається при підключенні принтера"
+
+#: ../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "Виберіть програму, що запускається при підключенні сканера"
+
+#: ../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "Виберіть програму, що запускається при підключенні планшету"
+
+#: ../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "Виберіть програму для синхронізації з Palm"
+
+#: ../gnome-volume-properties.glade.h:50
+msgid "Storage"
+msgstr "Накопичувачі"
+
+#: ../gnome-volume-properties.glade.h:51
+msgid "Sync PocketP_C devices when connected"
+msgstr "Синхронізувати пристрій PocketP_C при підключенні"
+
+#: ../gnome-volume-properties.glade.h:52
+msgid "Sync _Palm™ devices when connected"
+msgstr "Синхронізувати пристрій _Palm™ при підключенні"
+
+#: ../gnome-volume-properties.glade.h:53
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Автоматично запускати програми з нових пристроїв чи носіїв"
+
+#: ../gnome-volume-properties.glade.h:54
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Записувати CD чи DVD при вставленні чистого диску"
+
+#: ../gnome-volume-properties.glade.h:55
+msgid "_Command:"
+msgstr "_Команда:"
+
+#: ../gnome-volume-properties.glade.h:56
+msgid "_Edit video when connected"
+msgstr "_Редагувати відео при підключенні"
+
+#: ../gnome-volume-properties.glade.h:57
+msgid "_Import digital photographs when connected"
+msgstr "_Імпортувати цифрові фотографії при підключенні"
+
+#: ../gnome-volume-properties.glade.h:58
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Підключати змінні пристрої при вставленні по-гарячому"
+
+#: ../src/manager.c:203 ../src/manager.c:208 ../src/manager.c:213
+#: ../src/manager.c:219 ../src/manager.c:225 ../src/manager.c:231
+#: ../src/manager.c:237
+msgid "Ig_nore"
+msgstr "Ігно_рувати"
+
+#: ../src/manager.c:204
+msgid "_Allow Auto-Run"
+msgstr "_Дозволити автозапуск"
+
+#: ../src/manager.c:209 ../src/manager.c:215 ../src/manager.c:220
+msgid "Import _Photos"
+msgstr "Імпортувати _фотографії"
+
+#: ../src/manager.c:214
+msgid "_Open Folder"
+msgstr "_Відкрити теку"
+
+#: ../src/manager.c:221
+msgid "Manage _Music"
+msgstr "Керування _музикою"
+
+#: ../src/manager.c:226
+msgid "_Browse Files"
+msgstr "_Переглянути файли"
+
+#: ../src/manager.c:227
+msgid "_Play CD"
+msgstr "_Відтворити CD"
+
+#: ../src/manager.c:232
+msgid "Make _Audio CD"
+msgstr "Створити _аудіо CD"
+
+#: ../src/manager.c:233
+msgid "Make _Data CD"
+msgstr "Створити CD з _даними"
+
+#: ../src/manager.c:238
+msgid "Make _DVD"
+msgstr "Створити _DVD"
+
+#: ../src/manager.c:290
+msgid "Auto-Run Confirmation"
+msgstr "Підтвердження автозапуску"
+
+#: ../src/manager.c:291
+msgid "Auto-run capability detected."
+msgstr "Виявлено можливість автозапуску."
+
+#: ../src/manager.c:292
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "Хочете дозволити запуск <b>'${0}'</b>?"
+
+#: ../src/manager.c:297 ../src/manager.c:304
+msgid "Camera Import"
+msgstr "Імпорт з фотоапарату"
+
+#: ../src/manager.c:298 ../src/manager.c:305
+msgid "A camera has been detected."
+msgstr "Виявлено фотоапарат."
+
+#: ../src/manager.c:299 ../src/manager.c:306
+msgid ""
+"There are photos on the camera. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"На під'єднаному фотоапараті є цифрові фотографії. Імпортувати ці фотографії "
+"у ваш фотоальбом?"
+
+#: ../src/manager.c:300 ../src/manager.c:307 ../src/manager.c:314
+#: ../src/manager.c:321 ../src/manager.c:328
+msgid "_Always perform this action"
+msgstr "_завжди виконувати цю дію"
+
+#: ../src/manager.c:311
+msgid "Photo Import"
+msgstr "Імпорт фотографій"
+
+#: ../src/manager.c:312
+msgid "A photo card has been detected."
+msgstr "Виявлено носій з фотографіями."
+
+#: ../src/manager.c:313
+msgid ""
+"There are photos on the card. Would you like to add these pictures to your "
+"album?"
+msgstr ""
+"На під'єднаному пристрої є цифрові фотографії. Імпортувати ці фотографії у "
+"ваш фотоальбом?"
+
+#: ../src/manager.c:318
+msgid "Photos and Music"
+msgstr "Фотографії та музика"
+
+#: ../src/manager.c:319
+msgid "Photos were found on your music device."
+msgstr "Фотографії, що знайдені у вашому музичному пристрої."
+
+#: ../src/manager.c:320
+msgid "Would you like to import the photos or manage its music?"
+msgstr "Бажаєте імпортувати фотографії чи керувати музикою?"
+
+#: ../src/manager.c:325
+msgid "Audio / Data CD"
+msgstr "CD з музикою / даними"
+
+#: ../src/manager.c:326
+msgid "The CD in the drive contains both music and files."
+msgstr "CD у пристрої містить як музичні записи, так і файли."
+
+#: ../src/manager.c:327
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Бажаєте прослухати музику чи переглянути файли?"
+
+#: ../src/manager.c:332 ../src/manager.c:339
+msgid "Choose Disc Type"
+msgstr "Виберіть тип диску"
+
+#: ../src/manager.c:333 ../src/manager.c:340
+msgid "You have inserted a blank disc."
+msgstr "Ви вставили чистий диск."
+
+#: ../src/manager.c:334 ../src/manager.c:341
+msgid "What would you like to do?"
+msgstr "Що ви бажаєте зробити?"
+
+#: ../src/manager.c:2871
+#, c-format
+msgid "%d%% of the disk space on %s is in use"
+msgstr "%d%% дискового простору на %s використовується "
+
+#: ../src/manager.c:2963
+msgid "Print version and exit"
+msgstr "Вивести версію та вийти"
+
+#: ../src/manager.c:2965
+msgid "Run as a daemon"
+msgstr "Запускати як службу"
+
+#: ../src/manager.c:2967
+msgid "Don't run as a daemon"
+msgstr "Не запускати як службу"
+
+#: ../src/manager.c:2969
+msgid "Run in secret mode"
+msgstr "Запустити у секретному режимі"
+
+#: ../src/manager.c:3001
+#, c-format
+msgid "Unrecognized --daemon argument: %s\n"
+msgstr "Невідомай параметр --daemon: %s\n"
+
+#: ../src/properties.c:305
+msgid "Could not load the main interface"
+msgstr "Не вдається завантажити головний інтерфейс"
+
+#: ../src/properties.c:307
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "Переконайтесь, що менеджер правильно встановлений"
+
+#: ../src/properties.c:466
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"Помилка запуску служби gnome-volume-manager:\n"
+"%s"
+
+#: ../src/properties.c:497
+msgid "Volume management not supported"
+msgstr "Керування томати не підтримується"
+
+#: ../src/properties.c:499
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr ""
+"Необхідна служба \"hald\", але вона не запущена. Увімкніть службу та "
+"перезавантажте цей аплет, або зв'яжіться з системним адміністратором.\n"
+"Примітка: для служби керування томами потрібне ядро Linux версії 2.6."

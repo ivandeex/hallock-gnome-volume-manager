@@ -1,0 +1,846 @@
+# Vietnamese Translation for Gnome Volume Manager.
+# Copyright © 2004-2006 Gnome i18n Project for Vietnamese.
+# This file is distributed under the same license as the gnome-volume-manager package.
+# Nguyễn Thái Ngọc Duy <pclouds@vnlinux.org> 2004.
+# Clytie Siddall <clytie@riverland.net.au>, 2005, 2006.
+# 
+msgid ""
+""
+msgstr "Project-Id-Version: gnome-volume-manager Gnome HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-10 06:54+0100\n"
+"PO-Revision-Date: 2006-03-10 21:11+1030\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.6b36\n"
+
+#:../gnome-volume-manager.schemas.in.h:1
+msgid "\"Always take this action\" checkbox for Autorun"
+msgstr "Hộp chọn « Luôn thực hiện hành động này » cho Chạy Tự động"
+
+#:../gnome-volume-manager.schemas.in.h:2
+msgid "\"Always take this action\" checkbox for iPod Photos"
+msgstr "Hộp chọn « Luôn thực hiện hành động này » cho Ảnh chụp iPod"
+
+#:../gnome-volume-manager.schemas.in.h:3
+msgid "\"Always take this action\" checkbox for mixed Audio and Data CDs"
+msgstr "Hộp chọn « Luôn thực hiện hành động này » cho Đĩa CD Âm thanh và Dữ liệu"
+
+#:../gnome-volume-manager.schemas.in.h:4
+msgid "\"Always take this action\" checkbox for photo import from a camera"
+msgstr "Hộp chọn « Luôn thực hiện hành động này » khi nhập ảnh chụp từ máy ảnh"
+
+#:../gnome-volume-manager.schemas.in.h:5
+msgid "\"Always take this action\" checkbox for photo import from a device"
+msgstr "Hộp chọn « Luôn thực hiện hành động này » khi nhập ảnh chụp từ thiết bị"
+
+#:../gnome-volume-manager.schemas.in.h:6
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr "Danh sách ngăn cách bởi dấu hai chấm « : » những đường dẫn cần kiểm tra có "
+"tập tin nhị phân và tập lệnh cả kiểu chạy tự động."
+
+#:../gnome-volume-manager.schemas.in.h:7
+msgid "Action to take when a camera is plugged in."
+msgstr "Hành động cần thực hiện khi cầm phít máy ảnh."
+
+#:../gnome-volume-manager.schemas.in.h:8
+msgid "Action to take when a device containing photos is encountered."
+msgstr "Hành động cần thực hiện khi gặp một thiết bị chứa ảnh chụp"
+
+#:../gnome-volume-manager.schemas.in.h:9
+msgid "Action to take when a device contains an autorun program/script."
+msgstr "Hành động cần thực hiện khi một thiết bị chứa chương trình/tập lệnh chạy tự "
+"động"
+
+#:../gnome-volume-manager.schemas.in.h:10
+msgid "Action to take when a mixed Audio and Data CD is encountered."
+msgstr "Hành động cần thực hiện khi gặp một đĩa CD chứa Âm thanh và Dữ liệu hợp với "
+"nhau"
+
+#:../gnome-volume-manager.schemas.in.h:11
+msgid "Action to take when an iPod Photo is encountered."
+msgstr "Hành động cần thực hiện khi gặp một thiết bị iPod Photo."
+
+#:../gnome-volume-manager.schemas.in.h:12
+msgid "Audio CD burn command"
+msgstr "Lệnh ghi đĩa CD âm thanh"
+
+#:../gnome-volume-manager.schemas.in.h:13
+msgid "Automount removable drives"
+msgstr "Tự động gắn kết các ổ đĩa rời"
+
+#:../gnome-volume-manager.schemas.in.h:14
+msgid "Automount removable media"
+msgstr "Từ động gắn kết các vật chứa rời"
+
+#:../gnome-volume-manager.schemas.in.h:15
+msgid "Autorun nautilus"
+msgstr "Tự động chạy Nautilus"
+
+#:../gnome-volume-manager.schemas.in.h:16
+msgid "Autorun path"
+msgstr "Đường dẫn Chạy Tự động"
+
+#:../gnome-volume-manager.schemas.in.h:17
+msgid "CD play command"
+msgstr "Lệnh phát đĩa CD"
+
+#:../gnome-volume-manager.schemas.in.h:18
+msgid "Command to run when a Palm is connected."
+msgstr "Lệnh cần chạy khi kết nối một thiết bị Palm."
+
+#:../gnome-volume-manager.schemas.in.h:19
+msgid "Command to run when a PocketPC is connected."
+msgstr "Lệnh cần chạy khi kết nối một con thiết bị PocketPC."
+
+#:../gnome-volume-manager.schemas.in.h:20
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr "Lệnh cần thực hiện khi kết nối một máy ảnh số hoặc khi chèn vật chứa từ máy "
+"ảnh số."
+
+#:../gnome-volume-manager.schemas.in.h:21
+msgid "Command to run when a keyboard is connected."
+msgstr "Lệnh cần chạy khi kết nối một bàn phím."
+
+#:../gnome-volume-manager.schemas.in.h:22
+msgid "Command to run when a mouse is connected."
+msgstr "Lệnh cần chạy khi kết nối một con chuột."
+
+#:../gnome-volume-manager.schemas.in.h:23
+msgid "Command to run when a printer is connected."
+msgstr "Lệnh cần chạy khi kết nối một máy in."
+
+#:../gnome-volume-manager.schemas.in.h:24
+msgid "Command to run when a scanner is connected."
+msgstr "Lệnh cần chạy khi kết nối một máy quét."
+
+#:../gnome-volume-manager.schemas.in.h:25
+msgid "Command to run when a tablet is connected."
+msgstr "Lệnh cần chạy khi kết nối một phiến đồ họa."
+
+#:../gnome-volume-manager.schemas.in.h:26
+msgid "Command to run when a video DVD is inserted."
+msgstr "Lệnh cần chạy khi nạp đĩa DVD ảnh động vào."
+
+#:../gnome-volume-manager.schemas.in.h:27
+msgid "Command to run when a video VCD is inserted."
+msgstr "Lệnh cần chạy khi nạp đĩa VCD ảnh động vào."
+
+#:../gnome-volume-manager.schemas.in.h:28
+msgid "Command to run when a video camera is connected."
+msgstr "Lệnh cần chạy khi kết nối một máy ảnh động."
+
+#:../gnome-volume-manager.schemas.in.h:29
+msgid "Command to run when an audio CD is inserted."
+msgstr "Lệnh cần chạy khi nạp đĩa CD âm thanh vào."
+
+#:../gnome-volume-manager.schemas.in.h:30
+msgid "Command to run when an iPod is connected."
+msgstr "Lệnh cần chạy khi kết nối một iPod."
+
+#:../gnome-volume-manager.schemas.in.h:31
+msgid "Command to run when the user wishes to burn a Data CD."
+msgstr "Lệnh cần chạy khi người dùng muốn ghi một đĩa CD dữ liệu."
+
+#:../gnome-volume-manager.schemas.in.h:32
+msgid "Command to run when the user wishes to burn an Audio CD."
+msgstr "Lệnh cần chạy khi người dùng muốn ghi một đĩa CD âm thanh."
+
+#:../gnome-volume-manager.schemas.in.h:33
+msgid "DVD play command"
+msgstr "Lệnh phát đĩa DVD"
+
+#:../gnome-volume-manager.schemas.in.h:34
+msgid "Data CD burn command"
+msgstr "Lệnh ghi đĩa CD dữ liệu"
+
+#:../gnome-volume-manager.schemas.in.h:35
+msgid "Low Disk Space notification threshold"
+msgstr "Ngưỡng thông báo Sứa chứa Đĩa Thấp"
+
+#:../gnome-volume-manager.schemas.in.h:36
+msgid "Open nautilus on removeable media insert."
+msgstr "Mở Nautilus khi nạp vật chứa rời vào."
+
+#:../gnome-volume-manager.schemas.in.h:37
+msgid "Perform autorun"
+msgstr "Thực hiện chạy tự động"
+
+#:../gnome-volume-manager.schemas.in.h:38
+msgid "Photo management command"
+msgstr "Lệnh quản lý ảnh chụp"
+
+#:../gnome-volume-manager.schemas.in.h:39
+msgid "Play inserted audio CD's"
+msgstr "Phát đĩã CD âm thanh được nạp vào"
+
+#:../gnome-volume-manager.schemas.in.h:40
+msgid "Play inserted video DVDs"
+msgstr "Phát đĩa DVD ảnh động được nạp vào"
+
+#:../gnome-volume-manager.schemas.in.h:41
+msgid "Play inserted video VCDs"
+msgstr "Phát đĩa VCD ảnh động được nạp vào"
+
+#:../gnome-volume-manager.schemas.in.h:42
+msgid "Run Palm-sync program"
+msgstr "Chạy chương trình Palm-sync (đồng bộ)"
+
+#:../gnome-volume-manager.schemas.in.h:43
+msgid "Run PocketPC-sync program"
+msgstr "Chạy chương trình PocketPC-sync (đồng bộ)"
+
+#:../gnome-volume-manager.schemas.in.h:44
+msgid "Run a program to burn CDs/DVDs"
+msgstr "Chạy một chương trình để ghi đĩa CD/DVD"
+
+#:../gnome-volume-manager.schemas.in.h:45
+msgid "Run iPod program"
+msgstr "Chạy chương trình iPod"
+
+#:../gnome-volume-manager.schemas.in.h:46
+msgid "Run keyboard program"
+msgstr "Chạy chương trình bàn phím"
+
+#:../gnome-volume-manager.schemas.in.h:47
+msgid "Run mouse program"
+msgstr "Chạy chương trình con chuột"
+
+#:../gnome-volume-manager.schemas.in.h:48
+msgid "Run photo management command"
+msgstr "Chạy lệnh quản lý ảnh chụp"
+
+#:../gnome-volume-manager.schemas.in.h:49
+msgid "Run printer program"
+msgstr "Chạy chương trình máy in"
+
+#:../gnome-volume-manager.schemas.in.h:50
+msgid "Run scanner program"
+msgstr "Chạy chương trình máy quét"
+
+#:../gnome-volume-manager.schemas.in.h:51
+msgid "Run tablet program"
+msgstr "Chạy chương trình phiến đồ họa"
+
+#:../gnome-volume-manager.schemas.in.h:52
+msgid "Run video editing program"
+msgstr "Chạy chương trình hiệu chỉnh ảnh động"
+
+#:../gnome-volume-manager.schemas.in.h:53
+msgid ""
+"The threshold value for whether or not to toggle the notification off, based "
+"on the amount of space freed up by the user since the last check."
+msgstr "Giá trị ngưỡng để tắt thông báo, đựa vào lượng sức chứa được giải phóng bởi "
+"người dùng kể từ lần kiểm tra trước đó."
+
+#:../gnome-volume-manager.schemas.in.h:54
+msgid ""
+"The threshold value for whether or not to toggle the notification on, based "
+"on the amount of additional space used since the last check."
+msgstr "Giá trị ngưỡng để bật thông báo, đựa vào lượng sức chứa thêm được dùng kể từ "
+"lần kiểm tra trước đó."
+
+#:../gnome-volume-manager.schemas.in.h:55
+msgid "Threshold for disk space being freed up, to toggle notification"
+msgstr "Ngưỡng giải phóng sức chứa đĩa, để bật/tắt thông báo"
+
+#:../gnome-volume-manager.schemas.in.h:56
+msgid "Threshold for notification of increased disk usage"
+msgstr "Ngưỡng thông báo dùng thêm sức chứa đĩa"
+
+#:../gnome-volume-manager.schemas.in.h:57
+msgid "Threshold percentage for notifying the user of low disk space."
+msgstr "Phần trăm ngưỡng để thông báo người dùng có ít sức chứa rảnh trên đĩa."
+
+#:../gnome-volume-manager.schemas.in.h:58
+msgid "VCD play command"
+msgstr "Lệnh phát đĩa VCD"
+
+#:../gnome-volume-manager.schemas.in.h:59
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr "Có chương trình chạy tự động (tập tin nhị phân và tập lệnh nằm trong "
+"<autorun_path>) nên được chạy trên vật chứa mới gắn kết hay không."
+
+#:../gnome-volume-manager.schemas.in.h:60
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr "Có trình « gnome-volume-manager » nên tự động gắn ổ lưu rời khi nó được nạp "
+"vào hay không."
+
+#:../gnome-volume-manager.schemas.in.h:61
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr "Có trình « gnome-volume-manager » nên tự động gắn vật chứa lưu rời khi nó "
+"được nạp vào hay không."
+
+#:../gnome-volume-manager.schemas.in.h:62
+msgid ""
+"Whether, when a Palm is connected, gnome-volume-manager should run "
+"'autopalmsync_command'."
+msgstr "Khi một thiết bị Palm được kết nối, có « gnome-volume-manager » nên chạy "
+"lệnh « autopalmsync_command » (tự động đồng bộ hóa Palm) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:63
+msgid ""
+"Whether, when a PocketPC is connected, gnome-volume-manager should run "
+"'autopocketpc_command'."
+msgstr "Khi một thiết bị PocketPC được kết nối, có « gnome-volume-manager » nên chạy "
+"lệnh « autopocketpc_command » (tự động PocketPC) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:64
+msgid ""
+"Whether, when a blank CD or DVD is inserted, gnome-volume-manager should run "
+"one of the autoburn commands."
+msgstr "Khi đĩa CD hay DVD trắng được nạp vào, có « gnome-volume-manager » nên chạy "
+"lệnh « autoburn_cdr_command » (tự động ghi đĩã CD-R) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:65
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr "Khi máy ảnh số được kết nối, hay vật chứa từ máy ảnh được nạp vào, có « "
+"gnome-volume-manager » nên chạy lệnh « autophoto_command » (tự động ảnh "
+"chụp) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:66
+msgid ""
+"Whether, when a digital video camera is connected, gnome-volume-manager "
+"should run 'autovideocam_command'."
+msgstr "Khi một máy ảnh động được kết nối, có « gnome-volume-manager » nên chạy lệnh "
+"« autovideocam_command » (tự động máy ảnh động) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:67
+msgid ""
+"Whether, when a keyboard is connected, gnome-volume-manager should run "
+"'autokeyboard_command'."
+msgstr "Khi một bàn phím được kết nối, có « gnome-volume-manager » nên chạy lệnh « "
+"autokeyboard_command » (tự động bàn phím) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:68
+msgid ""
+"Whether, when a mouse is connected, gnome-volume-manager should run "
+"'automouse_command'."
+msgstr "Khi một con chuột được kết nối, có « gnome-volume-manager » nên chạy lệnh « "
+"automouse_command » (tự động con chuột) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:69
+msgid ""
+"Whether, when a printer is connected, gnome-volume-manager should run "
+"'autoprinter_command'."
+msgstr "Khi một máy in được kết nối, có « gnome-volume-manager » nên chạy lệnh « "
+"autoprinter_command » (tự động máy in) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:70
+msgid ""
+"Whether, when a scanner is connected, gnome-volume-manager should run "
+"'autoscanner_command'."
+msgstr "Khi một máy quét được kết nối, có « gnome-volume-manager » nên chạy lệnh « "
+"autoscanner_command » (tự động máy quét) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:71
+msgid ""
+"Whether, when a tablet is connected, gnome-volume-manager should run "
+"'autotablet_command'."
+msgstr "Khi một phiến đồ họa được kết nối, có « gnome-volume-manager » nên chạy lệnh "
+"« autotablet_command » (tự động phiến đồ họa) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:72
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr "Khi đĩa DVD ảnh động được nạp vào, có « gnome-volume-manager » nên chạy lệnh "
+"« autoplay_dvd_command » (tự động phát đĩa DVD) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:73
+msgid ""
+"Whether, when a video VCD is inserted, gnome-volume-manager should run "
+"'autoplay_vcd_command'."
+msgstr "Khi đĩa VCD ảnh động được nạp vào, có « gnome-volume-manager » nên chạy lệnh "
+"« autoplay_vcd_command » (tự động phát đĩa VCD) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:74
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr "Khi đĩa CD âm thanh được nạp vào, có « gnome-volume-manager » nên chạy lệnh "
+"« autoplay_cda_command » (tự động phát đĩa CD âm thanh) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:75
+msgid ""
+"Whether, when an iPod is connected, gnome-volume-manager should run "
+"'autoipod_command'."
+msgstr "Khi một iPod được kết nối, có « gnome-volume-manager » nên chạy lệnh « "
+"autoipod_command » (tự động bàn phím) hay không."
+
+#:../gnome-volume-manager.schemas.in.h:76
+msgid "iPod sync command"
+msgstr "lệnh đồng bộ hóa iPod"
+
+#:../gnome-volume-manager.schemas.in.h:77
+msgid "keyboard command"
+msgstr "lệnh bàn phím"
+
+#:../gnome-volume-manager.schemas.in.h:78
+msgid "mouse command"
+msgstr "lệnh con chuột"
+
+#:../gnome-volume-manager.schemas.in.h:79
+msgid "palm sync command"
+msgstr "lệnh đồng bộ hóa Palm"
+
+#:../gnome-volume-manager.schemas.in.h:80
+msgid "printer command"
+msgstr "lệnh máy in"
+
+#:../gnome-volume-manager.schemas.in.h:81
+msgid "scanner command"
+msgstr "lệnh máy quét"
+
+#:../gnome-volume-manager.schemas.in.h:82
+msgid "tablet command"
+msgstr "lệnh phiến đồ họa"
+
+#:../gnome-volume-manager.schemas.in.h:83
+msgid "video camera command"
+msgstr "lệnh máy ảnh động"
+
+#:../gnome-volume-manager.desktop.in.h:1
+msgid "Volume Manager"
+msgstr "Bộ Quản lý Khối tin"
+
+#:../gnome-volume-manager.desktop.in.h:2
+msgid "Volume manager for removable drives and media"
+msgstr "Bộ quản lý khối tin cho các ổ và vật chứa rời"
+
+#:../gnome-volume-properties.desktop.in.h:1
+msgid "Configure management of removable drives and media"
+msgstr "Cấu hình cách quản lý ổ và vật chứa rời"
+
+#:../gnome-volume-properties.desktop.in.h:2
+msgid "Removable Drives and Media"
+msgstr "Ổ và vật chứa rời"
+
+#:../gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#:../gnome-volume-properties.glade.h:2
+msgid "<b>Audio CD Discs</b>"
+msgstr "<b>Đĩa CD âm thanh</b>"
+
+#:../gnome-volume-properties.glade.h:3
+msgid "<b>Blank CD and DVD Discs</b>"
+msgstr "<b>Đĩa CD và DVD trắng</b>"
+
+#:../gnome-volume-properties.glade.h:4
+msgid "<b>Digital Camera</b>"
+msgstr "<b>Máy ảnh số</b>"
+
+#:../gnome-volume-properties.glade.h:5
+msgid "<b>Digital Video Camera</b>"
+msgstr "<b>Máy ảnh động số</b>"
+
+#:../gnome-volume-properties.glade.h:6
+msgid "<b>Keyboards</b>"
+msgstr "<b>Bàn phím</b>"
+
+#:../gnome-volume-properties.glade.h:7
+msgid "<b>Mice</b>"
+msgstr "<b>Con chuột</b>"
+
+#:../gnome-volume-properties.glade.h:8
+msgid "<b>Palm™</b>"
+msgstr "<b>Palm™</b>"
+
+#:../gnome-volume-properties.glade.h:9
+msgid "<b>PocketPC</b>"
+msgstr "<b>PocketPC™</b>"
+
+#:../gnome-volume-properties.glade.h:10
+msgid "<b>Portable Music Players</b>"
+msgstr "<b>Bộ phát nhạc di động</b>"
+
+#:../gnome-volume-properties.glade.h:11
+msgid "<b>Printers</b>"
+msgstr "<b>Máy in</b>"
+
+#:../gnome-volume-properties.glade.h:12
+msgid "<b>Removable Storage</b>"
+msgstr "<b>Vật chứa lưu rời</b>"
+
+#:../gnome-volume-properties.glade.h:13
+msgid "<b>Scanners</b>"
+msgstr "<b>Máy quét</b>"
+
+#:../gnome-volume-properties.glade.h:14
+msgid "<b>Tablets</b>"
+msgstr "<b>Phiến đồ họa</b>"
+
+#:../gnome-volume-properties.glade.h:15
+msgid "<b>Video DVD Discs</b>"
+msgstr "<b>Đĩa DVD ảnh động</b>"
+
+#:../gnome-volume-properties.glade.h:16
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Tự động chạy chương trình khi một _bàn phím USB được kết nối."
+
+#:../gnome-volume-properties.glade.h:17
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Tự động chạy chương trình khi một con _chuột USB được kết nối."
+
+#:../gnome-volume-properties.glade.h:18
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Tự động chạy chương trình khi một máy _in được kết nối."
+
+#:../gnome-volume-properties.glade.h:19
+msgid "Automatically run a program when a _scanner is connected"
+msgstr "Tự động chạy chương trình khi một máy _quét được kết nối."
+
+#:../gnome-volume-properties.glade.h:20
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Tự động chạy chương trình khi một _phiến đồ họa được kết nối."
+
+#:../gnome-volume-properties.glade.h:21
+msgid "Browse _removable media when inserted"
+msgstr "Duyệt vật chứa _rời khi được nạp vào"
+
+#:../gnome-volume-properties.glade.h:22
+msgid "C_ommand:"
+msgstr "_Lệnh:"
+
+#:../gnome-volume-properties.glade.h:23
+msgid "Cameras"
+msgstr "Máy ảnh"
+
+#:../gnome-volume-properties.glade.h:24
+msgid "Comman_d:"
+msgstr "Lện_h:"
+
+#:../gnome-volume-properties.glade.h:25
+msgid "Command for A_udio CDs:"
+msgstr "Lệnh cho đĩa CD _âm thanh:"
+
+#:../gnome-volume-properties.glade.h:26
+msgid "Command for _Data CDs: "
+msgstr "Lệnh cho đĩa CD _dữ liệu: "
+
+#:../gnome-volume-properties.glade.h:27
+msgid "Drives and Media Preferences"
+msgstr "Tùy thích Ổ đĩa và Vật chứa"
+
+#:../gnome-volume-properties.glade.h:28
+msgid "Input Devices"
+msgstr "Thiết bị nhập"
+
+#:../gnome-volume-properties.glade.h:29
+msgid "Mount removable media when _inserted"
+msgstr "Gắn kết vật chứa rời khi được _nạp vào"
+
+#:../gnome-volume-properties.glade.h:30
+msgid "Multimedia"
+msgstr "Đa phương tiện"
+
+#:../gnome-volume-properties.glade.h:31
+msgid "PDAs"
+msgstr "Máy tính cầm tay"
+
+#:../gnome-volume-properties.glade.h:32
+msgid "Play _audio CD discs when inserted"
+msgstr "Phát đĩa CD _âm thanh khi được nạp vào"
+
+#:../gnome-volume-properties.glade.h:33
+msgid "Play _music files when connected"
+msgstr "Phát _nhạc khi được kết nối"
+
+#:../gnome-volume-properties.glade.h:34
+msgid "Play _video DVD disks when inserted"
+msgstr "Phát đĩã DVD ảnh _động khi được nạp vào"
+
+#:../gnome-volume-properties.glade.h:35
+msgid "Printers & Scanners"
+msgstr "Máy in và Máy quét"
+
+#:../gnome-volume-properties.glade.h:36
+msgid "Removable Drives and Media Preferences"
+msgstr "Tùy thích Ổ đĩa và Vật chứa rời"
+
+#:../gnome-volume-properties.glade.h:37
+msgid "Select program to burn audio CDs"
+msgstr "Chọn chương trình cần ghi đĩa CD âm thanh"
+
+#:../gnome-volume-properties.glade.h:38
+msgid "Select program to burn data CDs"
+msgstr "Chọn chương trình cần ghi đĩa CD dữ liệu"
+
+#:../gnome-volume-properties.glade.h:39
+msgid "Select program to edit videos"
+msgstr "Chọn chương trình cần hiệu chỉnh ảnh động"
+
+#:../gnome-volume-properties.glade.h:40
+msgid "Select program to import photos"
+msgstr "Chọn chương trình cần nhập ảnh chụp"
+
+#:../gnome-volume-properties.glade.h:41
+msgid "Select program to play DVDs"
+msgstr "Chọn chương trình cần phát đĩa DVD"
+
+#:../gnome-volume-properties.glade.h:42
+msgid "Select program to play audio CDs"
+msgstr "Chọn chương trình cần phát đĩa CD âm thanh"
+
+#:../gnome-volume-properties.glade.h:43
+msgid "Select program to play music files"
+msgstr "Chọn chương trình cần phát tập tin nhạc"
+
+#:../gnome-volume-properties.glade.h:44
+msgid "Select program to run when a keyboard is plugged in"
+msgstr "Chọn chương trình cần chạy khi một bàn phím được cầm phít"
+
+#:../gnome-volume-properties.glade.h:45
+msgid "Select program to run when a mouse is plugged in"
+msgstr "Chọn chương trình cần chạy khi một con chuột được cầm phít"
+
+#:../gnome-volume-properties.glade.h:46
+msgid "Select program to run when a printer is plugged in"
+msgstr "Chọn chương trình cần chạy khi một máy in được cầm phít"
+
+#:../gnome-volume-properties.glade.h:47
+msgid "Select program to run when a scanner is plugged in"
+msgstr "Chọn chương trình cần chạy khi một máy quét được cầm phít"
+
+#:../gnome-volume-properties.glade.h:48
+msgid "Select program to run when a tablet is plugged in"
+msgstr "Chọn chương trình cần chạy khi một phiến đồ họa được cầm phít"
+
+#:../gnome-volume-properties.glade.h:49
+msgid "Select program to sync Palm devices"
+msgstr "Chọn chương trình cần đồng bộ hóa thiết bị Palm"
+
+#:../gnome-volume-properties.glade.h:50
+msgid "Storage"
+msgstr "Lưu trữ"
+
+#:../gnome-volume-properties.glade.h:51
+msgid "Sync PocketP_C devices when connected"
+msgstr "Đồng bộ hóa thiết bị PocketP_C™ khi được kết nối"
+
+#:../gnome-volume-properties.glade.h:52
+msgid "Sync _Palm™ devices when connected"
+msgstr "Đồng bộ hóa thiết bị _Palm™ khi được kết nối"
+
+#:../gnome-volume-properties.glade.h:53
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Tự động chạy chương trình trên ổ đĩa và vật chứa mới"
+
+#:../gnome-volume-properties.glade.h:54
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Ghi đĩa CD hay DVD trắng khi được nạp vào"
+
+#:../gnome-volume-properties.glade.h:55
+msgid "_Command:"
+msgstr "_Lệnh:"
+
+#:../gnome-volume-properties.glade.h:56
+msgid "_Edit video when connected"
+msgstr "_Hiệu chỉnh ảnh động khi được kết nối"
+
+#:../gnome-volume-properties.glade.h:57
+msgid "_Import digital photographs when connected"
+msgstr "_Nhập ảnh chụp số khi được kết nối"
+
+#:../gnome-volume-properties.glade.h:58
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Gắn kết ổ đĩa rời khi được cắm nóng vào"
+
+#:../src/manager.c:205 ../src/manager.c:210 ../src/manager.c:215
+#:../src/manager.c:221 ../src/manager.c:227 ../src/manager.c:233
+#:../src/manager.c:239
+msgid "Ig_nore"
+msgstr "_Bỏ qua"
+
+#:../src/manager.c:206
+msgid "_Allow Auto-Run"
+msgstr "_Cho phép chạy tự động"
+
+#:../src/manager.c:211 ../src/manager.c:217 ../src/manager.c:222
+msgid "Import _Photos"
+msgstr "_Nhập ảnh"
+
+#:../src/manager.c:216
+msgid "_Open Folder"
+msgstr "_Mở thư mục"
+
+#:../src/manager.c:223
+msgid "Manage _Music"
+msgstr "Quản lý _nhạc"
+
+#:../src/manager.c:228
+msgid "_Browse Files"
+msgstr "_Duyệt tập tin"
+
+#:../src/manager.c:229
+msgid "_Play CD"
+msgstr "_Phát đĩa CD"
+
+#:../src/manager.c:234
+msgid "Make _Audio CD"
+msgstr "Tạo đĩa CD _âm thanh"
+
+#:../src/manager.c:235
+msgid "Make _Data CD"
+msgstr "Tạo đĩa CD _dữ liệu"
+
+#:../src/manager.c:240
+msgid "Make _DVD"
+msgstr "Tạo _DVD"
+
+#:../src/manager.c:292
+msgid "Auto-Run Confirmation"
+msgstr "Xác định chạy tự động"
+
+#:../src/manager.c:293
+msgid "Auto-run capability detected."
+msgstr "Mới phát hiện khả năng chạy tự động"
+
+#:../src/manager.c:294
+msgid "Would you like to allow <b>'${0}'</b> to run?"
+msgstr "Bạn có muốn cho phép <b>« ${0} »</b> chạy không?"
+
+#:../src/manager.c:299 ../src/manager.c:306
+msgid "Camera Import"
+msgstr "Nhập máy ảnh"
+
+#:../src/manager.c:300 ../src/manager.c:307
+msgid "A camera has been detected."
+msgstr "Mới phát hiện máy ảnh."
+
+#:../src/manager.c:301 ../src/manager.c:308
+msgid ""
+"There are photos on the camera. Would you like to add these pictures to your "
+"album?"
+msgstr "Có ảnh chụp trên máy ảnh này. Bạn có muốn thêm những ảnh chụp này vào quyển "
+"ảnh của bạn không?"
+
+#:../src/manager.c:302 ../src/manager.c:309 ../src/manager.c:316
+#:../src/manager.c:323 ../src/manager.c:330
+msgid "_Always perform this action"
+msgstr "_Luôn thực hiện hành động này"
+
+#:../src/manager.c:313
+msgid "Photo Import"
+msgstr "Nhập ảnh"
+
+#:../src/manager.c:314
+msgid "A photo card has been detected."
+msgstr "Mới phát hiện thẻ ảnh."
+
+#:../src/manager.c:315
+msgid ""
+"There are photos on the card. Would you like to add these pictures to your "
+"album?"
+msgstr "Có ảnh chụp trên thẻ này. Bạn có muốn thêm những ảnh này vào quyển ảnh của "
+"bạn không?"
+
+#:../src/manager.c:320
+msgid "Photos and Music"
+msgstr "Ảnh và Nhạc"
+
+#:../src/manager.c:321
+msgid "Photos were found on your music device."
+msgstr "Tìm thấy ảnh trên thiết bị nhạc của bạn."
+
+#:../src/manager.c:322
+msgid "Would you like to import the photos or manage its music?"
+msgstr "Bạn có muốn nhập các ảnh hoặc quản lý nhạc trên nó không?"
+
+#:../src/manager.c:327
+msgid "Audio / Data CD"
+msgstr "Đĩa CD Âm thanh/Dữ liệu"
+
+#:../src/manager.c:328
+msgid "The CD in the drive contains both music and files."
+msgstr "Đĩa CD trong ổ chứa cả nhạc lẫn tập tin đều."
+
+#:../src/manager.c:329
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Bạn có muốn nghe nhạc hoặc duyệt tập tin không?"
+
+#:../src/manager.c:334 ../src/manager.c:341
+msgid "Choose Disc Type"
+msgstr "Chọn kiểu đĩa"
+
+#:../src/manager.c:335 ../src/manager.c:342
+msgid "You have inserted a blank disc."
+msgstr "Bạn đã nạp một đĩa trắng."
+
+#:../src/manager.c:336 ../src/manager.c:343
+msgid "What would you like to do?"
+msgstr "Bạn có muốn làm gì vậy?"
+
+#:../src/manager.c:2840
+#,c-format
+msgid "%d%% of the disk space on %s is in use"
+msgstr "%d%% sức chứa đĩa trên %s đang được dùng"
+
+#:../src/manager.c:2923
+msgid "Print version and exit"
+msgstr "In ra phiên bản rồi thoát"
+
+#:../src/manager.c:2925
+msgid "Run as a daemon"
+msgstr "Chạy là trình nền"
+
+#:../src/manager.c:2927
+msgid "Don't run as a daemon"
+msgstr "Đừng chạy là trình nền"
+
+#:../src/manager.c:2929
+msgid "Run in secret mode"
+msgstr "Chạy trong chế độ bí mật"
+
+#:../src/manager.c:2961
+#,c-format
+msgid "Unrecognized --daemon argument: %s\n"
+msgstr "Không nhận biệt đối số « --daemon » (trình nền): %s\n"
+
+#:../src/properties.c:305
+msgid "Could not load the main interface"
+msgstr "Không thể tải giao diện chính."
+
+#:../src/properties.c:307
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "Hãy chắc là bộ quản lý khối tin được cài đặt cho đúng."
+
+#:../src/properties.c:466
+#,c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr "Gặp lỗi khi khởi chạy trình nền « gnome-volume-manager »:\n"
+"%s"
+
+#:../src/properties.c:497
+msgid "Volume management not supported"
+msgstr "Không hỗ trợ quản lý khối tin"
+
+#:../src/properties.c:499
+msgid ""
+"The \"hald\" service is required but not currently running. Enable the "
+"service and rerun this application, or contact your system administrator.\n"
+"\n"
+"Note: You need Linux kernel 2.6 for volume management to work."
+msgstr "Cần thiết dịch vụ « hald » mà không đang chạy. Hãy bật dịch vụ này và chạy "
+"lại ứng dụng này, hoặc liên lạc với quản trị hệ thống.\n"
+"\n"
+"Ghi chú : bạn cần phải đã cài đặt hạt nhân Linux phiên bản 2.6 để cho phép "
+"khả năng quản lý khối tin là hoạt động."

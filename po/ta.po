@@ -1,0 +1,267 @@
+# translation of ta.po to Tamil
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-01 03:53+0200\n"
+"PO-Revision-Date: 2004-09-01 12:14+0530\n"
+"Last-Translator: Jayaradha N <jaya@pune.redhat.com>\n"
+"Language-Team: Tamil <zhakanini@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: gnome-volume-manager.schemas.in.h:1
+msgid "':' delimited list of paths to check for autorun binaries and scripts."
+msgstr "தனாக இயங்க வேண்டிய இயக்க கோப்புகள் மற்றும் சிறு நிரல்கள் ':' ஆல் பிரிக்கப்பட்டிருக்கும்"
+
+#: gnome-volume-manager.schemas.in.h:2
+msgid "Automount removable drives"
+msgstr "தானாக ஏற்றி நீக்கக்கூடிய இயக்கிகள்"
+
+#: gnome-volume-manager.schemas.in.h:3
+msgid "Automount removable media"
+msgstr "தானாக ஏற்றி நீக்கக்கூடிய சாதனங்கள்"
+
+#: gnome-volume-manager.schemas.in.h:4
+msgid "Autorun nautilus"
+msgstr "தன்னியக்கி நாடுலஸ்"
+
+#: gnome-volume-manager.schemas.in.h:5
+msgid "Autorun path"
+msgstr "தன்னியக்க பாதை"
+
+#: gnome-volume-manager.schemas.in.h:6
+msgid "CD burn command"
+msgstr "CD தயாரித்தல் கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:7
+msgid "CD play command"
+msgstr "CD இயக்க கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:8
+msgid ""
+"Command to run when a digital camera is connected or media from a digital "
+"camera is inserted."
+msgstr "டிஜிடல் காமரா இணைக்கப்பட்ட போதும் அதற்கான ஊடகம் சொருகப்பட்ட போதும் இயக்க வேண்டிய கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:9
+msgid "Command to run when a video DVD is inserted."
+msgstr "DVD சொருகப்பட்ட போது இயக்கப்பட வேண்டிய கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:10
+msgid "Command to run when an audio CD is inserted."
+msgstr "ஒலி CD செருகப்பட்ட போது இயக்கப்பட வேண்டிய கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:11
+msgid "Command to run when an empty CD is inserted."
+msgstr "காலிி CD செருகப்பட்ட போது இயக்கப்பட வேண்டிய கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:12
+msgid "Command to run when the eject button on a optical drive is pressed."
+msgstr "வெளியேற்று பட்டன் அழுத்தப்படும் போது ஒலி சாதனத்தில் இயக்கப்பட வேண்டிய கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:13
+msgid "DVD play command"
+msgstr "DVD இயக்க கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:14
+msgid "Eject command"
+msgstr "வெளியேறு கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:15
+msgid "Open nautilus on removeable media insert."
+msgstr "நீக்ககூடிய ஊடக செருகலில் நாடுலஸை திற"
+
+#: gnome-volume-manager.schemas.in.h:16
+msgid "Perform autorun"
+msgstr "தன்னியக்கத்தை நிகழ்த்து"
+
+#: gnome-volume-manager.schemas.in.h:17
+msgid "Photo management command"
+msgstr "புகைப்பட மேலாண்மை கட்டளை"
+
+#: gnome-volume-manager.schemas.in.h:18
+msgid "Play inserted audio CD's"
+msgstr "ஒலி CD க்களை செருகி இயக்கு"
+
+#: gnome-volume-manager.schemas.in.h:19
+msgid "Play inserted video DVDs"
+msgstr "படி CD க்களை செருகி இயக்கு"
+
+#: gnome-volume-manager.schemas.in.h:20
+msgid "Run CD burn command"
+msgstr "CD தயாரித்தல் கட்டளையை இயக்கு"
+
+#: gnome-volume-manager.schemas.in.h:21
+msgid "Run photo management command"
+msgstr "புகைப்பட மேலாண்மை கட்டளையை இயக்கு"
+
+#: gnome-volume-manager.schemas.in.h:22
+msgid ""
+"Whether autorun programs (binaries and scripts located in 'autorun_path') "
+"are run on newly mounted media."
+msgstr "புதிதாக ஏற்றப்பட்ட ஊடகத்தில் தன்னியக்க நிரல்(தன்னியக்க பாதையிலுல்ல இயக்க கோப்புகள், நிறுநிரல்கள்) சரியாக இயங்குகிறதா"
+
+#: gnome-volume-manager.schemas.in.h:23
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"drives when they are inserted."
+msgstr "gnome-volume-manager நீக்கக்கூடிய சேமிப்பு இயக்கிகளை தானாகவே ஏற்ற வேண்டுமா"
+
+#: gnome-volume-manager.schemas.in.h:24
+msgid ""
+"Whether gnome-volume-manager should automatically mount removable storage "
+"media when they are inserted."
+msgstr "gnome-volume-manager நீக்கக்கூடிய சேமிப்பு சாதனங்களை தானாகவே ஏற்ற வேண்டுமா"
+
+#: gnome-volume-manager.schemas.in.h:25
+msgid ""
+"Whether, when a blank CD is inserted, gnome-volume-manager should run "
+"'autoburn_cdr_command'."
+msgstr ""
+"வெற்று CDஐ செருகும் போது, gnome-volume-manager "
+"'autoburn_cdr_command' கட்டளையை இயக்க வேண்டுமா?."
+
+#: gnome-volume-manager.schemas.in.h:26
+msgid ""
+"Whether, when a digital camera is connected or media from a digital camera "
+"is inserted, gnome-volume-manager should run 'autophoto_command'."
+msgstr "டிஜிடல் காமராவை இணைத்ததும் , gnome-volume-manager 'autophoto_command' கட்டளையை இயக்க வேண்டுமா"
+
+#: gnome-volume-manager.schemas.in.h:27
+msgid ""
+"Whether, when a video DVD is inserted, gnome-volume-manager should run "
+"'autoplay_dvd_command'."
+msgstr "வீடியோ DVD இணைத்ததும் , gnome-volume-manager 'autoplay_dvd_command'. கட்டளையை இயக்க வேண்டுமா"
+
+#: gnome-volume-manager.schemas.in.h:28
+msgid ""
+"Whether, when an audio CD is inserted, gnome-volume-manager should run "
+"'autoplay_cda_command'."
+msgstr "ஒலி CD ஐ இணைத்ததும் , gnome-volume-manager 'autoplay_cda_command'. கட்டளையை இயக்க வேண்டுமா"
+
+#: gnome-volume-properties.desktop.in.h:1
+msgid "Configure Management of Removable Devices"
+msgstr "நீக்ககூடிய சாதனங்களின் மேலாண்மையை அமை"
+
+#: gnome-volume-properties.desktop.in.h:2
+msgid "Removable Storage"
+msgstr "நீக்ககூடிய சேமிப்புகள்"
+
+#: gnome-volume-properties.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: gnome-volume-properties.glade.h:2
+msgid " Perform action on _blank CDs when inserted"
+msgstr "(_b)வெற்று CDக்களை செருகியவுடன் அவைகளை செயல்படுத்து"
+
+#: gnome-volume-properties.glade.h:3
+msgid "*"
+msgstr "*"
+
+#: gnome-volume-properties.glade.h:4
+msgid "<b>Audio CDs</b>"
+msgstr "<b>ஒலி CDக்கள்</b>"
+
+#: gnome-volume-properties.glade.h:5
+msgid "<b>Blank CDs</b>"
+msgstr "<b>வெற்று CDக்கள்</b>"
+
+#: gnome-volume-properties.glade.h:6
+msgid "<b>DVD Videos</b>"
+msgstr "<b>DVD வீடியோக்கள்</b>"
+
+#: gnome-volume-properties.glade.h:7
+msgid "<b>Digital Camera</b>"
+msgstr "<b>டிஜிடல் காமரா</b>"
+
+#: gnome-volume-properties.glade.h:8
+msgid "<b>Removable Storage</b>"
+msgstr "<b>நீக்ககூடிய சேமிப்பு சாதனம்</b>"
+
+#: gnome-volume-properties.glade.h:9
+msgid "Browse _removable media when inserted"
+msgstr "(_r)நீக்ககூடிய சாதனம் இணைக்கப்பட்டது அவைகளில் உலாவு"
+
+#: gnome-volume-properties.glade.h:10
+msgid "Command:"
+msgstr "கட்டளை:"
+
+#: gnome-volume-properties.glade.h:11
+msgid "Drives and Media Preferences"
+msgstr "இயக்கிகள் மற்றும் ஊடக விருப்பங்கள்"
+
+#: gnome-volume-properties.glade.h:12
+msgid "Import digital _photo albums when connected"
+msgstr "(_p)டிஜிட்டல் புகைப்பட ஆபத்தை மேலேற்று"
+
+#: gnome-volume-properties.glade.h:13
+msgid "Mount removable media when _inserted"
+msgstr "(_i)நுழைத்ததும் நீக்ககூடிய ஊடகத்தை ஏற்று"
+
+#: gnome-volume-properties.glade.h:14
+msgid "Play DVD Videos when inserted"
+msgstr "DVD வீடியோக்கள் நுழைக்கப்பட்டது இயக்கு"
+
+#: gnome-volume-properties.glade.h:15
+msgid "Play _DVD Videos when inserted"
+msgstr "(_D)DVD வீடியோக்கள் நுழைக்கப்பட்டது இயக்கு"
+
+#: gnome-volume-properties.glade.h:16
+msgid "Play a_udio CDs when inserted"
+msgstr "(_u)ஒலி CDக்கள்் நுழைக்கப்பட்டது இயக்கு"
+
+#: gnome-volume-properties.glade.h:17
+msgid "Play audio CDs when inserted"
+msgstr "ஒலி CDக்கள் நுழைக்கப்பட்டது இயக்கு"
+
+#: gnome-volume-properties.glade.h:18
+msgid "_Auto-run programs on new drives and media"
+msgstr "(_A)புதிய இயக்கி மற்றும் சாதனத்தில் Auto-run நிரல்"
+
+#: gnome-volume-properties.glade.h:19
+msgid "_Mount removable drives when hot-plugged"
+msgstr "(_M)இணைப்பானை செருகியதும் நீக்ககூடிய ஊடகத்தை ஏற்று"
+
+#: src/manager.c:230
+#, c-format
+msgid "Do you want to run %s?"
+msgstr "இயக்க வேண்டுமா %s?"
+
+#: src/manager.c:318 src/manager.c:361
+msgid "_Import"
+msgstr "(_I)ஏற்று"
+
+#: src/manager.c:551
+msgid "_Play"
+msgstr "(_P)இயக்கு"
+
+#: src/manager.c:552
+msgid "_Browse"
+msgstr "(_B)உலாவு"
+
+#: src/properties.c:187
+#, c-format
+msgid ""
+"Error starting gnome-volume-manager daemon:\n"
+"%s"
+msgstr ""
+"gnome-volume-manager daemon ஐ துவக்குவதில் பிழை:\n"
+"%s"
+
+#: src/properties.c:400
+msgid "Could not load the main interface"
+msgstr "முக்கிய இடைமுகத்தை ஏற்ற முடியவில்லை"
+
+#: src/properties.c:402
+msgid "Please make sure that the volume manager is properly installed"
+msgstr "சாதன மேலாலர் சரியாக நிறுவப்பட்டுள்ளதா என்பதை உறுதிப்படுத்திக்கொள்ளவும்"
+
